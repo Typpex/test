@@ -9,24 +9,6 @@
       .modal-body
         .video-player
           #ytplayer
-        =content_for :specific_javascript do 
-          :javascript
-            var tag = document.createElement('script');
-            tag.src = "https://www.youtube.com/player_api";
-            var firstScriptTag = document.getElementsByTagName('script')[0];
-            firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
-
-            // Replace the 'ytplayer' element with an <iframe> and
-            // YouTube player after the API code downloads.
-            var player;
-            function onYouTubePlayerAPIReady() {
-              player = new YT.Player('ytplayer', {
-                height: '330',
-                width: '500',
-                videoId: 'NLDI0WFmduY'
-              });
-            }
-
 
 / === Slider ===
 .tp-banner-container
@@ -48,10 +30,10 @@
             =t(:main_slide_subheader)
         / LAYER
         .tp-caption.sft{"data-captionhidden" => "off", "data-easing" => "Power4.easeOut", "data-endeasing" => "Power1.easeIn", "data-endspeed" => "300", "data-hoffset" => "0", "data-speed" => "1600", "data-start" => "2800", "data-x" => "center", "data-y" => "310", :style => "z-index: 6"}
-          %a.btn-u.btn-u-lg.re-btn-brd.margin-right-5{href: "#"}
+          %a.btn-u.btn-u-lg.re-btn-brd.margin-right-5{class: "fancybox fancybox.iframe", href: "http://www.youtube.com/embed/L1jjeY_tbg8?enablejsapi=1&wmode=opaque"}
             %span.glyphicon.glyphicon-play{"aria-hidden" => "true"}
             =t(:main_slide_watch_video)
-          %a.btn-u.btn-u-lg.btn-u-dark-blue{:href => "#"}=t(:main_slide_trial)
+          %a.btn-u.btn-u-lg.btn-u-dark-blue{:href => ""}=t(:main_slide_trial)
       / END SLIDE
     .tp-bannertimer.tp-bottom
 / === End Slider ===
@@ -67,7 +49,7 @@
         .col-sm-10
           %br
           %p.p1{style: "font-size: 26px;"}=t(:what_is_rem_p1)
-          %p.p2 Just intuitively add a remailder in your emails so that you and your receivers will be reminded at the requested time
+          %p.p2=t(:what_is_rem_p2)
           
     / /col-md-8
     / Posts
@@ -76,23 +58,17 @@
         #phone-carousel.carousel.slide
           .carousel-inner
             .item
-              To: in2days@remailder.com
-              %span Sends a Remailder in 2 days
+              =t(:what_is_rem_carousel_1_html)
             .item
-              To: everymonday@remailder.com
-              %span Sends a Remailder every Monday
+              =t(:what_is_rem_carousel_2_html)
             .item
-              To: tomorrow@remailder.com
-              %span Sends a Remailder tomorrow
+              =t(:what_is_rem_carousel_3_html)
             .item.active
-              To: 08-15-2014@remailder.com
-              %span Sends a Remailder on 15th August
+              =t(:what_is_rem_carousel_4_html)
             .item
-              To: at4pm@remailder.com
-              %span Sends a Remailder at 4pm
+              =t(:what_is_rem_carousel_5_html)
             .item
-              To: tuesday@remailder.com
-              %span Sends a Remailder next tuesday
+              =t(:what_is_rem_carousel_6_html)
       %img{:src => "assets/img/iphone-home.png", :style => "max-width: 100%;"}/
   / /row
   / End Info Blokcs
@@ -110,7 +86,7 @@
           .inner-team
             %h3 
               .white
-                Email Reminders
+                =t(:service_1)
       / End Team v2
       / Team v2
       .col-md-3.col-sm-6.our-service
@@ -119,7 +95,7 @@
           .inner-team
             %h3 
               .white
-                Todo List
+                =t(:service_2)
       / End Team v2
       / Team v2
       .col-md-3.col-sm-6.our-service
@@ -128,7 +104,7 @@
           .inner-team
             %h3 
               .white
-                Calendar Integration
+                =t(:service_3)
       / End Team v2
       / Team v2
       .col-md-3.col-sm-6.our-service
@@ -137,7 +113,7 @@
           .inner-team.response-detection
             %h3 
               .white
-                Response Detection
+                =t(:service_4)
       / End Team v2
       / Team v2
       .col-md-3.col-sm-6.our-service
@@ -146,7 +122,7 @@
           .inner-team
             %h3 
               .white
-                Statistics
+                =t(:service_5)
       / End Team v2
 / End our services
 / How it will help you?
@@ -154,7 +130,7 @@
 .container.content.how-it-will-help
   / How it will help you part
   .headline
-    %h2 How it will help you
+    %h2=t(:How_Help)
   .row.margin-bottom-20
     .col-md-4.col-sm-6
       .thumbnail-img
@@ -162,48 +138,48 @@
           %img.img-responsive{:alt => "", :src => "assets/img/Sablier.png"}/
       .caption
         %h3
-          Save your time!
+          =t(:save_time)
         %p
-          Use your emails to Setup Reminders
+          =t(:save_time_1)
         %p
-          Keep your inbox empty and answer your emails only when they need to be answered
+          =t(:save_time_2)
     .col-md-4.col-sm-6
       .thumbnail-img
         .overflow-hidden
           %img.img-responsive{:alt => "", :src => "assets/img/Time.png"}/
       .caption
         %h3
-          Just in time
+          =t(:just_time)
         %p
-          Create reminders for yourself and for your contact to stay on top of your emails
+          =t(:just_time_1)
         %p
-          Enhance team work and deliver your project before your deadline!
+          =t(:just_time_2)
     .col-md-4.col-sm-6
       .thumbnail-img
         .overflow-hidden
           %img.img-responsive{:alt => "", :src => "assets/img/Runner.png"}/
       .caption
         %h3
-          Optimize your time
+          =t(:opti_time)
         %p
-          Send you automatic reminders to increase your productivity
+          =t(:opti_time_1)
         %p
-          Does the follow-up for you so you don’t need to worry about it
+          =t(:opti_time_2)
 / End of How it will help you?
 / Work on all devices !
 .work-on-all-device.margin-bottom-60
   .container
-    %h2.headline-brd Works on all devices and systems!
+    %h2.headline-brd=t(:all_devices)
     .row
       .col-md-6.md-margin-bottom-60
         .headline-left.margin-bottom-20
           %p.white
-            As Remailder is an email based system it can work on all your devices and all your emails apps or software.
+            =t(:all_devices_1)
         / /end Headline Left
         .row
           .col-md-12
             %p.white
-              So you can keep tracks and setup Remailders wherever you go !
+              =t(:all_devices_2)
           .col-md-12
             =image_tag "img/logos-soft.png"
       .col-md-4
@@ -213,7 +189,7 @@
 .container.content.container-last
   .margin-top-20.margin-bottom-20
     %a.btn-trial.btn-u.btn-lg.btn-u-dark-blue.shrink{:href => "#"}
-      Start my 30-day Free Trial
+      =t(:start_button)
       %br/
-      "No credit card"
+      =t(:no_credit)
 / End How it will help you part

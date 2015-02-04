@@ -1,7 +1,77 @@
+# Files in the config/locales directory are used for internationalization
+# and are automatically loaded by Rails. If you want to use locales other
+# than English, add the necessary files in this directory.
+#
+# To use the locales, use `I18n.t`:
+#
+#     I18n.t 'hello'
+#
+# In views, this is aliased to just `t`:
+#
+#     <%= t('hello') %>
+#
+# To use a different locale, set it with `I18n.locale`:
+#
+#     I18n.locale = :es
+#
+# This would use the information in config/locales/es.yml.
+#
+# To learn more, please read the Rails Internationalization guide
+# available at http://guides.rubyonrails.org/i18n.html.
+
 fr:
-  main_slide_fast_mail_reminder: Rapide email remailder
-  main_slide_to_task: Liste de tache / Gesstion de projet
-  main_slide_subheader: "Schedule for yourself & your contacts"
-  main_slide_watch_video: Watch our video
-  main_slide_trial: 30-day Free trial
-  what_is_rem_title: What is Remailder?
+  main_slide_fast_mail_reminder: FAST EMAIL REMINDER
+  main_slide_to_task: Suivi / Tâches / Projet
+  main_slide_subheader: "Planifiez pour vous et vos contacts"
+  main_slide_watch_video: Regardez notre vidéo
+  main_slide_trial: Essayez - C'est gratuit
+  what_is_rem_title: Qu'est-ce que Remailder?
+  what_is_rem_p1: Remailder change facilement vos emails en rappels
+  what_is_rem_p2: En ajoutant intuitivement un Remailder à vos emails, vous et les destinataires de vos messages serez rappelés au moment précis que vous avez décidé.
+  what_is_rem_carousel_1_html: "To: in2days@remailder.com<span>Sends a remailder in 2 days</span>"
+  what_is_rem_carousel_2_html: "To: everymonday@remailder.com<span>Sends a Remailder every Monday</span>"
+  what_is_rem_carousel_3_html: "To: tomorrow@remailder.com<span>Sends a Remailder tomorrow</span>"
+  what_is_rem_carousel_4_html: "To: 08-15-2014@remailder.com<span>Sends a Remailder on 15th August</span>"
+  what_is_rem_carousel_5_html: "To: at4pm@remailder.com<span>Sends a Remailder at 4pm</span>"
+  what_is_rem_carousel_6_html: "To: tuesday@remailder.com<span>Sends a Remailder next tuesday</span>"
+  service_1: Email Reminders
+  service_2: Todo List
+  service_3: Calendar Integration
+  service_4: Response Detection
+  service_5: Statistics
+  How_Help: How it will help you
+  save_time: Save your time!
+  save_time_1: Use your emails to Setup Reminders
+  save_time_2: Keep your inbox empty and answer your emails only when they need to be answered
+  just_time: Just in time
+  just_time_1: Create reminders for yourself and for your contact to stay on top of your emails
+  just_time_2: Enhance team work and deliver your project before your deadline!
+  opti_time: Optimize your time
+  opti_time_1: Send you automatic reminders to increase your productivity
+  opti_time_2: Does the follow-up for you so you don’t need to worry about it
+  all_devices: Works on all devices and systems!
+  all_devices_1: As Remailder is an email based system it can work on all your devices and all your emails apps or software.
+  all_devices_2: So you can keep tracks and setup Remailders wherever you go !
+  start_button: Essayez - C'est gratuit
+  no_credit: "\"No credit card\""
+  header_how_to: Mode d'emploi
+  header_features: Fonctionnalités
+  header_pricing: Tarifs
+  header_blog: Blog
+  header_languages: Langue
+  header_english: Anglais
+  header_french: Français
+  header_german: Allemand
+  header_spanish: Espagnol
+  header_login: Connexion
+  desc_footer_1: Quickly set up and review all your reminders and tasks with no stress.
+  desc_footer_2: Fonctionne sur tous vos appareils et avec tous les systèmes!
+  footer_useful: Useful Links
+  footer_premium: Premium Reseller
+  footer_team: Notre équipe
+  footer_faq: FAQ
+  footer_contact: Contactez-Nous
+  footer_email: "Email:"
+  footer_privacy: Confidentialité
+  footer_terms: Conditions d'utilisation
+  footer_rights: Tous droits réservés.

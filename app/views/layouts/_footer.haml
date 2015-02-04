@@ -8,9 +8,9 @@
           %a{:href => "index.html"}
             =image_tag "img/logo1-default.png", {id: "logo-footer", class: "footer-logo"}
           %p
-            Quickly set up and review all your reminders and tasks with no stress.
+            =t(:desc_footer_1)
           %p
-            Works on all devices and systems.
+            =t(:desc_footer_2)
         / /col-md-3
         / End About
         / Latest
@@ -33,41 +33,41 @@
         / Link List
         .col-md-3.md-margin-bottom-40
           .headline
-            %h2 Useful Links
+            %h2=t(:footer_useful)
           %ul.list-unstyled.link-list
             %li
-              =link_to "how to use", how_to_path
+              =link_to t(:header_how_to), how_to_path
               %i.fa.fa-angle-right
             %li
-              =link_to "Features", features_path
+              =link_to t(:header_features), features_path
               %i.fa.fa-angle-right
             %li
-              =link_to "Pricing", pricing_path
+              =link_to t(:header_pricing), pricing_path
               %i.fa.fa-angle-right
             %li
-              =link_to "Premium Reseller", premium_reseller_path
+              =link_to t(:footer_premium), premium_reseller_path
               %i.fa.fa-angle-right
             %li
-              %a{:href => "#"} Blog
+              %a{:href => "#"}=t(:header_blog)
               %i.fa.fa-angle-right
             %li
-              %a{:href => "#"} Our Team
+              %a{:href => "#"}=t(:footer_team)
               %i.fa.fa-angle-right
             %li
-              =link_to "FAQ", faq_path
+              =link_to t(:footer_faq), faq_path
               %i.fa.fa-angle-right
         / /col-md-3
         / End Link List
         / Address
         .col-md-3.map-img.md-margin-bottom-40
           .headline
-            %h2 Contact Us
+            %h2=t(:footer_contact)
           %address.md-margin-bottom-40
             3/F Citicorp Centre, 18 Whitfield Road
             %br/
             Causeway Bay, Hong Kong
             %br/
-            Email:
+            =t(:footer_email)
             %a{:href => "mailto:contact@remailder.com"} contact@remailder.com
         / /col-md-3
         / End Address
@@ -77,10 +77,11 @@
       .row
         .col-md-6
           %p
-            2014 © All Rights Reserved.
-            =link_to "Privacy Policy", privacy_policy_path
+            2015 © 
+            =t(:footer_rights)
+            =link_to t(:footer_privacy), privacy_policy_path
             |
-            =link_to "Terms of Service", terms_of_service_path
+            =link_to t(:footer_terms), terms_of_service_path
         / Social Links
         .col-md-6
           %ul.footer-socials.list-inline.social-icons
@@ -99,6 +100,7 @@
 / === End Footer Version 1 ===
 / /wrapper
 / JS Global Compulsory
+%script{:src => "http://www.youtube.com/player_api"}
 = javascript_include_tag "application"
 - if content_for? :specific_javascript
   =yield :specific_javascript

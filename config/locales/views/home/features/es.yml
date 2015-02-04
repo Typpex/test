@@ -1,4 +1,69 @@
 es:
   home:
     features:
-      f1_header: Create your remailder directly through your emails
+      title: Features
+      to: To
+      cc: Cc
+      bcc: Bcc
+      f1_header: Create your Remailder directly from your emails
+      f1_description_html: "Compose or reply an email and include <strong>@remailder.com</strong> in To, Cc or Bcc fields:"
+      f1_description_to: will send a Public Remailder to everyone on the email
+      f1_description_cc: will send a Remailder only to receivers in the To field and the sender
+      f1_description_bcc: will send a Private Remailder only to the sender (hiding it to all receivers)
+      f1_video: How to setup your first Remailder?
+      f2_header: Multilingual website and time format
+      f2_description_html: "<strong>Remailder is available in 5 languages: English, French, German, Spanish and Chinese.</strong> So not only you can access our website easily but also time information you setup on Remailders are multilingual."
+      f2_description_example: "Example: in English in2weeks@remailder.com could be also understood by our system:"
+      f2_description_french: "in French with dans2semaines@remailder.com,"
+      f2_description_spanish: "in Spanish with en2semanas@remailder.com,"
+      f2_description_german: "in German with in2woche@remaidler.com."
+      f3_header: Use multiple aliases
+      f3_description_1: "You are using different emails addresses. We can automatically link them to the same Remailder account."
+      f3_description_2: "Just log in your Remailder.com account and add extra addresses. Our team will review each of your requests prior to confirmation."
+      f4_header: Snooze Remailder
+      f4_description_1: "Use our Snooze function on any Remailder you receive to postpone his due date."
+      f4_description_2: "Example: you've just received a Remailder for a task you need to postpone. Just snooze the Remailder to the next day!"
+      f4_video: How to snooze a Remailder?
+      f5_header: Recurring Remailder
+      f5_description_html: "Add <strong>Every</strong> in front of your Remailder to make it recurring."
+      f5_description_1_html: "Example: <strong>everytuesday@remailder.com</strong> will send you a Remailder every tuesday."
+      f5_description_2: "Note that a recurring Remailder can be deleted at any time by forwarding the original email to delete@remailder.com"
+      f6_header: "Send formatted contact list to your mail system"
+      f6_description_1: "As efficiency is important to us, we also provide you a contact list of the most used Remailders. Most mail systems (gmail, outlook,…) will quickly recognize them once you start tipping your time information and will make setup even faster!"
+      f6_video: Download the formatted list!
+      f7_header: "View all your Remailder on your calendar (Plus)"
+      f7_description_1: "You can view and manage all your Remailder, either on our website or by synchronization with your favorite calendars: Google calendar, Microsoft Outlook, Lotus, etc..."
+      f8_header: "Daily/Weekly Reminder synthesis (Plus)"
+      f8_description_1: "Receive daily or weekly reminder synthesis by:"
+      f8_description_2: "sending an email at pending@remailder.com,"
+      f8_description_3: "setting up your account on our site for automatic reporting,"
+      f8_description_4: "or simply with a click on pending on a Remailder you have received"
+      f8_description_5: "Keeping you up dated without having to ask!"
+      f8_video: "How to receive your reporting?"
+      f9_header: "Advance Remailder Settings (Plus)"
+      f9_description_1: "Access your account on our website to configure your Remailders:"
+      f9_description_2: "add you company logo,"
+      f9_description_3: "desactivate Remailder logo"
+      f9_description_4: "You can also setup some other options such as:"
+      f9_description_5: "sending Remailders using your own email addresses,"
+      f9_description_6: "sending Remailders without our logos on it"
+      f9_description_7: "receiving a confirmation of reception for each Remailder you have setup"
+      f10_header: "Statistics (Pro)"
+      f10_description_1: "You can access different type of statistic either by email or via our website."
+      f10_description_html: "By email:"
+      f10_description_2: "Send an email to stats@remailder.com and it will send you a recap with:"
+      f10_description_3: "% of Remailder you have sent and that have been replied on time"
+      f10_description_4: "# of Remailder you sent last months"
+      f10_description_5: "# of Remailder you received last month"
+      f10_description_6: "On our website:"
+      f10_description_7: "Login on our website to review all sort of statistics about your Remailder activity."
+      f11_header: "Automatic Remailder reply detection (Pro)"
+      f11_description_1: "Our system will detect if a Remailder has been answered and will automatically delete it for you so you don’t get unnecessary emails."
+      f11_description_2: "Reactivate your Remailder if the original Remailder you have sent to someone has not been answer properly or need extra follow-up."
+      f12_header: "Keeping your attachments (Pro)"
+      f12_description_1: "Forward your attachments when you send a Remailder and they will automatically be back with them at due date."
+      f13_header: "SMS Remailder (Pro)"
+      f13_description_1: "Use our SMS services to receive a Remailder on your mobile phone when you have no email access."
+      f14_header: "Pro accounts / multi accounts"
+      f14_description_1: "We will provide specials options to our Pro or Multi accounts (more than 20 accounts). Please contact us directly for more details."
+      f14_video: "Contact Us"

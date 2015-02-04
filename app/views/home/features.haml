@@ -1,5 +1,5 @@
 =content_for :title do
-  Features
+  =t(".title")
 .one-page
   .one-page-inner.one-grey
     .container.content
@@ -192,15 +192,15 @@
         .col-md-6
           %img.img-responsive.margin-bottom-10.feature-center{:alt => "", :src => "assets/img/features/Pro.png"}/
         .col-md-6
-          %h1 Keeping your attachments (Pro)
-          %p Forward your attachments when you send a Remailder and they will automatically be back with them at due date.
+          %h1=t(".f12_header")
+          %p=t(".f12_description_1")
           %br/
   .one-page-inner.one-grey
     .container.content
       .row
         .col-md-6
-          %h1 SMS Remailder (Pro)
-          %p Use our SMS services to receive a Remailder on your mobile phone when you have no email access.
+          %h1=t(".f13_header")
+          %p=t(".f13_description_1")
           %br/
         .col-md-6
           %img.img-responsive.margin-bottom-10.feature-center{:alt => "", :src => "assets/img/features/Sms.png"}/
@@ -210,10 +210,10 @@
         .col-md-6
           %img.img-responsive.margin-bottom-10.feature-center{:alt => "", :src => "assets/img/features/Pro.png"}/
         .col-md-6
-          %h1 Pro accounts / multi accounts
-          %p We will provide specials options to our Pro or Multi accounts (more than 20 accounts). Please contact us directly for more details.
+          %h1=t(".f14_header")
+          %p=t(".f14_description_1")
           %br/
           %a.btn-u.btn-u-dark-blue.one-page-btn
             %i.fa.fa-contact
-            Contact Us
+            =t(".f14_video")
 

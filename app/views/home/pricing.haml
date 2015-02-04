@@ -1,52 +1,52 @@
 =content_for :title do
-  Pricing
+  =t(".title_pricing")
 .container.content
   .heading.heading-v1.margin-bottom-20
-    %h2{style: "font-size: 30px;"} Pricing
+    %h2{style: "font-size: 30px;"}=t(".title_pricing")
     .pricing-headline
-      %p It's free to use Remailder (no credit card to sign up). You have also the possibility to Adapt Remailders to your need!
+      %p=t(".pricing_comment")
   .row.no-space-pricing.pricing-mega-v1
     .col-md-4.col-sm-6.hidden-sm.hidden-xs
       .pricing.hidden-area
         .pricing-head
-          %h4.price Price per Month
+          %h4.price=t(".price_month")
         %ul.pricing-content.list-unstyled
           %li.bg-color
             %i.fa.fa-users>
-            Send Remailders
+            =t(".send_remailders")
           %li
             %i.fa.fa-cloud-upload>
-            Multiple Alias
+            =t(".multiple")
           %li.bg-color
             %i.fa.fa-briefcase>
-            Snooze Remailders
+            =t(".snooze")
           %li
             %i.fa.fa-envelope>
-            Recurring Remailders
+            =t(".recurring")
           %li.bg-color
             %i.fa.fa-inbox
-            Formated Contact List
+            =t(".formated")
           %li
             %i.fa.fa-gift>
-            Calendar Synchronization
+            =t(".calendar")
           %li.bg-color
             %i.fa.fa-leaf>
-            Daily/Weekly Reports
+            =t(".reports")
           %li
             %i.fa.fa-location-arrow>
-            Advance Settings
+            =t(".settings")
           %li.bg-color
             %i.fa.fa-globe>
-            Statistics
+            =t(".statistics")
           %li
             %i.fa.fa-dashboard>
-            Reply Detection
+            =t(".detection")
           %li.bg-color
             %i.fa.fa-wrench>
-            Keeping Attachments
+            =t(".attachments")
           %li
             %i.fa.fa-cogs>
-            SMS Remailders
+            =t(".sms")
     .col-md-2-5.col-sm-6.block
       .pricing
         .pricing-head
@@ -54,53 +54,53 @@
           .pricing-header
             %h3
               Lite
-              %span For Free
+              %span=t(".for_free")
           %h4.price
             %i> $
             0
             %i .00
-            %span.hidden-md.hidden-lg Per Month
+            %span.hidden-md.hidden-lg=t(".per_month")
         %ul.pricing-content.list-unstyled
           %li.bg-color
-            20/month
-            %span.hidden-md.hidden-lg Send Remailders
+            =t(".20_month")
+            %span.hidden-md.hidden-lg=t(".send_remailders")
           %li
             %i.fa.fa-times
-            %span.hidden-md.hidden-lg Multiple Alias
+            %span.hidden-md.hidden-lg=t(".multiple")
           %li.bg-color
             %i.fa.fa-check
-            %span.hidden-md.hidden-lg Snooze Remailders
+            %span.hidden-md.hidden-lg=t(".snooze")
           %li
             %i.fa.fa-check
-            %span.hidden-md.hidden-lg Recurring Remailders
+            %span.hidden-md.hidden-lg=t(".recurring")
           %li.bg-color
             %i.fa.fa-check
-            %span.hidden-md.hidden-lg Formatted Contact List
+            %span.hidden-md.hidden-lg=t(".formated")
           %li
             %i.fa.fa-times
-            %span.hidden-md.hidden-lg Calendar Synchronization
+            %span.hidden-md.hidden-lg=t(".calendar")
           %li.bg-color
             %i.fa.fa-times
-            %span.hidden-md.hidden-lg Daily/Weekly Reports
+            %span.hidden-md.hidden-lg=t(".reports")
           %li
             %i.fa.fa-times
-            %span.hidden-md.hidden-lg Advance Settings
+            %span.hidden-md.hidden-lg=t(".settings")
           %li.bg-color
             %i.fa.fa-times
-            %span.hidden-md.hidden-lg Statistics
+            %span.hidden-md.hidden-lg=t(".statistics")
           %li
             %i.fa.fa-times
-            %span.hidden-md.hidden-lg Reply Detection
+            %span.hidden-md.hidden-lg=t(".detection")
           %li.bg-color
             %i.fa.fa-times
-            %span.hidden-md.hidden-lg Keeping Attachments
+            %span.hidden-md.hidden-lg=t(".attachments")
           %li
             %i.fa.fa-times
-            %span.hidden-md.hidden-lg SMS Remailders
+            %span.hidden-md.hidden-lg=t(".sms")
         .btn-group.btn-group-justified
           %button.btn-u.btn-block.dropdown-toggle{"data-toggle" => "dropdown", :type => "button"}
             %i.fa.fa-shopping-cart
-            Sign Up
+            =t(".sign_up")
             %i.fa.fa-angle-down
     .col-md-2-5.col-sm-6.block
       .pricing
@@ -109,53 +109,53 @@
           .pricing-header
             %h3
               Plus
-              %span For Everyday
+              %span=t(".for_everyday")
           %h4.price
             %i> $
             2
             %i .99
-            %span.hidden-md.hidden-lg Per Month
+            %span.hidden-md.hidden-lg=t(".per_month")
         %ul.pricing-content.list-unstyled
           %li.bg-color
-            Unlimited
-            %span.hidden-md.hidden-lg Send Remailders
+            =t(".unlimited")
+            %span.hidden-md.hidden-lg=t(".send_remailders")
           %li
             1 Extra Alias
-            %span.hidden-md.hidden-lg Multiple Alias
+            %span.hidden-md.hidden-lg=t(".multiple")
           %li.bg-color
             %i.fa.fa-check
-            %span.hidden-md.hidden-lg Snooze Remailders
+            %span.hidden-md.hidden-lg=t(".snooze")
           %li
             %i.fa.fa-check
-            %span.hidden-md.hidden-lg Recurring Remailders
+            %span.hidden-md.hidden-lg=t(".recurring")
           %li.bg-color
             %i.fa.fa-check
-            %span.hidden-md.hidden-lg Formatted Contact List
+            %span.hidden-md.hidden-lg=t(".formated")
           %li
             %i.fa.fa-check
-            %span.hidden-md.hidden-lg Calendar Synchronization
+            %span.hidden-md.hidden-lg=t(".calendar")
           %li.bg-color
             %i.fa.fa-check
-            %span.hidden-md.hidden-lg Daily/Weekly Reports
+            %span.hidden-md.hidden-lg=t(".reports")
           %li
             %i.fa.fa-check
-            %span.hidden-md.hidden-lg Advance Settings
-          %li.bg-color
-            %i.fa.fa-times
-            %span.hidden-md.hidden-lg Statistics
-          %li
-            %i.fa.fa-times
-            %span.hidden-md.hidden-lg Reply Detection
+            %span.hidden-md.hidden-lg=t(".settings")
           %li.bg-color
             %i.fa.fa-times
-            %span.hidden-md.hidden-lg Keeping Attachments
+            %span.hidden-md.hidden-lg=t(".statistics")
           %li
             %i.fa.fa-times
-            %span.hidden-md.hidden-lg SMS Remailders
+            %span.hidden-md.hidden-lg=t(".detection")
+          %li.bg-color
+            %i.fa.fa-times
+            %span.hidden-md.hidden-lg=t(".attachments")
+          %li
+            %i.fa.fa-times
+            %span.hidden-md.hidden-lg=t(".sms")
         .btn-group.btn-group-justified
           %button.btn-u.btn-block.dropdown-toggle{"data-toggle" => "dropdown", :type => "button"}
             %i.fa.fa-shopping-cart
-            Sign Up
+            =t(".sign_up")
             %i.fa.fa-angle-down
     .col-md-2-5.col-sm-6.block
       .pricing
@@ -164,53 +164,53 @@
           .pricing-header
             %h3
               Pro
-              %span For Business
+              %span=t(".for_business")
           %h4.price
             %i> $
             3
             %i .99
-            %span.hidden-md.hidden-lg Per Month
+            %span.hidden-md.hidden-lg=t(".per_month")
         %ul.pricing-content.list-unstyled
           %li.bg-color
-            Unlimited
-            %span.hidden-md.hidden-lg Send Remailders
+            =t(".unlimited")
+            %span.hidden-md.hidden-lg=t(".send_remailders")
           %li
             10 Extra Alias
-            %span.hidden-md.hidden-lg Multiple Alias
+            %span.hidden-md.hidden-lg=t(".multiple")
           %li.bg-color
             %i.fa.fa-check
-            %span.hidden-md.hidden-lg Snooze Remailders
+            %span.hidden-md.hidden-lg=t(".snooze")
           %li
             %i.fa.fa-check
-            %span.hidden-md.hidden-lg Recurring Remailders
+            %span.hidden-md.hidden-lg=t(".recurring")
           %li.bg-color
             %i.fa.fa-check
-            %span.hidden-md.hidden-lg Formatted Contact List
+            %span.hidden-md.hidden-lg=t(".formated")
           %li
             %i.fa.fa-check
-            %span.hidden-md.hidden-lg Calendar Synchronization
+            %span.hidden-md.hidden-lg=t(".calendar")
           %li.bg-color
             %i.fa.fa-check
-            %span.hidden-md.hidden-lg Daily/Weekly Reports
+            %span.hidden-md.hidden-lg=t(".reports")
           %li
             %i.fa.fa-check
-            %span.hidden-md.hidden-lg Advance Settings
+            %span.hidden-md.hidden-lg=t(".settings")
           %li.bg-color
             %i.fa.fa-check
-            %span.hidden-md.hidden-lg Statistics
+            %span.hidden-md.hidden-lg=t(".statistics")
           %li
             %i.fa.fa-check
-            %span.hidden-md.hidden-lg Reply Detection
+            %span.hidden-md.hidden-lg=t(".detection")
           %li.bg-color
             %i.fa.fa-check
-            %span.hidden-md.hidden-lg Keeping Attachments
+            %span.hidden-md.hidden-lg=t(".attachments")
           %li
             %i.fa.fa-check
-            %span.hidden-md.hidden-lg SMS Remailders
+            %span.hidden-md.hidden-lg=t(".sms")
         .btn-group.btn-group-justified
           %button.btn-u.btn-block.dropdown-toggle{"data-toggle" => "dropdown", :type => "button"}
             %i.fa.fa-shopping-cart
-            Sign Up
+            =t(".sign_up")
             %i.fa.fa-angle-down
 
 .one-page
@@ -218,17 +218,17 @@
     .container.content
       .row
         .col-md-6
-          %h1 Referral Program – Spread the word and enjoy great benefits!
+          %h1=t(".referral_1")
           %p
-            Get 5 Free Remailders every time you send one that reaches a non-Remailder users
+            =t(".referral_2")
           %p
-            Send your friends a Remailder and Cc invite@remailder.com to get:
+            =t(".referral_3")
             %ul.list-unstyled.margin-bottom-20
               %li
                 %i.fa.fa-check.color-green
-                1 month Pro plan each time 5 of your contacts sign up to Remailder
+                =t(".referral_4")
               %li
                 %i.fa.fa-check.color-green
-                5 free Remailders each time 1 of your contact sign up to Remailder
+                =t(".referral_5")
         .col-md-3
           =image_tag "img/pricing/img11.jpg"
