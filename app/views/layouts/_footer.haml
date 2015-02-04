@@ -1,0 +1,114 @@
+/ === Footer Version 1 ===
+.footer-v1
+  .footer
+    .container
+      .row
+        / About
+        .col-md-3.md-margin-bottom-40
+          %a{:href => "index.html"}
+            =image_tag "img/logo1-default.png", {id: "logo-footer", class: "footer-logo"}
+          %p
+            Quickly set up and review all your reminders and tasks with no stress.
+          %p
+            Works on all devices and systems.
+        / /col-md-3
+        / End About
+        / Latest
+        .col-md-3.md-margin-bottom-40
+          .posts
+            .headline
+              %h2 Latest Posts
+            %ul.list-unstyled.latest-list
+              %li
+                %a{:href => "#"} Incredible content
+                %small May 8, 2014
+              %li
+                %a{:href => "#"} Best shoots
+                %small June 23, 2014
+              %li
+                %a{:href => "#"} New Terms and Conditions
+                %small September 15, 2014
+        / /col-md-3
+        / End Latest
+        / Link List
+        .col-md-3.md-margin-bottom-40
+          .headline
+            %h2 Useful Links
+          %ul.list-unstyled.link-list
+            %li
+              =link_to "how to use", how_to_path
+              %i.fa.fa-angle-right
+            %li
+              =link_to "Features", features_path
+              %i.fa.fa-angle-right
+            %li
+              =link_to "Pricing", pricing_path
+              %i.fa.fa-angle-right
+            %li
+              =link_to "Premium Reseller", premium_reseller_path
+              %i.fa.fa-angle-right
+            %li
+              %a{:href => "#"} Blog
+              %i.fa.fa-angle-right
+            %li
+              %a{:href => "#"} Our Team
+              %i.fa.fa-angle-right
+            %li
+              =link_to "FAQ", faq_path
+              %i.fa.fa-angle-right
+        / /col-md-3
+        / End Link List
+        / Address
+        .col-md-3.map-img.md-margin-bottom-40
+          .headline
+            %h2 Contact Us
+          %address.md-margin-bottom-40
+            3/F Citicorp Centre, 18 Whitfield Road
+            %br/
+            Causeway Bay, Hong Kong
+            %br/
+            Email:
+            %a{:href => "mailto:contact@remailder.com"} contact@remailder.com
+        / /col-md-3
+        / End Address
+  / /footer
+  .copyright
+    .container
+      .row
+        .col-md-6
+          %p
+            2014 © All Rights Reserved.
+            =link_to "Privacy Policy", privacy_policy_path
+            |
+            =link_to "Terms of Service", terms_of_service_path
+        / Social Links
+        .col-md-6
+          %ul.footer-socials.list-inline.social-icons
+            %li
+              =link_to '', '#', class: "rounded-x social_facebook"
+            %li
+              =link_to '', '#', class: "rounded-x social_googleplus"
+            %li
+              =link_to '', '#', class: "rounded-x social_twitter"
+            %li
+              =link_to '', '#', class: "rounded-x social_linkedin"
+            %li
+              =link_to '', 'https://www.youtube.com/channel/UCmEzPe4INE-cp7QY9ccd7eQ', class: "rounded-x social_youtube"
+        / End Social Links
+  / /copyright
+/ === End Footer Version 1 ===
+/ /wrapper
+/ JS Global Compulsory
+= javascript_include_tag "application"
+- if content_for? :specific_javascript
+  =yield :specific_javascript
+:javascript
+  jQuery(document).ready(function() {
+  App.init();
+  OwlCarousel.initOwlCarousel();
+  RevolutionSlider.initRSfullWidth();
+  });
+/[if lt IE 9]
+  <script src="assets/plugins/respond.js"></script>
+  <script src="assets/plugins/html5shiv.js"></script>
+  <script src="assets/js/plugins/placeholder-IE-fixes.js"></script>

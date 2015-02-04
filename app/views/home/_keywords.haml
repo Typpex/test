@@ -1,0 +1,205 @@
+/ Keywords
+#keywords.tab-pane.fade
+  =render "keywords_modal"
+  .span8
+    %p We created the following specific terms for you to set up Remailders easily
+    %h4 In
+    %ul
+      %li in2days@remailder.com, will send a Remailder 2 days later
+      %li in3hours@remailder.com, will send a Remailder 3 hours later
+    %h4 Next
+    %ul
+      %li nextTue@remailder.com, will send a Remailder the following Tuesday.
+      %li nextMonth@remailder.com, will send a Remailder at the first day of the following month
+    %p
+      %em Tip: Your instruction will be understood even if you forget to add this term!
+    %h4 At
+    %ul
+      %li at13.45@remailder.com, will send a Remailder at 13.45pm
+      %li at10am@remailder.com, will send a Remailder at 10am
+    %p
+      %em Tip: Your instruction will be understood even if you forget to add this term!
+    %h4 Every
+    %ul
+      %li Add Every in front of a Remailder to make it recurring.
+      %li Example: everytuesday@remailder.com will send you a Remailder every Tuesday.
+    %p Note that a Remailder can be deleted at any time by forwarding the original email to delete@remailder.com
+    %p You can also use specific terms such as tomorrow, noon, daily…
+    %p
+      Click here to see the
+      %a#list-functions{"data-mce-href" => "#", :href => "#"} complete listing
+    #functionsModal.modal.hide{"aria-hidden" => "true", :role => "dialog", :style => "display: none;", :tabindex => "-1"}
+      .modal-header
+        %button.close{"data-dismiss" => "modal", :type => "button"} x
+        %h3
+          Complete Listing
+      .modal-body
+        %table.table.manages
+          %tbody
+            %tr.manages-header
+              %td Specific Terms
+              %td Time interval
+              %td Period
+              %td @remailder.com
+            %tr
+              %td in
+              %td 2
+              %td week
+              %td @remailder.com
+            %tr
+              %td week
+              %td
+              %td w - wk
+              %td @remailder.com
+            %tr
+              %td at
+              %td 9
+              %td pm
+              %td @remailder.com
+            %tr
+              %td every
+              %td 3
+              %td hour
+              %td @remailder.com
+        %p
+          %b
+            Remember you can use two shortcuts in the same query!
+            %br/
+            Ex: in2daysat2pm@remailder.com
+        %table.table.shortcuts
+          %tbody
+            %tr
+              %td
+                %table.table.manages
+                  %tbody
+                    %tr.manages-header
+                      %td{:colspan => "2", :width => "140px"} Periods
+                    %tr.manages-header
+                      %td Classic
+                      %td Shortcut
+                    %tr
+                      %td minute
+                      %td min
+                    %tr
+                      %td hour
+                      %td h
+                    %tr
+                      %td day
+                      %td d
+                    %tr
+                      %td week
+                      %td w - wk
+                    %tr
+                      %td month
+                      %td m
+                    %tr
+                      %td year
+                      %td y
+                    %tr
+                      %td Monday
+                      %td mon
+                    %tr
+                      %td Tuesday
+                      %td tue
+                    %tr
+                      %td ...
+                      %td ...
+                    %tr
+                      %td Sunday
+                      %td sun
+                    %tr
+                      %td January
+                      %td jan
+                    %tr
+                      %td February
+                      %td feb
+                    %tr
+                      %td ...
+                      %td ...
+                    %tr
+                      %td December
+                      %td dec
+              %td  
+              %td
+                %table.table.manages
+                  %tbody
+                    %tr.manages-header
+                      %td{:colspan => "2"} Date Format
+                    %tr.manages-header
+                      %td Month First*
+                      %td Day First*
+                    %tr
+                      %td MM-DD-YYYY
+                      %td DD-MM-YYYY
+                    %tr
+                      %td MMDD-YYYY
+                      %td DDMM-YYYY
+                    %tr
+                      %td MM-DDYYYY
+                      %td DD-MMYYYY
+                    %tr
+                      %td MMDDYYYY
+                      %td DDMMYYYY
+                    %tr
+                      %td MM-DD
+                      %td DD-MM
+                    %tr
+                      %td MMDD
+                      %td DDMM
+                %p
+                  %sup *
+                  Configure on your settings this date format as your convenience.
+                  %br/
+                  %br/
+                %table.table.manages
+                  %tbody
+                    %tr.manages-header
+                      %td Shorcut
+                    %tr
+                      %td tomorrow - tmw
+                    %tr
+                      %td bod (beginning of the day)
+                    %tr
+                      %td eod (end of the day)
+                    %tr
+                      %td hourly, daily, monthly, yearly
+              %td  
+              %td
+                %table.table.manages
+                  %tbody
+                    %tr.manages-header
+                      %td Time Format
+                    %tr
+                      %td 2230
+                    %tr
+                      %td 22.30
+                    %tr
+                      %td 22
+                    %tr
+                      %td 1030pm
+                    %tr
+                      %td 10.30pm
+                    %tr
+                      %td 10pm
+                    %tr
+                      %td Noon
+                    %tr
+                      %td Midnight
+                %br/
+                %table.table.manages.functions
+                  %tbody
+                    %tr.manages-header
+                      %td{:width => "140px"} Functions
+                    %tr
+                      %td delete - cancel
+                    %tr
+                      %td snooze
+                    %tr
+                      %td pending - history
+                    %tr
+                      %td contact
+                    %tr
+                      %td invite
+=content_for :specific_javascript do
+  :javascript
+

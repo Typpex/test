@@ -1,0 +1,44 @@
+=content_for :title do
+  How To
+
+.container.content
+  .row
+    .row.tab-v3
+      .col-sm-3
+        %ul.nav.nav-pills.nav-stacked
+          %li.active
+            %a{"data-toggle" => "tab", :href => "#how-to-use"}
+              %i.fa.fa-home
+              How to setup a remailder?
+          %li
+            %a{"data-toggle" => "tab", :href => "#time-formats"}
+              %i.fa.fa-cloud
+              Time formats
+          %li
+            %a{"data-toggle" => "tab", :href => "#keywords"}
+              %i.fa.fa-comments
+              Keywords
+          %li
+            %a{"data-toggle" => "tab", :href => "#intuitive-system"}
+              %i.fa.fa-gear
+              Intuitive system
+          %li
+            %a{"data-toggle" => "tab", :href => "#make-a-test"}
+              %i.fa.fa-gear
+              Make a test
+      .col-sm-9
+        .tab-content
+          =render "time_formats"
+          =render "keywords"
+          =render "intuitive_system"
+          =render "make_a_test"
+          =render "how_to_setup"
+      =yield :how_to_setup
+=content_for :specific_javascript do
+  :javascript
+    $('a[href="#how-to-use"]').on('shown.bs.tab', function (e) {
+      $(".setup-reminder-tab").show();
+    });
+    $('a[href="#time-formats"], a[href="#keywords"], a[href="#intuitive-system"], a[href="#make-a-test"]').on('shown.bs.tab', function (e) {
+      $(".setup-reminder-tab").hide();
+    });

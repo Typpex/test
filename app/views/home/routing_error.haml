@@ -1,0 +1,21 @@
+/ === Error V4 ===
+=content_for :title do
+  Error 404
+.container.content
+  / Error Block
+  .row
+    .col-md-8.col-md-offset-2
+      .error-v4
+        %a{:href => "#"}
+          =image_tag "img/logo1-default.png"
+        %h1 404
+        %span.sorry Sorry, the page you were looking for could not be found!
+        .row
+          .col-md-6.col-md-offset-3
+            =link_to "Go Back to Main Page", root_path, class: "btn-u btn-brd btn-u-light"
+=content_for :specific_javascript do 
+  :javascript
+    $.backstretch([
+        "/assets/img/img2.jpg"
+        ]);
+/ End Error Block

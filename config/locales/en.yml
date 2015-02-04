@@ -1,0 +1,38 @@
+# Files in the config/locales directory are used for internationalization
+# and are automatically loaded by Rails. If you want to use locales other
+# than English, add the necessary files in this directory.
+#
+# To use the locales, use `I18n.t`:
+#
+#     I18n.t 'hello'
+#
+# In views, this is aliased to just `t`:
+#
+#     <%= t('hello') %>
+#
+# To use a different locale, set it with `I18n.locale`:
+#
+#     I18n.locale = :es
+#
+# This would use the information in config/locales/es.yml.
+#
+# To learn more, please read the Rails Internationalization guide
+# available at http://guides.rubyonrails.org/i18n.html.
+
+en:
+  main_slide_fast_mail_reminder: FAST EMAIL REMINDER
+  main_slide_to_task: To do / Task / Project
+  main_slide_subheader: "Schedule for yourself & your contacts"
+  main_slide_watch_video: Watch our video
+  main_slide_trial: 30-day Free trial
+  what_is_rem_title: What is Remailder?
+  what_is_rem_p1: Remailder easily change your email into Reminders.
+  what_is_rem_p2: Just intuitively add a remailderi n your emails so that you and your receivers will be reminded at the requested time.
+  what_is_rem_carousel_1: "To: in2days@remailder.com<span>Sends a remailder in 2 days</span>"
+  what_is_rem_carousel_2:
+  what_is_rem_carousel_3:
+  what_is_rem_carousel_4:
+  what_is_rem_carousel_5:
+  what_is_rem_carousel_6:
+
+

@@ -1,0 +1,82 @@
+!!!
+/[if IE 8] <html lang="en" class="ie8">
+/[if IE 9] <html lang="en" class="ie9">
+/ [if !IE]><!
+%html{:lang => "en"}
+  / <![endif]
+  %head
+    -if content_for? :title
+      %title
+        =yield :title
+    -else
+      %title Remailder
+    / Meta
+    %meta{:charset => "utf-8"}/
+    %meta{:content => "width=device-width, initial-scale=1.0", :name => "viewport"}/
+    %meta{:content => "", :name => "description"}/
+    %meta{:content => "", :name => "author"}/
+    = favicon_link_tag 'favicon.ico'
+    / CSS Global Compulsory
+    = stylesheet_link_tag    "application", media: 'all'
+    /[if lt IE 9] <link rel="stylesheet" href="assets/plugins/revolution-slider/rs-plugin/css/settings-ie8.css" type="text/css" media="screen">
+  %body.header-fixed
+    .wrapper
+      / === Header ===
+      .header-v3.header-sticky
+        / Navbar
+        .navbar.navbar-default.mega-menu{:role => "navigation"}
+          .container
+            / Brand and toggle get grouped for better mobile display
+            .navbar-header
+              %button.navbar-toggle{"data-target" => ".navbar-responsive-collapse", "data-toggle" => "collapse", :type => "button"}
+                %span.sr-only Toggle navigation
+                %span.fa.fa-bars
+              %a.navbar-brand{:href => "/"}
+                =image_tag "img/logo1-default.png", id: "logo-header"
+            / Collect the nav links, forms, and other content for toggling
+            .collapse.navbar-collapse.navbar-responsive-collapse
+              %ul.nav.navbar-nav
+                / How to use
+                %li.dropdown.mega-menu-fullwidth
+                  %a.dropdown-toggle{:href => how_to_path}
+                    How to use
+                %ul.dropdown-menu
+                / End How to use
+                / Features
+                %li.dropdown.mega-menu-fullwidth
+                  %a.dropdown-toggle{:href => features_path}
+                    Features
+                / End Features
+                / Pricing
+                %li.dropdown
+                  %a.dropdown-toggle{:href => pricing_path}
+                    Pricing
+                / End Pricing
+                / Blog
+                %li.dropdown
+                  %a.dropdown-toggle{"data-toggle" => "dropdown", :href => "javascript:void(0);"}
+                    Blog
+                / End Blog
+                %li.dropdown
+                  %a.dropdown-toggle{"data-toggle" => "dropdown", :href => "javascript:void(0);"}
+                    Login
+                / Languages !
+                %li.dropdown.languagesSelector
+                  %a.dropdown-toggle{"data-toggle" => "dropdown", :href => "javascript:void(0);"}
+                    %i.fa.fa-globe
+                    Languages
+                  %ul.dropdown-menu.languages
+                    %li.active
+                      %a{:href => "#"}
+                        English
+                        %i.fa.fa-check
+                    %li
+                      %a{:href => "#"} Spanish
+                    %li
+                      %a{:href => root_path(locale: :fr)} French
+                    %li
+                      %a{:href => "#"} German
+                / End Languages !
+            / /navbar-collapse
+        / End Navbar
+      / === End Header ===

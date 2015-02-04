@@ -1,0 +1,11 @@
+fr:
+  home:
+    features:
+      to: A
+      cc: CC
+      bcc: Cci
+      f1_header: Creer vos remailders directement directement avec vos emails
+      f1_description_html: 'Composez ou répondez à un email en ajoutant <strong>@remailder.com</strong> dans le champ To, Cc ou Bcc:'
+      f1_description_to: "envoie﻿ un Remailder à tous vos interlocuteurs et à vous même"
+      f1_description_cc: "envoie un Remailder aux destinataires présents en To et à vous même"
+      f1_description_bcc: "envoie un Remailder uniquement à son créateur (invisible aux yeux des destinataires)"

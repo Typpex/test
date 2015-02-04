@@ -1,0 +1,31 @@
+#make-a-test.tab-pane.fade.in
+  .span8
+    %select#make-test-local.span4{:name => "make-test-local"}
+      %option{:value => "en"} en
+      %option{:value => "fr"} fr
+    %br/
+    .input-append
+      %input#make-test-input.span4{:type => "text"}/
+      %span.add-on @remailder.com
+    #result-test
+    =content_for :specific_javascript do
+      :javascript
+        $( "#make-test-input" ).change(function() {
+          $.ajax({
+            url: 'http://api.remailder.com/v1/remailders/test', 
+            crossDomain: true,
+            dataType: "json",
+            data: {
+              instruction:  $("#make-test-input").val(),
+              locale:       $("#make-test-local").val(),
+            }
+          }).done(function( json ) {
+            if (json.reminder_type.indexOf('not_valid') > -1) {
+              $("#result-test").html("This Remailder is not valid.");
+            } else if (json.reminder_type.indexOf('snooze') > -1 || json.reminder_type.indexOf('action') > -1) {
+            $("#result-test").html("This Remailder is a valid action");
+          } else {
+              $("#result-test").html(json.estimated_date);
+            }  
+          });
+        });

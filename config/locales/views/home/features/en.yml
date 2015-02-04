@@ -1,0 +1,11 @@
+en: 
+  home:
+    features: 
+      to: To
+      cc: Cc
+      bcc: Bcc
+      f1_header: Create your remailder directly through your emails
+      f1_description_html: "Compose or reply an email and include <strong>@remailder.com</strong> in To, Cc or Bcc fields:"
+      f1_description_to: will send a Public Remailder to everyone on the email
+      f1_description_cc: will send a Remailder only to receivers in the To field and the sender
+      f1_description_bcc: will send a Private Remailder only to the sender (hiding it to all receivers)
