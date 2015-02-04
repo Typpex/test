@@ -9,24 +9,6 @@
       .modal-body
         .video-player
           #ytplayer
-        =content_for :specific_javascript do 
-          :javascript
-            var tag = document.createElement('script');
-            tag.src = "https://www.youtube.com/player_api";
-            var firstScriptTag = document.getElementsByTagName('script')[0];
-            firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
-
-            // Replace the 'ytplayer' element with an <iframe> and
-            // YouTube player after the API code downloads.
-            var player;
-            function onYouTubePlayerAPIReady() {
-              player = new YT.Player('ytplayer', {
-                height: '330',
-                width: '500',
-                videoId: 'NLDI0WFmduY'
-              });
-            }
-
 
 / === Slider ===
 .tp-banner-container
@@ -48,10 +30,10 @@
             =t(:main_slide_subheader)
         / LAYER
         .tp-caption.sft{"data-captionhidden" => "off", "data-easing" => "Power4.easeOut", "data-endeasing" => "Power1.easeIn", "data-endspeed" => "300", "data-hoffset" => "0", "data-speed" => "1600", "data-start" => "2800", "data-x" => "center", "data-y" => "310", :style => "z-index: 6"}
-          %a.btn-u.btn-u-lg.re-btn-brd.margin-right-5{href: "#"}
+          %a.btn-u.btn-u-lg.re-btn-brd.margin-right-5{class: "fancybox fancybox.iframe", href: "http://www.youtube.com/embed/L1jjeY_tbg8?enablejsapi=1&wmode=opaque"}
             %span.glyphicon.glyphicon-play{"aria-hidden" => "true"}
             =t(:main_slide_watch_video)
-          %a.btn-u.btn-u-lg.btn-u-dark-blue{:href => "#"}=t(:main_slide_trial)
+          %a.btn-u.btn-u-lg.btn-u-dark-blue{:href => ""}=t(:main_slide_trial)
       / END SLIDE
     .tp-bannertimer.tp-bottom
 / === End Slider ===

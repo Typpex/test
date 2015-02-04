@@ -13,4 +13,11 @@
 //= require jquery/jquery.min
 //= require jquery/jquery-migrate
 //= require jquery/jquery-migrate.min
-//= require_tree .
+//= require_directory ./backstretch
+//= require_tree ./bootstrap
+//= require_directory ./fancybox
+//= require_directory ./fancybox/helpers
+//= require_tree ./owl-carousel
+//= require_tree ./plugins
+//= require_tree ./revolution-slider
+//= require_directory .
