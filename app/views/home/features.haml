@@ -1,5 +1,5 @@
 =content_for :title do
-  Features
+  =t(".title")
 .one-page
   .one-page-inner.one-grey
     .container.content
@@ -23,7 +23,7 @@
               =t(".f1_description_bcc")
           %a.btn-u.btn-u-dark-blue.one-page-btn
             %i.fa.fa-play
-            How to setup your first remailder?
+            =t(".f1_video")
         .col-md-6
           %img.img-responsive.margin-bottom-10.feature-center{:alt => "", :src => "assets/img/features/remailder.png"}/
   .one-page-inner.one-default
@@ -32,28 +32,27 @@
         .col-md-6
           %img.img-responsive.margin-bottom-10.feature-center{:alt => "", :src => "assets/img/features/Language.png"}/
         .col-md-6
-          %h1 Multilingual website and time format
+          %h1=t(".f2_header")
           %p
-            %strong Remailder is available in 5 languages: English, French, German, Spanish and Chinese.
-            So not only you can access our website easily but also time information you setup on Remailders are multilingual.
-          %p Example: in English in2weeks@remailder.com could be also understood by our system:
+            =t(".f2_description_html")
+          %p=t(".f2_description_example")
           %ul.list-unstyled.margin-bottom-20
             %li
               %i.fa.fa-check.color-green
-              in French with dans2semaines@remailder.com,
+              =t(".f2_description_french")
             %li
               %i.fa.fa-check.color-green
-              in Spanish with en2semanas@remailder.com,
+              =t(".f2_description_spanish")
             %li
               %i.fa.fa-check.color-green
-              in German with in2woche@remaidler.com.
+              =t(".f2_description_german")
   .one-page-inner.one-grey
     .container.content
       .row
         .col-md-6
-          %h1 Use multiple aliases
-          %p You are using different emails addresses. We can automatically link them to the same Remailder account.
-          %p Just log in your Remailder.com account and add extra addresses. Our team will review each of your requests prior to confirmation.
+          %h1=t(".f3_header")
+          %p=t(".f3_description_1") 
+          %p=t(".f3_description_2")
           %br/
         .col-md-6
           %img.img-responsive.margin-bottom-10.feature-center{:alt => "", :src => "assets/img/features/Alias.png"}/
@@ -63,27 +62,21 @@
         .col-md-6
           %img.img-responsive.margin-bottom-10.feature-center{:alt => "", :src => "assets/img/features/Snooze.png"}/
         .col-md-6
-          %h1 Snooze Remailder
-          %p Use our Snooze function on any Remailder you receive to postpone his due date.
-          %p Example: you've just received a Remailder for a task you need to postpone. Just snooze the Remailder to the next day!
+          %h1=t(".f4_header")
+          %p=t(".f4_description_1")
+          %p=t(".f4_description_2")
           %br/
           %a.btn-u.btn-u-dark-blue.one-page-btn.text-center
             %i.fa.fa-play
-            How to snooze a Remailder?
+            =t(".f4_video")
   .one-page-inner.one-grey
     .container.content
       .row
         .col-md-6
-          %h1 Recurring Remailder
-          %p
-            Add
-            %strong Every
-            in front of your Remailder to make it recurring.
-          %p
-            Example:
-            %em everytuesday@remailder.com
-            will send you a Remailder every tuesday.
-          %p Note that a recurring Remailder can be deleted at any time by forwarding the original email to delete@remailder.com
+          %h1=t(".f5_header")
+          %p=t(".f5_description_html")
+          %p=t(".f5_description_1_html")
+          %p=t(".f5_description_2")
           %br/
         .col-md-6
           %img.img-responsive.margin-bottom-10.feature-center{:alt => "", :src => "assets/img/features/Recurring.png"}/
@@ -93,18 +86,18 @@
         .col-md-6
           %img.img-responsive.margin-bottom-10.feature-center{:alt => "", :src => "assets/img/features/Auto_Completion.png"}/
         .col-md-6
-          %h1 Send formatted contact list to your mail system
-          %p As efficiency is important to us we also provide you a contact list of the most used Remailders. Most mail systems (google, outlook,…) will quickly recognize them once you start tipping your time information and will make setup even faster!
+          %h1=t(".f6_header")
+          %p=t(".f6_description_1")
           %br/
           %a.btn-u.btn-u-dark-blue.one-page-btn
             %i.fa.fa-download
-            Download the formatted list!
+            =t(".f6_video")
   .one-page-inner.one-grey
     .container.content
       .row
         .col-md-6
-          %h1 View all your Remailder on your calendar (Plus)
-          %p You can view and manage all your Remailder, either on our website or by synchronization with your favorite calendars: Google calendar, Microsoft Outlook, Lotus etc.
+          %h1=t(".f7_header")
+          %p=t(".f7_description_1")
           %br/
         .col-md-6
           %img.img-responsive.margin-bottom-10.feature-center{:alt => "", :src => "assets/img/features/Calendar.png"}/
@@ -114,47 +107,47 @@
         .col-md-6
           %img.img-responsive.margin-bottom-10.feature-center{:alt => "", :src => "assets/img/features/reports.png"}/
         .col-md-6
-          %h1 Daily/Weekly Reminder synthesis (Plus)
-          %p Receive daily or weekly reminder synthesis by:
+          %h1=t(".f8_header")
+          %p=t(".f8_description_1")
           %ul.list-unstyled.margin-bottom-20
             %li
               %i.fa.fa-check.color-green
-              sending an email at pending@remailder.com,
+              =t(".f8_description_2")
             %li
               %i.fa.fa-check.color-green
-              setting up your account on our site for automatic reporting,
+              =t(".f8_description_3")
             %li
               %i.fa.fa-check.color-green
-              or simply with a click on pending on a Remailder you have received
-          %p Keeping you up dated without having to ask!
+              =t(".f8_description_4")
+          %p=t(".f8_description_5")
           %br/
           %a.btn-u.btn-u-dark-blue.one-page-btn
             %i.fa.fa-play
-            How to set up reporting?
+            =t(".f8_video")
   .one-page-inner.one-grey
     .container.content
       .row
         .col-md-6
-          %h1 Advance Remailder Settings (Plus)
-          %p Access your account on our website to configure your Remailders:
+          %h1=t(".f9_header")
+          %p=t(".f9_description_1")
           %ul.list-unstyled.margin-bottom-20
             %li
               %i.fa.fa-check.color-green
-              add you company logo,
+              =t(".f9_description_2")
             %li
               %i.fa.fa-check.color-green
-              desactivate Remailder logo
-          %p You can also setup some other options such as:
+              =t(".f9_description_3")
+          %p=t(".f9_description_4")
           %ul.list-unstyled.margin-bottom-20
             %li
               %i.fa.fa-check.color-green
-              sending Remailders using your own email addresses,
+              =t(".f9_description_5")
             %li
               %i.fa.fa-check.color-green
-              sending Remailders without our logos on it
+              =t(".f9_description_6")
             %li
               %i.fa.fa-check.color-green
-              receiving a confirmation of reception for each Remailder you have setup
+              =t(".f9_description_7")
           %br/
         .col-md-6
           %img.img-responsive.margin-bottom-10.feature-center{:alt => "", :src => "assets/img/features/Settings.png"}/
@@ -164,32 +157,32 @@
         .col-md-6
           %img.img-responsive.margin-bottom-10.feature-center{:alt => "", :src => "assets/img/features/Stats.png"}/
         .col-md-6
-          %h1 Statistics (Pro)
-          %p You can access different type of statistic either by email or via our website.
+          %h1=t(".f10_header")
+          %p=t(".f10_description_1")
           %p
-            %strong By email:
-          %p Send an email to stats@remailder.com and it will send you a recap with:
+            %strong=t(".f10_description_html")
+          %p=t(".f10_description_2")
           %ul.list-unstyled.margin-bottom-20
             %li
               %i.fa.fa-check.color-green
-              \% of Remailder you have sent and that have been replied on time
+              =t(".f10_description_3")
             %li
               %i.fa.fa-check.color-green
-              \# of Remailder you sent last months
+              =t(".f10_description_4")
             %li
               %i.fa.fa-check.color-green
-              \# of Remailder you received last month
+              =t(".f10_description_5")
           %p
-            %strong On our website:
-          %p Login on our website to review all sort of statistics about your Remailder activity.
+            %strong=t(".f10_description_6")
+          %p=t(".f10_description_7")
           %br/
   .one-page-inner.one-grey
     .container.content
       .row
         .col-md-6
-          %h1 Automatic Remailder reply detection (Pro)
-          %p Our system will detect if a Remailder has been answered and will automatically delete it for you so you don’t get unnecessary emails.
-          %p Reactivate your Remailder if the original Remailder you have sent to someone has not been answer properly or need extra follow-up.
+          %h1=t(".f11_header")
+          %p=t(".f11_description_1")
+          %p=t(".f11_description_2")
           %br/
         .col-md-6
           %img.img-responsive.margin-bottom-10.feature-center{:alt => "", :src => "assets/img/features/Auto_Detection.png"}/
@@ -199,15 +192,15 @@
         .col-md-6
           %img.img-responsive.margin-bottom-10.feature-center{:alt => "", :src => "assets/img/features/Pro.png"}/
         .col-md-6
-          %h1 Keeping your attachments (Pro)
-          %p Forward your attachments when you send a Remailder and they will automatically be back with them at due date.
+          %h1=t(".f12_header")
+          %p=t(".f12_description_1")
           %br/
   .one-page-inner.one-grey
     .container.content
       .row
         .col-md-6
-          %h1 SMS Remailder (Pro)
-          %p Use our SMS services to receive a Remailder on your mobile phone when you have no email access.
+          %h1=t(".f13_header")
+          %p=t(".f13_description_1")
           %br/
         .col-md-6
           %img.img-responsive.margin-bottom-10.feature-center{:alt => "", :src => "assets/img/features/Sms.png"}/
@@ -217,10 +210,10 @@
         .col-md-6
           %img.img-responsive.margin-bottom-10.feature-center{:alt => "", :src => "assets/img/features/Pro.png"}/
         .col-md-6
-          %h1 Pro accounts / multi accounts
-          %p We will provide specials options to our Pro or Multi accounts (more than 20 accounts). Please contact us directly for more details.
+          %h1=t(".f14_header")
+          %p=t(".f14_description_1")
           %br/
           %a.btn-u.btn-u-dark-blue.one-page-btn
             %i.fa.fa-contact
-            Contact Us
+            =t(".f14_video")
 

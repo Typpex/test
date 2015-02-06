@@ -1,0 +1,33 @@
+#subscribe{style: "display: none;"}
+  =form_tag "http://my.remailderdev.com:3000/users", method: :post do 
+    .reg-page
+      .row
+        .col-md-9
+          .reg-header
+            %h2 Register a new account
+        .col-md-3
+          .badge.badge-info.pull-right
+            No credit card
+      %p
+        Already Signed Up? Click
+        %a.color-green{:href => "page_login.html"} Sign In
+        to login your account.
+      %label
+        Email Address
+        %span.color-red *
+      =email_field "user", "email", class: "form-control margin-bottom-20", required: :required
+      = hidden_field_tag 'user[subscription][plan][name]', 'trial'
+      %label
+        Time Zone
+        %span.color-red *
+      =time_zone_select( "user[localization]", "time_zone", nil, { class: "form-control margin-bottom-20", id: "user_localization_timezone" } )
+      
+      %hr/
+      .row
+        .col-lg-6.checkbox
+          %label
+            %input{:type => "checkbox", name: "user[tos]", value: Time.now}(required)
+            I read
+            %a.color-green{:href => terms_of_service_path} Terms and Conditions
+        .col-lg-6.text-right
+          %button.btn-u{:type => "submit"} Register

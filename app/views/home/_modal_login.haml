@@ -1,0 +1,26 @@
+#login{style: "display: none;"}
+  =form_tag "http://my.remailderdev.com:3000/users/sign_in", method: :post, class: "reg-page" do
+    .reg-header
+      %h2 Login to your account
+    .input-group.margin-bottom-20
+      %span.input-group-addon
+        %i.fa.fa-user
+      =text_field_tag "user[email]", nil, class: "form-control", placeholder: "Email"
+    .input-group.margin-bottom-20
+      %span.input-group-addon
+        %i.fa.fa-lock
+      =password_field_tag "user[password]", nil, class: "form-control", placeholder: "Password"
+      /%input.form-control{:placeholder => "Password", :type => "password"}/
+    .row
+      .col-md-6.checkbox
+        %label
+          %input{:type => "checkbox"}/
+          Stay signed in
+      .col-md-6
+        %button.btn-u.pull-right{:type => "submit"} Login
+    %hr/
+    %h4 Forget your Password ?
+    %p
+      no worries,
+      %a.color-green{:href => "http://my.remailder.com/users/password/new"} click here
+      to reset your password.
