@@ -1,15 +1,5 @@
-/ Modal
-#myModal.modal.fade{"aria-hidden" => "true", "aria-labelledby" => "myModalLabel", :role => "dialog", :tabindex => "-1"}
-  .modal-dialog
-    .modal-content
-      .modal-header
-        %button.close{"aria-label" => "Close", "data-dismiss" => "modal", :type => "button"}
-          %span{"aria-hidden" => "true"} &#215;
-        %h4#myModalLabel.modal-title What is Remailder?
-      .modal-body
-        .video-player
-          #ytplayer
-
+=render "modal_subscription"
+=render "modal_login"
 / === Slider ===
 .tp-banner-container
   .tp-banner
@@ -30,10 +20,12 @@
             =t(:main_slide_subheader)
         / LAYER
         .tp-caption.sft{"data-captionhidden" => "off", "data-easing" => "Power4.easeOut", "data-endeasing" => "Power1.easeIn", "data-endspeed" => "300", "data-hoffset" => "0", "data-speed" => "1600", "data-start" => "2800", "data-x" => "center", "data-y" => "310", :style => "z-index: 6"}
+          / Button play video
           %a.btn-u.btn-u-lg.re-btn-brd.margin-right-5{class: "fancybox fancybox.iframe", href: "http://www.youtube.com/embed/L1jjeY_tbg8?enablejsapi=1&wmode=opaque"}
             %span.glyphicon.glyphicon-play{"aria-hidden" => "true"}
             =t(:main_slide_watch_video)
-          %a.btn-u.btn-u-lg.btn-u-dark-blue{:href => ""}=t(:main_slide_trial)
+          / Button subscribe
+          %a.btn-u.btn-u-lg.btn-u-dark-blue{class: "btn-subscribe fancybox.iframe", :href => "#subscribe"}=t(:main_slide_trial)
       / END SLIDE
     .tp-bannertimer.tp-bottom
 / === End Slider ===

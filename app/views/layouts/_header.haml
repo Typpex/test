@@ -18,6 +18,7 @@
     = favicon_link_tag 'favicon.ico'
     / CSS Global Compulsory
     = stylesheet_link_tag    "application", media: 'all'
+    = csrf_meta_tag
     /[if lt IE 9] <link rel="stylesheet" href="assets/plugins/revolution-slider/rs-plugin/css/settings-ie8.css" type="text/css" media="screen">
   %body.header-fixed
     .wrapper
@@ -58,7 +59,7 @@
                     Blog
                 / End Blog
                 %li.dropdown
-                  %a.dropdown-toggle{"data-toggle" => "dropdown", :href => "javascript:void(0);"}
+                  %a.dropdown-toggle{:href => "#login", class: "login-btn fancybox.iframe"}
                     Login
                 / Languages !
                 %li.dropdown.languagesSelector

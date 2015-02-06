@@ -7,6 +7,15 @@ class ApplicationController < ActionController::Base
 
   def set_locale
     I18n.locale = params[:locale] || I18n.default_locale
+    change_locale_subdomain = false
+
+    # if session["locale"].to_sym != I18n.locale
+    #   change_locale_subdomain = true
+    #   session["locale"] = I18n.locale
+    # end
+    # if request.subdomain.blank? || change_locale_subdomain
+    #   redirect_to request.url.gsub( /:\/\//, "://#{ session["locale"] }." )
+    # end
   end
 
   def default_url_options(options = {})
