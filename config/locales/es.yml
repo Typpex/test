@@ -22,56 +22,56 @@
 es:
   main_slide_fast_mail_reminder: FAST EMAIL REMINDER
   main_slide_to_task: To do / Task / Project
-  main_slide_subheader: "Schedule for yourself & your contacts"
-  main_slide_watch_video: Watch our video
-  main_slide_trial: 30-day Free trial
-  what_is_rem_title: What is Remailder?
-  what_is_rem_p1: Remailder easily change your email into Reminders.
-  what_is_rem_p2: Just intuitively add a Remailder in your emails so you and your receivers will be reminded at the requested time.
-  what_is_rem_carousel_1_html: "To: in2days@remailder.com<span>Sends a remailder in 2 days</span>"
-  what_is_rem_carousel_2_html: "To: everymonday@remailder.com<span>Sends a Remailder every Monday</span>"
-  what_is_rem_carousel_3_html: "To: tomorrow@remailder.com<span>Sends a Remailder tomorrow</span>"
-  what_is_rem_carousel_4_html: "To: 08-15-2014@remailder.com<span>Sends a Remailder on 15th August</span>"
-  what_is_rem_carousel_5_html: "To: at4pm@remailder.com<span>Sends a Remailder at 4pm</span>"
-  what_is_rem_carousel_6_html: "To: tuesday@remailder.com<span>Sends a Remailder next tuesday</span>"
+  main_slide_subheader: "Calendario para ti mismo y tus contactos"
+  main_slide_watch_video: Ver nuestro vídeo
+  main_slide_trial: ¡Regístrate gratis!
+  what_is_rem_title: ¿Qué es Remailder?
+  what_is_rem_p1: Remailder transforma de manera sencilla sus e-mails en recordatorios. 
+  what_is_rem_p2: "Añadiendo de manera intuitiva un Remailder a sus e-mails, tanto usted como los destinatarios de sus mensajes, serán avisados cuando usted decida."
+  what_is_rem_carousel_1_html: "Para: en2dias@remailder.com<span>Enviar un Remailder en 2 días</span>"
+  what_is_rem_carousel_2_html: "Para: cadalunes@remailder.com<span>Enviar un Remailder cada lunes</span>"
+  what_is_rem_carousel_3_html: "Para: diasiguiente@remailder.com<span>Enviar un Remailder al día siguiente</span>"
+  what_is_rem_carousel_4_html: "Para: 08-15-2015@remailder.com<span>Enviar un Remailder el 15 de agosto</span>"
+  what_is_rem_carousel_5_html: "Para:  alas16h@remailder.com<span>Enviar un Remailder alas 16:00h</span>"
+  what_is_rem_carousel_6_html: "Para:  martes@remailder.com<span>Enviar Remailder el próximo martes</span>"
   service_1: Email Reminders
   service_2: Todo List
-  service_3: Calendar Integration
-  service_4: Response Detection
-  service_5: Statistics
-  How_Help: How it will help you
-  save_time: Save your time!
-  save_time_1: Use your emails to Setup Reminders
-  save_time_2: Keep your inbox empty and answer your emails only when they need to be answered
-  just_time: Just in time
-  just_time_1: Create reminders for yourself and for your contact to stay on top of your emails
-  just_time_2: Enhance team work and deliver your project before your deadline!
-  opti_time: Optimize your time
-  opti_time_1: Send you automatic reminders to increase your productivity
-  opti_time_2: Does the follow-up for you so you don’t need to worry about it
-  all_devices: Works on all devices and systems!
-  all_devices_1: As Remailder is an email based system it can work on all your devices and all your emails apps or software.
-  all_devices_2: So you can keep tracks and setup Remailders wherever you go !
-  start_button: Start your 30-day Free Trial
-  no_credit: "\"No credit card\""
-  header_how_to: How to use
-  header_features: Features
-  header_pricing: Pricing
-  header_blog: Blog
-  header_languages: Languages
-  header_english: English
-  header_french: French
-  header_german: German
-  header_spanish: Spanish
-  header_login: Login
-  desc_footer_1: Quickly set up and review all your reminders and tasks with no stress.
-  desc_footer_2: Works on all devices and systems.
-  footer_useful: Useful Links
-  footer_premium: Premium Reseller
-  footer_team: Our Team
-  footer_faq: FAQ
-  footer_contact: Contact Us
-  footer_email: "Email:"
-  footer_privacy: Privacy Policy
-  footer_terms: Terms of Service
+  service_3: Sincronización con Calendario
+  service_4: Detector de Respuestas
+  service_5: Estadísticas
+  How_Help: ¿Cómo le puede ayudar Remailder?
+  save_time: ¡Ahorra tiempo!
+  save_time_1: Creará recordatorios eficaces directamente desde su e-mail (tareas, reuniones, informes...)
+  save_time_2: Responderá sus e-mails solo cuando lo necesite realmente
+  just_time: ¡Siempre a tiempo!
+  just_time_1: Creará recordatorios para usted mismo y para sus contactos, de modo que tendrá su correo siempre al día
+  just_time_2: Favorecerá el trabajo en equipo al cumplir siempre el plazo de sus proyectos
+  opti_time: ¡Optimiza su tiempo!
+  opti_time_1: Aumentará su productividad al recibir recordatorios automáticos
+  opti_time_2: Mejorará su capacidad de seguimiento simplificando todo el proceso
+  all_devices: Funciona en todos los dispositivos y sistemas operativos!
+  all_devices_1: Como Remailder está vinculado a su servicio de correo, puede acceder a sus recordatorios desde cualquier dispositivo y desde todos los sistemas o aplicaciones asociados a su correo.
+  all_devices_2: ¡A partir de ahora podrá seguir y crear recordatorios de manera sencilla y sin restricciones!
+  start_button: ¡Regístrate gratis!
+  no_credit: "\"Sin tarjeta de crédito\""
+  header_how_to: Modo de empleo
+  header_features: Características
+  header_pricing: Tarifas
+  header_blog: El Blog
+  header_languages: Idiomas
+  header_english: Inglés
+  header_french: Francés
+  header_german: Alemán
+  header_spanish: Español
+  header_login: Inicio de sesión
+  desc_footer_1: Rápidamente configurar y revisar todos sus recordatorios y tareas sin estrés.
+  desc_footer_2: Funciona en todos los dispositivos y sistemas operativos!
+  footer_useful: Enlaces rápidos
+  footer_premium: Distribuidor
+  footer_team: Nuestro Equipo
+  footer_faq: Preguntas frecuentes
+  footer_contact: Contacte con nosotros
+  footer_email: "E-mail:"
+  footer_privacy: Privacidad
+  footer_terms: Condiciones de uso
   footer_rights: All Rights Reserved.
