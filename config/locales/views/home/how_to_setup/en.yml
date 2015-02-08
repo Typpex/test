@@ -1,0 +1,6 @@
+en:
+  home:
+    how_to_setup:
+      how_desc1_html: "To setup a Remailder, compose or reply to an email and include the @remailder.com address in the To, Cc or Bcc fields:"
+      how_desc2: To
+      how_desc3_html: will send a Public Remailder to everyone on the email

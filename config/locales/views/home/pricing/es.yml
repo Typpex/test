@@ -1,30 +1,30 @@
 es: 
   home:
     pricing: 
-      title_pricing: "Plans & Pricing"
-      pricing_comment: Adapt Remailder to your needs!
-      price_month: Price per Month
-      send_remailders: Send Remailders
-      multiple: Multiple Alias
+      title_pricing: "Tarifas"
+      pricing_comment: ¡Remailder se adapta a sus necesidades!
+      price_month: Precio por Mes
+      send_remailders: Número de Remailders
+      multiple: Número de Alias
       snooze: Snooze Remailders
-      recurring: Recurring Remailders
-      formated: Formated Contact List
-      calendar: Calendar Synchronization
-      reports: "Daily/Weekly Reports"
-      settings: Advance Settings
-      statistics: Statistics
-      detection: Reply Detection
-      attachments: Keeping Attachments
+      recurring: Remailders Periódicos
+      formated: Lista de Contactos
+      calendar: Sincronización con Calendario
+      reports: "Informe diario/semanal"
+      settings: Configuración Avanzada
+      statistics: Estadísticas
+      detection: Detector de Respuestas
+      attachments: Archivos Adjuntos
       sms: SMS Remailders
-      for_free: For Free
+      for_free: Para uso limitado
       per_month: Per Month
-      20_month: "20/month"
-      unlimited: Unlimited
-      sign_up: Sign Up
-      for_everyday: For Everyday
-      for_business: For Business
-      referral_1: Referral Program – Spread the word and enjoy great benefits!
-      referral_2: Get 5 Free Remailders every time you send one that reaches a non-Remailder users
-      referral_3: "Send your friends a Remailder and Cc invite@remailder.com to get:"
-      referral_4: 1 month Pro plan each time 5 of your contacts sign up to Remailder
-      referral_5: 5 free Remailders each time 1 of your contact sign up to Remailder
+      20_month: "20/mes"
+      unlimited: Ilimitado
+      sign_up: ¡Regístrate gratis!
+      for_everyday: Para uso diario
+      for_business: Para los profesionales
+      referral_1: Programa de afiliación – ¡Si sus contactos se registran, usted recibe recompensas!
+      referral_2: 5 Remailders gratuitos cada vez que envíe un Remailder a alguien que no sea usuario de Remailder
+      referral_3: "Envíe un mensaje a sus contactos e incluya en Cc: invitar@remailder.com para obtener:"
+      referral_4: 1 mes de suscripción al paquete “Pro” cada vez que 5 de sus contactos se registren en Remailder
+      referral_5: 5 Remailders gratuitos cada vez que sus contactos se registren en Remailder

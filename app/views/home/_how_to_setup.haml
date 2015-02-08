@@ -2,26 +2,26 @@
   .wrapper-to
     .span8
       %p
-        %strong To setup a Remailder, compose or reply to an email and include the @remailder.com address in the To, Cc or Bcc fields:
+        %strong=t(".how_desc1_html")
       .base-line-how.to.row
         .span2
           =image_tag "img/howto/pc.png"
-          %span To
-        .span6 will send a Public Remailder to everyone on the email
+          %span=t(".how_desc2")
+        .span6=t(".how_desc3_html")
       %br
       %div
       %p
         %em
-          Example: you just received an email that won't need an answer until 1 week. Forward it to:
-          %strong in1week@remailder.com
-          and keep your inbox clean.
+          =t(".how_desc4")
+          %strong=t(".how_desc5")
+          =t(".how_desc6")
       %p
         %em
-          Example: you need to make sure an important email will be answered in the next 4 hours. Add in the
-          %strong To field
+          =t(".how_desc7")
+          %strong=t(".how_desc8")
           of your email
-          %strong in4hours@remailder.com
-          so you and the receiver will be reminded on time.
+          %strong=t(".how_desc9")
+          =t(".how_desc10")
 =content_for :how_to_setup do
   .col-sm-9.setup-reminder-tab
     .tab-content{style: "background: lavender;"}
@@ -31,17 +31,17 @@
             .base-line-how.cc.row
               .span2
                 =image_tag "img/howto/tablet.png"
-                %span CC
+                %span=t(".how_desc11")
               .span6
-                will send a Remailder only to receivers in the To field and to you
+                =t(".how_desc12")
             %br
             %div
             %p
               %em
-                Example: You are sending an important email to multiple receivers but only 1 of them need to answer you the same day before 3pm. This receiver is in the To field and add in the
-                %strong Cc field
-                of your email
-                %strong at3pm@remailder.com.
+                =t(".how_desc13")
+                %strong=t(".how_desc14")
+                =t(".how_desc15")
+                %strong=t(".how_desc16")
     
   .col-sm-9.setup-reminder-tab
     / How to Use?
@@ -52,23 +52,23 @@
             .base-line-how.bcc.row
               .span2
                 =image_tag "img/howto/laptop.png"
-                %span BCC
-              .span6 will send a Private Remailder only to the sender (hiding it to all receivers)
+                %span=t(".how_desc17")
+              .span6=t(".how_desc18")
             %br
             %div
             %p
               %em
-                Example: you are sending an offer to your customer and you want to follow up with him in 2 months. Add in the
-                %strong Bcc field
-                of your email offer
-                %strong in2months@remailder.com
-                so you can follow up later on.
+                =t(".how_desc19")
+                %strong=t(".how_desc20")
+                =t(".how_desc21")
+                %strong=t(".how_desc22")
+                =t(".how_desc23")
             %p
               %em
-                Example: you are sending a request to your colleagues and want to check the status with him 3 days later. Add in the
-                %strong Bcc field
-                of your request
-                %strong in3days@remailder.com
-                so you don’t forget it.
+                =t(".how_desc24")
+                %strong=t(".how_desc25")
+                =t(".how_desc26")
+                %strong=t(".how_desc27")
+                =t(".how_desc28")
 
 
