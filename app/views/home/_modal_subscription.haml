@@ -10,7 +10,7 @@
             No credit card
       %p
         Already Signed Up? Click
-        %a.color-green{:href => "page_login.html"} Sign In
+        %a.signin-link.color-green{href: "#"} Sign In
         to login your account.
       %label
         Email Address
@@ -24,10 +24,10 @@
       
       %hr/
       .row
-        .col-lg-6.checkbox
+        .col-lg-8.checkbox
           %label
             %input{:type => "checkbox", name: "user[tos]", value: Time.now}(required)
             I read
             %a.color-green{:href => terms_of_service_path} Terms and Conditions
-        .col-lg-6.text-right
+        .col-lg-4.text-right
           %button.btn-u{:type => "submit"} Register

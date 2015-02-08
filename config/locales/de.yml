@@ -55,14 +55,16 @@ de:
   start_button: Kostenlos testen
   no_credit: "\"Keine Kreditkarte\""
   header_how_to: Bedienungsanleitung
+  how_to_route: Bedienungsanleitung
   header_features: Funktionen
+  features_routes: funktionen
   header_pricing: Tarife
   header_blog: Blog
   header_languages: Sprachen
-  header_english: Englisch
-  header_french: Französisch
-  header_german: Deutsch
-  header_spanish: Spanisch
+  header_en: Englisch
+  header_f: Französisch
+  header_de: Deutsch
+  header_es: Spanisch
   header_login: Einloggen
   desc_footer_1: Quickly set up and review all your reminders and tasks with no stress.
   desc_footer_2: Funktioniert auf allen Geräten und mit allen Systemen!

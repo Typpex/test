@@ -11,6 +11,7 @@ de:
       f1_description_cc: Um einen Remailder an sich selbst und an die Empfänger im Feld „An“ zu senden
       f1_description_bcc: sendet einen Remailder nur an dessen Urheber (unsichtbar für Empfänger)
       f1_video: Wie Sie Ihre erste Remailder?
+      f1_video_yt_id: IweCkxyHEUw
       f2_header: Mehrsprachige Website - Einhaltung der Zeitzonen
       f2_description_html: "<strong>Remailder ist in 5 Sprachen verfügbar: Deutsch, Englisch, Französisch, Spanisch und Chinesisch.</strong> Sie können Ihre Remailders ganz einfach in Ihrer Sprache verfolgen und sich problemlos an Ihre Zeitzonen anpassen."
       f2_description_example: "Dem englischen in2weeks@remailder.com entspricht:"
@@ -21,6 +22,7 @@ de:
       f3_description_1: "Sie haben mehrere E-Mail-Adressen? Sie brauchen Sie nur in Ihrem Remailderkonto miteinander zu verknüpfen, um alle unsere Dienstleistungen in all Ihren E-Mail-Konten zu nutzen."
       f3_description_2: "JLoggen Sie sich in Ihr Remailder-Konto (Konfiguration) ein und fügen Sie jede Ihrer Alias-Adressen (bis zu 10) hinzu."
       f4_header: Snooze Remailder
+      f4_video_yt_id: L1jjeY_tbg8
       f4_description_1: "Verwenden Sie die Schlummerfunktion (snooze) für Ihre Remailders, um Sie neu zu starten, sobald Sie es wünschen."
       f4_description_2: "Beispiel: Sie haben gerade eine Remailder für eine Aktion erhalten, die Sie in einem Tag wieder vorgelegt bekommen möchten: antworten Sie auf Ihren Remailder und fügen Sie dabei snooze1t@remailder.com hinzu!"
       f4_video: Wie schreibt man einen Remailder Snooze?
@@ -31,6 +33,7 @@ de:
       f6_header: "Hilfe bei der Eingabe Ihrer Remailder"
       f6_description_1: "Da wir die Eingabe Ihrer Remailder so weit wie möglich vereinfachen möchten, stellen wir Ihnen eine Liste der am häufigsten verwendeten Remailders zur Verfügung, damit sie bei Eingabe in Ihrer Anwendung (Google Mail, Outlook, ...) angezeigt werden! Sie erstellen damit Ihre Remailder noch schneller!"
       f6_video: Download der Liste!
+      f6_download_link: ""
       f7_header: "Ihre Remailders auf Ihren Kalendern (Plus)"
       f7_description_1: "Sie können alle Ihre Remailders ebenso auf unserer Website anzeigen lassen und verwalten, indem Sie einfach Ihren bevorzugten Kalender mit unserem System synchronisieren: Google-Kalender, Microsoft Outlook, Lotus, iCalendar, etc..."
       f8_header: "Tages-/Wochenzusammenfassung (Plus)"
@@ -40,6 +43,7 @@ de:
       f8_description_4: "klicken Sie auf die Taste „verfolgen“ auf jeder Erinnerungsmeldung, um sofort Ihren Bericht zu erhalten"
       f8_description_5: "Verfolgen Sie Ihre Remailder, wann immer Sie wollen!"
       f8_video: "Wie Sie Ihre Berichterstattung erhalten?"
+      f8_video_yt_id: L1jjeY_tbg8
       f9_header: "Erweiterte Konfigurationen (Plus)"
       f9_description_1: "Rufen Sie die erweiterten Konfigurationsoptionen auf, um Remailder an Ihre Bedürfnisse anzupassen:"
       f9_description_2: "Fügen Sie Ihr Firmenlogo hinzu"

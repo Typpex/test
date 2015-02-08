@@ -6,19 +6,16 @@ class ApplicationController < ActionController::Base
   before_filter :set_locale
 
   def set_locale
-    I18n.locale = params[:locale] || I18n.default_locale
-    change_locale_subdomain = false
-
-    # if session["locale"].to_sym != I18n.locale
-    #   change_locale_subdomain = true
-    #   session["locale"] = I18n.locale
-    # end
-    # if request.subdomain.blank? || change_locale_subdomain
-    #   redirect_to request.url.gsub( /:\/\//, "://#{ session["locale"] }." )
-    # end
+    I18n.locale = extract_locale_from_tld || I18n.default_locale
+    if session[:locale] != I18n.locale
+      RemailderCommercial::Application.reload_routes!
+      session[:locale] = I18n.locale
+    end
   end
 
-  def default_url_options(options = {})
-    { locale: I18n.locale }.merge options
+  private 
+  def extract_locale_from_tld
+    parsed_locale = request.host.split('.').first
+    I18n.available_locales.map(&:to_s).include?(parsed_locale) ? parsed_locale : nil
   end
 end

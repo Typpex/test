@@ -55,14 +55,16 @@ en:
   start_button: Start your 30-day Free Trial
   no_credit: "\"No Credit Card\""
   header_how_to: How to use
+  how_to_route: how-to-use
   header_features: Features
+  features_routes: features
   header_pricing: Pricing
   header_blog: Blog
   header_languages: Languages
-  header_english: English
-  header_french: French
-  header_german: German
-  header_spanish: Spanish
+  header_en: English
+  header_fr: French
+  header_de: German
+  header_es: Spanish
   header_login: Login
   desc_footer_1: Quickly set up and review all your reminders and tasks with no stress.
   desc_footer_2: Works on all devices and systems.

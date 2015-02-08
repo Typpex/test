@@ -67,17 +67,17 @@
                     %i.fa.fa-globe
                     =t(:header_languages)
                   %ul.dropdown-menu.languages
-                    %li.active
-                      %a{:href => "#"}
-                        =t(:header_english)
-                        %i.fa.fa-check
-                    %li
-                      %a{:href => "#"}=t(:header_spanish)
-                    %li
-                      %a{:href => root_path(locale: :fr)}=t(:header_french)
-                    %li
-                      %a{:href => "#"}=t(:header_german)
+                    -APP_LOCALE_WEBSITE_DEV.each do |language, website|
+                      -if session[:locale].to_sym == language
+                        %li.active
+                          %a{:href => "#{website}#{request.env['REQUEST_PATH']}"}
+                            =t("header_#{language}".to_sym)
+                            %i.fa.fa-check
+                      -else
+                        %li
+                          =link_to t("header_#{language}".to_sym), "#{website}#{request.env['REQUEST_PATH']}"
                 / End Languages !
             / /navbar-collapse
         / End Navbar
       / === End Header ===
+    =render "modal_login"

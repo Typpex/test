@@ -55,14 +55,16 @@ fr:
   start_button: Essayez - C'est Gratuit!
   no_credit: "\"Pas de carte de crédit\""
   header_how_to: Mode d'emploi 
+  how_to_route: "mode-d-emploi"
   header_features: Fonctionnalités
+  features_routes: fonctionnalites
   header_pricing: Tarifs
   header_blog: Blog
   header_languages: Langues
-  header_english: Anglais
-  header_french: Français
-  header_german: Allemand
-  header_spanish: Espagnol
+  header_en: Anglais
+  header_fr: Français
+  header_de: Allemand
+  header_es: Espagnol
   header_login: Connexion
   desc_footer_1: Vous n'oublierez plus de répondre à vos emails et obtiendrez plus facilement des réponses à vos emails.
   desc_footer_2: Fonctionne sur tous vos appareils et avec tous les systèmes!

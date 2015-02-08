@@ -11,6 +11,7 @@ fr:
       f1_description_cc: envoie un Remailder aux destinataires présents en To et à vous même
       f1_description_bcc: envoie un Remailder uniquement à son créateur (invisible aux yeux des destinataires)
       f1_video: Comment faire votre 1er Remailder?
+      f1_video_yt_id: ywUM87bu22g
       f2_header: Site Multilingue - Respect des fuseaux horaires
       f2_description_html: "<strong>Remailder est disponible en 5 langues: Anglais, Français, Allemand, Espagnol et Chinois. </strong> Vous pouvez facilement suivre vos Remailders dans votre langue et vous adaptez sans contrainte à vos fuseaux horaires."
       f2_description_example: "En Anglais, in2weeks@remailder.com aura pour équivalent:"
@@ -24,6 +25,7 @@ fr:
       f4_description_1: "Utilisez la fonction Snooze sur vos Remailders afin de repousser votre Remailder au moment que vous souhaitez."
       f4_description_2: "Exemple: vous venez juste de recevoir un Remailder pour une action que vous souhaitez reporter dans un jour, ajoutez snooze1j@remailder.com en répondant à votre Remailder!"
       f4_video: Comment repousser un Remailder?
+      f4_video_yt_id: L1jjeY_tbg8
       f5_header: Remailders récurrents
       f5_description_html: "Ajouter le mot <strong>chaque</strong> dans votre Remailder pour le transformer en un rappel récurrent."
       f5_description_1_html: "Exemple: <strong>chaquemardi@remailder.com</strong> vous permettra de recevoir chaque mardi un Remailder."
@@ -31,6 +33,7 @@ fr:
       f6_header: "Assistance à la saisie de vos Remailders"
       f6_description_1: "Comme nous souhaitons au maximum simplifier la saisie de vos Remailders, nous vous fournissons une liste des Remailders les plus utilisés afin qu'ils apparaissent au moment de votre saisie dans votre application (gmail, outlook,…)! Vous composerez encore plus vite vos Remailders!"
       f6_video: Télécharger votre liste!
+      f6_download_link: ""
       f7_header: "Vos Remailders sur vos calendriers (Plus)"
       f7_description_1: "Vous pouvez voir et gérer tous vos Remailders, aussi bien sur notre site qu'en synchronisant votre calendrier préféré avec notre système: Google calendar, Microsoft Outlook, Lotus, iCalendar, etc..."
       f8_header: "Synthèse quotidienne/hebdomadaire (Plus)"
@@ -40,6 +43,7 @@ fr:
       f8_description_4: "cliquez sur le bouton \"suivi\" présent sur chaque rappel pour recevoir dans la minute votre suivi"
       f8_description_5: "Suivez vos Remailders quand vous le souhaitez!"
       f8_video: "Comment recevoir votre reporting?"
+      f8_video_yt_id: L1jjeY_tbg8
       f9_header: "Configurations avancées (Plus)"
       f9_description_1: "Accédez à des options de configurations avancées afin d'adapter Remailder à vos besoins :"
       f9_description_2: "ajoutez le logo de votre société,"

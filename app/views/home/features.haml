@@ -21,11 +21,12 @@
               %i.fa.fa-check.color-green
               %strong=t(".bcc")
               =t(".f1_description_bcc")
-          %a.btn-u.btn-u-dark-blue.one-page-btn
-            %i.fa.fa-play
-            =t(".f1_video")
+          .text-center
+            %a.btn-u.btn-u-dark-blue.one-page-btn{class: "fancybox fancybox.iframe", href: "http://www.youtube.com/embed/#{t('.f1_video_yt_id')}?enablejsapi=1&wmode=opaque" }
+              %i.fa.fa-play
+              =t(".f1_video")
         .col-md-6
-          %img.img-responsive.margin-bottom-10.feature-center{:alt => "", :src => "assets/img/features/remailder.png"}/
+          %img.img-responsive.margin-bottom-10.feature-center{:alt => "", :src => "assets/img/features/remailder.png", }/
   .one-page-inner.one-default
     .container.content
       .row
@@ -66,9 +67,10 @@
           %p=t(".f4_description_1")
           %p=t(".f4_description_2")
           %br/
-          %a.btn-u.btn-u-dark-blue.one-page-btn.text-center
-            %i.fa.fa-play
-            =t(".f4_video")
+          .text-center
+            %a.btn-u.btn-u-dark-blue.one-page-btn.text-center{ class: "fancybox fancybox.iframe", href: "http://www.youtube.com/embed/#{t('.f4_video_yt_id')}?enablejsapi=1&wmode=opaque" }
+              %i.fa.fa-play
+              =t(".f4_video")
   .one-page-inner.one-grey
     .container.content
       .row
@@ -89,9 +91,10 @@
           %h1=t(".f6_header")
           %p=t(".f6_description_1")
           %br/
-          %a.btn-u.btn-u-dark-blue.one-page-btn
-            %i.fa.fa-download
-            =t(".f6_video")
+          .text-center
+            %a.btn-u.btn-u-dark-blue.one-page-btn{href: t(".f6_download_link")}
+              %i.fa.fa-download
+              =t(".f6_video")
   .one-page-inner.one-grey
     .container.content
       .row
@@ -121,9 +124,10 @@
               =t(".f8_description_4")
           %p=t(".f8_description_5")
           %br/
-          %a.btn-u.btn-u-dark-blue.one-page-btn
-            %i.fa.fa-play
-            =t(".f8_video")
+          .text-center
+            %a.btn-u.btn-u-dark-blue.one-page-btn{ {class: "fancybox fancybox.iframe", href: "http://www.youtube.com/embed/#{t('.f8_video_yt_id')}?enablejsapi=1&wmode=opaque" } }
+              %i.fa.fa-play
+              =t(".f8_video")
   .one-page-inner.one-grey
     .container.content
       .row

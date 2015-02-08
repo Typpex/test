@@ -55,14 +55,16 @@ es:
   start_button: ¡Regístrate gratis!
   no_credit: "\"Sin tarjeta de crédito\""
   header_how_to: Modo de empleo
+  how_to_route: modo-de-empleo
   header_features: Características
+  features_routes: caracteristicas
   header_pricing: Tarifas
   header_blog: El Blog
   header_languages: Idiomas
-  header_english: Inglés
-  header_french: Francés
-  header_german: Alemán
-  header_spanish: Español
+  header_en: Inglés
+  header_fr: Francés
+  header_de: Alemán
+  header_es: Español
   header_login: Inicio de sesión
   desc_footer_1: Rápidamente configurar y revisar todos sus recordatorios y tareas sin estrés.
   desc_footer_2: Funciona en todos los dispositivos y sistemas operativos!
