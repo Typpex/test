@@ -1,0 +1,197 @@
+en: 
+  home:
+    howto: 
+      title_howto: "How To Use"
+      title_howtosetup: How to setup a remailder?
+      title_howtotime: Time formats
+      title_howtokey: Keywords
+      title_howtointuitive: Intuitive system
+      title_howtomake: Make a test
+    how_to_setup:
+      how_desc1_html: "To setup a Remailder, compose or reply to an email and include the @remailder.com address in the To, Cc or Bcc fields:"
+      how_desc2: To
+      how_desc3_html: will send a Public Remailder to everyone on the email
+      how_desc4: "Example: you just received an email that won't need an answer until 1 week. Forward it to:"
+      how_desc5: "in1week@remailder.com"
+      how_desc6: " and keep your inbox clean."
+      how_desc7: "Example: you need to make sure an important email will be answered in the next 4 hours. Add in the"
+      how_desc8: To field
+      how_desc9: in4hours@remailder.com
+      how_desc10: so you and the receiver will be reminded on time.
+      how_desc11: CC
+      how_desc12: will send a Remailder only to receivers in the To field and to you
+      how_desc13: "Example: You are sending an important email to multiple receivers but only 1 of them need to answer you the same day before 3pm. This receiver is in the To field and add in the"
+      how_desc14: Cc field
+      how_desc15: of your email
+      how_desc16: at3pm@remailder.com.
+      how_desc17: BCC
+      how_desc18: will send a Private Remailder only to the sender (hiding it to all receivers)
+      how_desc19: "Example: you are sending an offer to your customer and you want to follow up with him in 2 months. Add in the"
+      how_desc20: Bcc field
+      how_desc21: of your email offer
+      how_desc22: in2months@remailder.com
+      how_desc23: so you can follow up later on.
+      how_desc24: "Example: you are sending a request to your colleagues and want to check the status with him 3 days later. Add in the"
+      how_desc25: Bcc field
+      how_desc26: of your request
+      how_desc27: in3days@remailder.com
+      how_desc28: so you don’t forget it.
+    intuitive_system:
+      intuitive_desc1: "Don't worry if you send a Remailder with wrong settings. We will send you a confirmation email and help you fix it until you really get used to it and become a Remailder pro!"
+      intuitive_desc2: Trust your intuition!
+    time_formats:
+      time_desc1: "To specify when your Remailder will be sent add any time information you can think of:"    
+      time_desc2: "Example:"
+      time_desc3: "in2days@remailder.com"
+      time_desc4: ", will send a Remailder in 2 days"
+      time_desc5: "Our intuitive system will recognize any time information you will use to setup a Remailder. Feel free to try the following:"
+      what_is_rem_carousel_1_html: "To: in2days@remailder.com<span>Sends a remailder in 2 days</span>"
+      what_is_rem_carousel_2_html: "To: everymonday@remailder.com<span>Sends a Remailder every Monday</span>"
+      what_is_rem_carousel_3_html: "To: tomorrow@remailder.com<span>Sends a Remailder tomorrow</span>"
+      what_is_rem_carousel_4_html: "To: 08-15-2014@remailder.com<span>Sends a Remailder on 15th August</span>"
+      what_is_rem_carousel_5_html: "To: at4pm@remailder.com<span>Sends a Remailder at 4pm</span>"
+      what_is_rem_carousel_6_html: "To: tuesday@remailder.com<span>Sends a Remailder next tuesday</span>"
+      time_desc6: "You can also easily combine different time information together:"
+      time_desc7: "Example:"
+      time_desc8: 1Julyat1pm@remailder.com
+      time_desc9: ", will send a Remailder on 1st of July at 1pm."
+      time_desc10: "Example:"
+      time_desc11: "mondayat1pm@remailder.com"
+      time_desc12: ", will send a Remailder the following Monday at 1pm."
+      time_desc13: "Remailder recognizes time zones from your email headers:"
+      time_desc14: "If you setup a Remailder for 1 PM, you will be reminded as per your own time zone. This means you wont have to specify if you are +5 GMT (for PST) as far as your email has the right country set in it."
+    keywords:
+      key_desc1_html: <strong>We created the following specific terms for you to set up Remailders easily</strong>
+      key_desc2: In
+      key_desc3: "in2days@remailder.com, will send a Remailder 2 days later"
+      key_desc4: "in3hours@remailder.com, will send a Remailder 3 hours later"
+      key_desc5: Next
+      key_desc6: "nextTue@remailder.com, will send a Remailder the following Tuesday."
+      key_desc7: "nextMonth@remailder.com, will send a Remailder at the first day of the following month"
+      key_desc8: "Tip: Your instruction will be understood even if you forget to add this term!"
+      key_desc9: At
+      key_desc10: "at13.45@remailder.com, will send a Remailder at 13.45pm"
+      key_desc11: "at10am@remailder.com, will send a Remailder at 10am"
+      key_desc12: "Tip: Your instruction will be understood even if you forget to add this term!"
+      key_desc13: Every
+      key_desc14: Add Every in front of a Remailder to make it recurring.
+      key_desc15: "Example: everytuesday@remailder.com will send you a Remailder every Tuesday."
+      key_desc16: Note that a Remailder can be deleted at any time by forwarding the original email to delete@remailder.com
+      key_desc17: You can also use specific terms such as tomorrow, noon, daily…
+      key_desc18: Click here to see the
+      key_desc19: complete listing
+      key_desc20: Complete Listing
+      list_1: Specific Terms
+      list_2: Time interval
+      list_3: Period
+      list_4: in
+      list_5: week
+      list_6: week
+      list_7: "w - wk"
+      list_8: at
+      list_9: pm
+      list_10: every
+      list_11: hour
+      list_12: Remember you can use two shortcuts in the same query!
+      list_13_1: "Ex: in2daysat2pm@remailder.com"
+      list_13: Periods
+      list_14: Classic
+      list_15: Shortcut
+      list_16: minute
+      list_17: min
+      list_18: hour
+      list_19: h
+      list_20: day
+      list_21: d
+      list_22: week
+      list_23: "w - wk"
+      list_24: month
+      list_25: m
+      list_26: year
+      list_27: y
+      list_28: Monday
+      list_29: mon
+      list_30: Tuesday
+      list_31: tue
+      list_32: Sunday
+      list_33: sun
+      list_34: January
+      list_35: jan
+      list_36: February
+      list_37: feb
+      list_38: December
+      list_39: dec
+      list_40: Date Format
+      list_41: "Month First*"
+      list_42: "Day First*"
+      list_43: MM-DD-YYYY
+      list_44: DD-MM-YYYY
+      list_45: MMDD-YYYY
+      list_46: DDMM-YYYY
+      list_47: MM-DDYYYY
+      list_48: DD-MMYYYY
+      list_49: MMDDYYYY
+      list_50: DDMMYYYY
+      list_51: MM-DD
+      list_52: DD-MM
+      list_53: MMDD
+      list_54: DDMM
+      list_55: "*"
+      list_56: Configure on your settings this date format as your convenience.
+      list_57: Shorcut
+      list_58: "tomorrow - tmw"
+      list_59: "bod (beginning of the day)"
+      list_60: "eod (end of the day)"
+      list_61: "hourly, daily, monthly, yearly"
+      list_62: Time Format
+      list_63: Noon
+      list_64: Midnight
+      list_65: Functions
+      list_66: "delete - cancel"
+      list_67: snooze
+      list_68: "pending - history"
+      list_69: contact
+      list_70: invite
+    faq: 
+      title_faq: Frequently Asked Questions
+      title_question:  General Questions
+      faq_q1: What is Remailder?
+      faq_q2: Remailder is an easy email reminder services,which allow you to track any time all your email and achieve zero inbox! Please follow this link to discover all our features.
+      faq_q3: Is registering with Remailder open and free?
+      faq_q4: Registering with Remailder is completely open and free. To register, click here. If you want to use some specific and unlimited Remailder services, you will have the possibility to subscribe to our Plus and Pro packages.
+      faq_q5: How do I contact Remailder?
+      faq_q6: To contact the Remailder team, please send an email to contact@remailder.com. Before you do this, check if the answer to your question has not been previously addressed on this FAQ section or on our page how to use.
+      faq_q7: Do I need to install anything?
+      faq_q8: Remailder does not require any installations. 
+      faq_q9: Will my details be visible?
+      faq_q10: Remailder is a closed, anonymous platform. This means that at no time will the details our client be communicated or broadcast to the other party.
+      faq_q11: How do I de-register from Remailder?
+      faq_q12: To suspend or remove your Remailder account, you only need to use the link ‘Unsubscribe’ in your settings.
+      faq_q13: Your acceptance of these terms
+      faq_q14: By using this Site, you signify your acceptance of this policy. If you do not agree to this policy, please do not use our Site. Your continued use of the Site following the posting of changes to this policy will be deemed your acceptance of those changes.
+      faq_q15: Do you have a Privacy Policy?
+      faq_q16: Yes, our Privacy Policy is available at privacy
+      faq_q17: Does Remailder affect my email inbox (Outlook, Gmail, Lotus,...)? Will anything change for me or my users?
+      faq_q18: Remailder does not impact the ranking or display of your email inbox.  Our application does not change anything in the inbox itself.
+      faq_q19: What data does Remailder store?
+      faq_q20: Remailder only stores the email messages you specifically ask us to route for you. By default, these messages are deleted automatically after one year.
+      faq_q21: Is my email password safe?
+      faq_q22: All passwords or tokens that we store are encrypted and stored behind both physical and software security. We do our best to keep this and all of your information extremely safe.       
+      faq_q23: I have lost my login details
+      faq_q24: If you cannot find your Remailder login details, you can ask to receive them by clicking here. Make sure you check your spam folder.
+      faq_q25: I have not received the confirmation email after my subscritpion
+      faq_q26: After the initial registration stage (email and password), you should receive an email containing a confirmation link. By clicking on this link you activate your account and you can start to follow the process. If you have not received this email, check your spam folder, or click here to receive the message again.
+      faq_q27: I can't seem to register myself or identify myself on Remailder
+      faq_q28: Please check that your browser accepts cookies and that your firewall isn’t preventing you from sending information.
+      faq_q29: Is there a limit to the referral program of Remailder?
+      faq_q30: There is no limit to the use of the referral program. For each referree, you have the opportunity to get some free remailder and for 10 referrees you will get 1 month free of our Pro package.
+      faq_q31: Will I be charged for SMS notifications?
+      faq_q32: While Remailder does not charge separately for SMS notifications, standard message and data rates apply.
+      faq_q33: Contacts
+    premium: 
+      title_premium: Premium Reseller
+      premium1: If you trust in Remailder services, you can join our Reseller Network!
+      
+      
+      
+      

@@ -1,57 +1,51 @@
 / Time formats
 #time-formats.tab-pane.fade
-  %h4 To specify when your Remailder will be sent add any time information you can think of:
+  %h4=t(".time_desc1")
   %p
     %em
-      Example: i
-      %strong> n2days@remailder.com
-      , will send a Remailder in 2 days
-  %p Our intuitive system will recognize any time information you will use to setup a Remailder. Feel free to try the following:
+      =t(".time_desc2")
+      %strong=t(".time_desc3")
+      =t(".time_desc4")
+  %p=t(".time_desc5")
   .row
     .text-center
       #carousel-container
         #phone-carousel.carousel.slide
           .carousel-inner
             .item
-              To: in2days@remailder.com
-              %span Sends a Remailder in 2 days
+              =t(:what_is_rem_carousel_1_html)
             .item
-              To: everymonday@remailder.com
-              %span Sends a Remailder every Monday
+              =t(:what_is_rem_carousel_2_html)
             .item
-              To: tomorrow@remailder.com
-              %span Sends a Remailder tomorrow
-            .item
-              To: 08-15-2014@remailder.com
-              %span Sends a Remailder on 15th August
+              =t(:what_is_rem_carousel_3_html)
             .item.active
-              To: at4pm@remailder.com
-              %span Sends a Remailder at 4pm
+              =t(:what_is_rem_carousel_4_html)
             .item
-              To: tuesday@remailder.com
-              %span Sends a Remailder next tuesday
+              =t(:what_is_rem_carousel_5_html)
+            .item
+              =t(:what_is_rem_carousel_6_html)
       =image_tag "img/iphone-home.png"
       %br
       %br
   .row
     .col-md-12
-      %h4 You can also easily combine different time information together:
+      %h4=t(".time_desc6")
       %p
         %em
-          Example:
-          %strong 1Julyat1pm@remailder.com
-          , will send a Remailder on 1st of July at 1pm.
+          =t(".time_desc7")
+          %strong=t(".time_desc8")
+          =t(".time_desc9")
       %p
         %em
-          Example:
-          %strong mondayat1pm@remailder.com
-          , will send a Remailder the following Monday at 1pm.
+          =t(".time_desc10")
+          %strong=t(".time_desc11")
+          =t(".time_desc12")
       %p
         %br/
   .row
     .col-md-9
-      %h4 Remailder recognizes time zones from your email headers:
-      %p If you setup a Remailder for 1 PM, you will be reminded as per your own time zone. This means you wont have to specify if you are +5 GMT (for PST) as far as your email has the right country set in it.
+      %h4=t(".time_desc13")
+      %p=t(".time_desc14")
     =image_tag "img/howto/clock.png", style: "width: 10%;"
 =content_for :specific_javascript do 
   :javascript

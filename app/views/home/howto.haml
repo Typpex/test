@@ -1,5 +1,5 @@
 =content_for :title do
-  How To
+  =t(".title_howto")
 
 .container.content
   .row
@@ -9,23 +9,23 @@
           %li.active
             %a{"data-toggle" => "tab", :href => "#how-to-use"}
               %i.fa.fa-home
-              How to setup a remailder?
+              =t(".title_howtosetup")
           %li
             %a{"data-toggle" => "tab", :href => "#time-formats"}
               %i.fa.fa-cloud
-              Time formats
+              =t(".title_howtotime")
           %li
             %a{"data-toggle" => "tab", :href => "#keywords"}
               %i.fa.fa-comments
-              Keywords
+              =t(".title_howtokey")
           %li
             %a{"data-toggle" => "tab", :href => "#intuitive-system"}
               %i.fa.fa-gear
-              Intuitive system
+              =t(".title_howtointuitive")
           %li
             %a{"data-toggle" => "tab", :href => "#make-a-test"}
               %i.fa.fa-gear
-              Make a test
+              =t(".title_howtomake")
       .col-sm-9
         .tab-content
           =render "time_formats"
