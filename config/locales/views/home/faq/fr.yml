@@ -1,0 +1,39 @@
+fr:
+  home:
+    faq:
+      title: Foire aux Questions
+      title_faq: Questions fréquemment posées
+      title_question: La réponse à votre question est probablement ci-dessous.
+      faq_q1: Qu'est-ce que Remailder?
+      faq_q2: Remailder est un service de suivi et de rappel par email. Ce système vous permet de vous rappeler ou de rappeler à vos interlocuteurs les actions importantes à réaliser, tout en réduisant le nombre d'email dans votre boite de réception! Merci de suivre ce lien pour découvrir toutes nos fonctionnalités.
+      faq_q3: L'inscription à Remailder est-elle gratuite?
+      faq_q4: L'inscription à Remailder est complètement libre et gratuite. Pour vous inscrire, cliquez ici. Si vous souhaitez utiliser Remailder de façon illimitée en incluant des fonctionnalités avancées, vous avez la possibilité de souscrire à nos forfaits Plus et Pro.
+      faq_q5: Comment puis-je contacter l'équipe Remailder?
+      faq_q6: Pour contacter notre équipe, il vous suffit d'envoyer un email à contact@remailder.com. N'oubliez pas que vous avez peut être une réponse à votre question dans nos FAQ ou sur notre page mode d'emploi.
+      faq_q7: Est-ce que j'ai besoin d'installer quelque chose pour utiliser Remailder?
+      faq_q8: Remailder ne requiert aucune installation pour fonctionner. 
+      faq_q9: Les informations que je communique à Remailder sont-elles protégées?
+      faq_q10: Remailder est une plate-forme fermée et sécurisée. A aucun moment, les informations de nos clients ne seront communiquées ou diffusées à des tiers.
+      faq_q11: Comment puis-je résilier mon inscription à Remailder?
+      faq_q12: Pour suspendre ou résilier votre compte Remailder, vous disposez d'un lien dans les options de configuration de votre compte.
+      faq_q13: En utilisant ce service, est-ce que j'accepte les conditions d'utilisation de Remailder?
+      faq_q14: En utilisant Remailder, vous nous avez confirmé accepter les conditions d'utilisation de notre service. Si vous n'êtes pas en accord avec ces conditions d'utilisation, merci de ne pas utiliser Remailder.
+      faq_q15: Remailder dispose-t-il de règles de confidentialité?
+      faq_q16: Oui, nos règles se trouvent sur la page confidentialité.
+      faq_q17: Est-ce que Remailder à un lien avec mes comptes email (Outlook, Gmail, Lotus,...)? Y a-il des effets sur mes comptes email?
+      faq_q18: Remailder n'affecte absolument pas votre boîte de réception, ni son organisation.
+      faq_q19: Est-ce que des données sont stockées sur Remailder?
+      faq_q20: Remailder conserve uniquement les emails que vous nous avez spécifiquement demandé de vous rappeler. Par défaut, ces messages sont automatiquement supprimés un an après l'exécution de votre rappel.
+      faq_q21: Est-ce que la sécurité de mon mot de passe est assurée?
+      faq_q22: Tous les mots de passe ou toutes les informations que nous stockons sont cryptés et sécurisés. Nous faisons le maximum pour protéger et assurer la sécurisation de vos éléments.   
+      faq_q23: J'ai perdu mes accès à Remailder, que faire?
+      faq_q24: Si vous avez perdu votre mot de passe pour vous connecter à Remailder, nous pouvons vous permettre de modifier celui-ci en cliquant ici.
+      faq_q25: Je n'ai pas reçu d'email de confirmation à la suite de mon inscription 
+      faq_q26: Merci de vérifier que l'email de confirmation ne se trouve pas dans les éléments indésirables de votre boîte de réception. Si ce n'était pas le cas, nous pouvons vous renvoyer cet email en cliquant ici.
+      faq_q27: Je n'arrive pas à m'inscrire ou à m'identifier sur Remailder
+      faq_q28: Merci de vérifier que votre navigateur accepte bien les cookies et que votre pare-feu ne bloque pas la transmission d'information.
+      faq_q29: Y a t-il une limite au programme d'affiliation de Remailder?
+      faq_q30: Il n'y a aucune limite à l'utilisation de notre programme d'affiliation. Pour chaque nouvel affilié, vous aurez l'opportunité d'obtenir des Remailders gratuits et pour un total de 10 nouveaux affiliés, vous pourrez obtenir un mois d'abonnement offert à notre forfait Pro.
+      faq_q31: Est-ce que la notification SMS est payante?
+      faq_q32: Remailder ne chargera aucun frais en sus des frais liés à votre opérateur de téléphonie pour la notification par SMS.
+      faq_q33: Contact
