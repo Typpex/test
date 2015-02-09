@@ -11,3 +11,10 @@ APP_LOCALE_WEBSITE_DEV = {
   fr: "http://fr.remailderdev.com:4000",
   en: "http://en.remailderdev.com:4000"
 }
+
+APP_LOCALE_WEBSITE_STAGING = {
+  de: "http://de.dolphin-146390.apse1.nitrousbox.com",
+  es: "http://es.dolphin-146390.apse1.nitrousbox.com",
+  fr: "http://fr.dolphin-146390.apse1.nitrousbox.com",
+  en: "http://en.dolphin-146390.apse1.nitrousbox.com"
+}
