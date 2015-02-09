@@ -7,3 +7,181 @@ de:
       title_howtokey: Spezielle Begriffe
       title_howtointuitive: Intuitives System
       title_howtomake: Machen Sie einen Test
+    how_to_setup:
+      how_desc1_html: "Um einen Remailder zu konfigurieren, fügen Sie in den Feldern An, Cc oder Bcc Ihrer E-Mail eine \"Zeitangabe\" ein, die von @remailder.com überwacht wird:"
+      how_desc2: An
+      how_desc3_html: um einen Remailder an sich selbst und an alle Ihre Kontakte zu senden.
+      how_desc4: "Beispiel: Sie bekommen eine E-Mail, die Sie frühestens in 1 Woche beantworten müssen. Leiten Sie sie weiter und tragen Sie in das Feld"
+      how_desc5: "\"An\" in1woche@remailder.com"
+      how_desc6: ", Dann brauchen Sie diese E-Mail nicht mehr in Ihrem E-Mail-Posteingang zu behalten!"
+      how_desc7: "Beispiel: Sie benötigen unbedingt innerhalb von 4 Stunden eine Antwort auf eine E-Mail. Tragen Sie in das Feld"
+      how_desc8: An
+      how_desc9: in4h@remailder.com 
+      how_desc10: ein. Sie und Ihr Empfänger werden zu diesem Zeitpunkt erinnert werden.
+      how_desc11: CC
+      how_desc12: um einen Remailder an sich selbst und an die Empfänger in Feld „An“ zu senden
+      how_desc13: "Beispiel: Sie möchten eine wichtige E-Mail an mehrere Personen senden, aber nur eine dieser Personen soll noch am selben Tag bis spätestens 15 Uhr antworten. Tragen Sie diese Person in das Feld"
+      how_desc14: "An ein und fügen Sie in Cc:"
+      how_desc15: "Ihrer E-Mail um15h@remailder.com" 
+      how_desc16: und die anderen Empfänger hinzu. Um 15 Uhr erhalten Sie und Ihr Partner einen Remailder, andere Empfänger erhalten keine Erinnerungsmeldung.
+      how_desc17: BCC
+      how_desc18: um einen Remailder nur an sich selbst senden (ohne andere Empfänger zu benachrichtigen)
+      how_desc19: "Beispiel: Sie möchten ein Angebot an einen Kunden senden, und Sie möchten es ihm in 2 Monaten erneut unterbreiten. Tragen Sie in das Feld"
+      how_desc20: Bcc
+      how_desc21: "Ihrer E-Mail"
+      how_desc22: in2monaten@remailder.com
+      how_desc23: "ein, und Sie erhalten eine Erinnerungsmeldung genau zu dem Zeitpunkt, zu dem Sie Ihren Kunden wieder ansprechen möchten. Mit einem Klick können Sie Ihren Kunden erneut kontaktieren. Sie brauchen nicht mehr in Ihrem Archiv nach der Quell-E-Mail zu suchen!"
+      how_desc24: "Beispiel: Ihr Kollege reagiert selten auf E-Mails und Sie wollen nicht, dass er weiß, dass Sie ganz leicht in der Lage sind, ihn nochmals anzusprechen. Fügen Sie in das Feld"
+      how_desc25: Bcc
+      how_desc26: "Bcc Ihrer E-Mail" 
+      how_desc27: in3t@remailder.com
+      how_desc28: "ein, und Sie erhalten in drei Tagen eine diskrete Erinnerungsmeldung, ohne dass er von Ihrem Wiedervorlagesystem erfährt."
+    intuitive_system:
+      intuitive_desc1: "Sollten Sie jemals einen Remailder mit unbrauchbaren Anweisungen schicken, erhalten Sie eine E-Mail, die Ihnen bei der Eingabe Ihres Remailders helfen wird!"
+      intuitive_desc2: Vertrauen Sie Ihrer Intuition!
+    time_formats:
+      time_desc1: "Um einen Remailder zu aktivieren, geben Sie die Zeitangabe vor @ Remailder.com ein."    
+      time_desc2: "Beispiel"
+      time_desc3: "in2tagen@remailder.com"
+      time_desc4: ", der Remailder wird in 2 Tagen gesendet werden."
+      time_desc5: "Die Zeitangaben, die Sie eingeben, sind instinktiv. Remailder ist der Lage, eine große Anzahl von möglichen Kombinationen (Minute, Stunde, Tag, Woche, Monat, Datum, Abkürzungen) zu erkennen. Sie können ganz beruhigt sein!"
+      what_is_rem_carousel_1_html: "An: in2tagen<span>Sendet einen Remailder in 2 Tagen</span>"
+      what_is_rem_carousel_2_html: "An: jedenmontag@remailder.com<span>Sendet einen Remailder jeden Montag</span>"
+      what_is_rem_carousel_3_html: "An: nachstentag@remailder.com<span>Sendet einen Remailder am nächsten Tag</span>"
+      what_is_rem_carousel_4_html: "An: 08-15-2015@remailder.com<span>Sendet einen Remailder am 15. August</span>"
+      what_is_rem_carousel_5_html: "An: um16uhr@remailder.com<span>Sendet einen Remailder um 16 Uhr</span>"
+      what_is_rem_carousel_6_html: "An: dienstag@remailder.com<span>Sendet Remailder nächsten Dienstag/span>"
+      time_desc6: "Sie können ganz einfach mehrere Zeitangaben miteinander kombinieren."
+      time_desc7: "Beispiel:"
+      time_desc8: montagum9h@remailder.com 
+      time_desc9: ", ein Remailder wird am nächsten Montag um 9 Uhr gesendet."
+      time_desc10: "Beispiel:"
+      time_desc11: "2junium13h@remailder.com "
+      time_desc12: ", ein Remailder wird am 2. Juni um 13 Uhr gesendet."
+      time_desc13: "Remailder erkennt auch die Zeitzonen!"
+      time_desc14: "Wenn Sie einen Remailder für 13 Uhr geplant haben, wird Ihre Erinnerungsmeldung Ihre Zeitzone berücksichtigen. Das heißt, Sie brauchen nicht Ihre Uhrzeit nach GMT anzugeben, weil Remailder die GMT-Zeit, zu der Sie Ihre E-Mail schicken, automatisch erkennt."
+    keywords:
+      key_desc1_html: <strong>Wir haben Schlüsselwörter definiert, damit Sie problemlos Ihre Remailders konfigurieren können.</strong>
+      key_desc2: In
+      key_desc3: "in2tagen@remailder.com schickt einen Remailder 2 Tage später"
+      key_desc4: "in3stunden@remailder.com schickt einen Remailder 3 Stunden später"
+      key_desc5: Nächste(r), folgende(r)
+      key_desc6: "nächstendienstag@remailder.com (alternativ, falls Ihr System keine Umlaute erkennt: naechstendienstag@remailder.com) schickt einen Remailder am nächsten Dienstag."
+      key_desc7: "folgendermonat@remailder.com sendet einen Remailder am ersten Tag des folgenden Monats"
+      key_desc8: "Tip: Your instruction will be understood even if you forget to add this term!"
+      key_desc9: Um
+      key_desc10: "um13h45@remailder.com schickt einen Remailder um 13 Uhr 45"
+      key_desc11: "um10h@remailder.com schickt einen Remailder um 10 Uhr morgens"
+      key_desc12: "Tip: Your instruction will be understood even if you forget to add this term!"
+      key_desc13: Jeden, Alle
+      key_desc14: "Tragen Sie „jeden“ vor Ihre Zeitangabe ein, und Ihre Erinnerungsmeldungen erfolgen regelmäßig."
+      key_desc15: "Beispiel: jedendienstag@remailder.com schickt einen Remailder jeden Dienstag."
+      key_desc16: Beachten Sie, dass Sie einen Remailder beliebig löschen können, indem Sie Ihre ursprüngliche E-Mail an annule@remailder.com senden.
+      key_desc17: Sie können auch Schlüsselwörter wie morgen, Mittag, Mitternacht verwenden...
+      key_desc18: Klicken Sie hier, um die vollständige 
+      key_desc19: liste anzusehen
+      key_desc20: Liste anzusehen
+      list_1: Specific Terms
+      list_2: Time interval
+      list_3: Period
+      list_4: in
+      list_5: week
+      list_6: week
+      list_7: "w - wk"
+      list_8: at
+      list_9: pm
+      list_10: every
+      list_11: hour
+      list_12: Remember you can use two shortcuts in the same query!
+      list_13_1: "Ex: in2daysat2pm@remailder.com"
+      list_13: Periods
+      list_14: Classic
+      list_15: Shortcut
+      list_16: minute
+      list_17: min
+      list_18: hour
+      list_19: h
+      list_20: day
+      list_21: d
+      list_22: week
+      list_23: "w - wk"
+      list_24: month
+      list_25: m
+      list_26: year
+      list_27: y
+      list_28: Monday
+      list_29: mon
+      list_30: Tuesday
+      list_31: tue
+      list_32: Sunday
+      list_33: sun
+      list_34: January
+      list_35: jan
+      list_36: February
+      list_37: feb
+      list_38: December
+      list_39: dec
+      list_40: Date Format
+      list_41: "Month First*"
+      list_42: "Day First*"
+      list_43: MM-DD-YYYY
+      list_44: DD-MM-YYYY
+      list_45: MMDD-YYYY
+      list_46: DDMM-YYYY
+      list_47: MM-DDYYYY
+      list_48: DD-MMYYYY
+      list_49: MMDDYYYY
+      list_50: DDMMYYYY
+      list_51: MM-DD
+      list_52: DD-MM
+      list_53: MMDD
+      list_54: DDMM
+      list_55: "*"
+      list_56: Configure on your settings this date format as your convenience.
+      list_57: Shorcut
+      list_58: "tomorrow - tmw"
+      list_59: "bod (beginning of the day)"
+      list_60: "eod (end of the day)"
+      list_61: "hourly, daily, monthly, yearly"
+      list_62: Time Format
+      list_63: Noon
+      list_64: Midnight
+      list_65: Functions
+      list_66: "delete - cancel"
+      list_67: snooze
+      list_68: "pending - history"
+      list_69: contact
+      list_70: invite
+    faq: 
+      title_faq: Häufig gestellte Fragen
+      title_question:  Die Antwort auf Ihre Frage steht wahrscheinlich unten.
+      faq_q1: Was ist Remailder? 
+      faq_q2: Remailder ist ein E-Mail-Wiedervorlage- und Erinnerungsservice. Mit diesem System können Sie sich oder Ihre Kontakte an wichtige Aktionen erinnern lassen und dabei zugleich die Anzahl der E-Mails in Ihrem Posteingang reduzieren! Folgen Sie bitte diesem Link, um alle unsere Funktionen zu sehen.
+      faq_q3: Ist die Registrierung bei Remailder kostenlos? 
+      faq_q4: Die Registrierung bei Remailder ist vollkommen kostenlos. Um sich zu registrieren, Klicken Sie hier. Wenn Sie Remailder einschließlich der erweiterten Funktionen unbegrenzt nutzen wollen, können Sie unsere Plus- und Pro-Pakete abonnieren.
+      faq_q5: Wie kontaktiere ich das Remailder-Team? 
+      faq_q6: Um unser Team zu kontaktieren, genügt es, eine E-Mail an contact@remailder.com zu schicken. Denken Sie daran, dass Sie möglicherweise eine Antwort auf Ihre Frage auf unserer FAQ-Seite oder unserer Seite Bedienungsanleitungfinden.
+      faq_q7: Muss ich etwas installieren, um Remailder zu nutzen? 
+      faq_q8: Remailder erfordert keine Installation, um zu funktionieren. 
+      faq_q9: Sind die Informationen, die ich an Remailder sende, geschützt? 
+      faq_q10: Remailder ist eine geschlossene und gesicherte Plattform. Informationen unserer Kunden werden niemals weitergegeben oder an Dritte verbreitet.
+      faq_q11: Wie kann ich mein Remailder-Abonnement kündigen?
+      faq_q12: Um Ihr Remailder-Konto zu deaktivieren oder zu kündigen, klicken Sie auf den entsprechenden Link in den Konfigurationsoptionen Ihres Kontos.
+      faq_q13: Ich durch die Verwendung dieses Dienstes die Nutzungsbedingungen von Remailder?
+      faq_q14: Durch die Nutzung von Remailder bestätigen Sie uns, dass Sie die Nutzungsbedingungen unseres Dienstes akzeptieren. Wenn Sie mit diesen Nutzungsbedingungen nicht einverstanden sind, nutzen Sie Remailder bitte nicht.
+      faq_q15: Hat Remailder Datenschutzrichtlinien?
+      faq_q16: Ja, unsere Richtlinien finden Sie auf Seite Datenschutz
+      faq_q17: Ist Remailder mit meinen E-Mail-Konten (Outlook, Gmail, Lotus, ...) verbunden? Hat dies Auswirkungen auf meine E-Mail-Konten?
+      faq_q18: Remailder beeinflusst in keiner Weise Ihren Posteingang oder dessen Organisation.
+      faq_q19: Werden die Daten bei Remailder gespeichert?
+      faq_q20: Remailder behält nur die E-Mails, bei denen Sie uns ausdrücklich darum gebeten haben, Sie daran erinnern. Standardmäßig werden diese Nachrichten automatisch ein Jahr nach Abschluss der Erinnerungsmeldung gelöscht.
+      faq_q21: Ist die Sicherheit meines Passworts gewährleistet
+      faq_q22: Alle Passwörter und alle Informationen, die wir speichern, sind verschlüsselt und gesichert. Wir tun unser Möglichstes, den Schutz und die Sicherheit Ihrer Daten zu gewährleisten.
+      faq_q23: Ich habe meine Remailder-Zugangsdaten vergessen, was soll ich tun? 
+      faq_q24: Wenn Sie Ihr Passwort vergessen haben, mit dem Sie sich bei Remailder anmelden, können wir Ihnen erlauben, es durch einen Klick hier zu ändern.
+      faq_q25: Ich habe nach meiner Registrierung keine Bestätigungs-E-Mail erhalten. 
+      faq_q26: Bitte überprüfen Sie, ob die E-Mail-Bestätigung sich nicht in Ihrem Spam-Ordner befindet. Wenn dies nicht der Fall ist, können Sie uns diese E-Mail senden, indem Sie hier klicken.
+      faq_q27: Ich schaffe es nicht, mich bei Remailder zu registrieren oder anzumelden. 
+      faq_q28: Überprüfen Sie bitte, ob Ihr Browser Cookies akzeptiert, und ob Ihre Firewall die Übertragung von Informationen blockiert.
+      faq_q29: Gibt es eine Grenze für das Affiliate-Programm von Remailder? 
+      faq_q30: Es gibt keine Begrenzung für die Nutzung unseres Affiliate-Programms. Für jeden neuen Affiliate haben Sie die Möglichkeit, kostenlose Remailders zu bekommen, und für insgesamt 10 neue Affiliates können Sie ein Monats-Abonnement für unser Pro-Paket gratis bekommen.

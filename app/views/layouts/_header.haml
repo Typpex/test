@@ -67,7 +67,7 @@
                     %i.fa.fa-globe
                     =t(:header_languages)
                   %ul.dropdown-menu.languages
-                    -APP_LOCALE_WEBSITE_DEV.each do |language, website|
+                    -APP_LOCALE_WEBSITE_STAGING.each do |language, website|
                       -if session[:locale].to_sym == language
                         %li.active
                           %a{:href => "#{website}#{request.env['REQUEST_PATH']}"}
