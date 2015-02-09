@@ -70,10 +70,13 @@ en:
   desc_footer_2: Works on all devices and systems.
   footer_useful: Useful Links
   footer_premium: Premium Reseller
+  premium_route: premium_reseller
   footer_team: Our Team
   footer_faq: FAQ
+  faq_route: FAQ
   footer_contact: Contact Us
   footer_email: "Email:"
   footer_privacy: Privacy Policy
   footer_terms: Terms of Service
+  terms_service_route: terms-of-service
   footer_rights: All Rights Reserved.

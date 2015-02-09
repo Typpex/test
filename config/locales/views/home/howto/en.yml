@@ -80,6 +80,7 @@ en:
       key_desc17: You can also use specific terms such as tomorrow, noon, daily…
       key_desc18: Click here to see the
       key_desc19: complete listing
+    keywords_modal:
       key_desc20: Complete Listing
       list_1: Specific Terms
       list_2: Time interval
@@ -191,7 +192,18 @@ en:
     premium: 
       title_premium: Premium Reseller
       premium1: If you trust in Remailder services, you can join our Reseller Network!
-      
-      
-      
-      
+      premium2: Contribute to develop Remailder community with us and catch a part of our revenue! The world is open we work already in English, French, Spanish, Chinese and German….
+      premium3: Subscribe to our reseller Network and after your 10 first sales, make money!
+      premium4: Sale a
+      premium5: Pro
+      premium6: Account and catch during 6 month until 30% of our revenue for this account.
+      premium7: Sale a
+      premium8: Plus
+      premium9: Account and catch during 3 month until 30% of our revenue for this account.
+      premium10: "Just on example, sale 100 Pro accounts and get:"
+      premium11: "100 (users)* 6 (month) * 3.99$* 30% ="
+      premium12: 720$
+      premium13: To help you to develop the community we give you some
+      premium14: marketing tools
+      premium15: "(Press kit, News and Buzz about Remailder, Statistics)."
+      premium16: Register

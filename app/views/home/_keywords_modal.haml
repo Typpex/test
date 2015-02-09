@@ -4,40 +4,40 @@
       .modal-header
         %button.close{"data-dismiss" => "modal", :type => "button"} x
         %h3
-          Complete Listing
+          =t(".key_desc20")
       .modal-body
         %table.table.manages
           %tbody
             %tr.manages-header
-              %td Specific Terms
-              %td Time interval
-              %td Period
+              %td=t(".list_1")
+              %td=t(".list_2")
+              %td=t(".list_3")
               %td @remailder.com
             %tr
-              %td in
+              %td=t(".list_4")
               %td 2
-              %td week
+              %td=t(".list_5")
               %td @remailder.com
             %tr
-              %td week
+              %td=t(".list_6")
               %td
-              %td w - wk
+              %td=t(".list_7")
               %td @remailder.com
             %tr
-              %td at
+              %td=t(".list_8")
               %td 9
-              %td pm
+              %td=t(".list_9")
               %td @remailder.com
             %tr
-              %td every
+              %td=t(".list_10")
               %td 3
-              %td hour
+              %td=t(".list_11")
               %td @remailder.com
         %p
           %b
-            Remember you can use two shortcuts in the same query!
+            =t(".list_12")
             %br/
-            Ex: in2daysat2pm@remailder.com
+            =t(".list_13_1")
         %table.table.shortcuts
           %tbody
             %tr
@@ -45,102 +45,102 @@
                 %table.table.manages
                   %tbody
                     %tr.manages-header
-                      %td{:colspan => "2", :width => "140px"} Periods
+                      %td{:colspan => "2", :width => "140px"} =t(".list_13")
                     %tr.manages-header
-                      %td Classic
-                      %td Shortcut
+                      %td=t(".list_14")
+                      %td=t(".list_15")
                     %tr
-                      %td minute
-                      %td min
+                      %td=t(".list_16")
+                      %td=t(".list_17")
                     %tr
-                      %td hour
-                      %td h
+                      %td=t(".list_18")
+                      %td=t(".list_19")
                     %tr
-                      %td day
-                      %td d
+                      %td=t(".list_20")
+                      %td=t(".list_21")
                     %tr
-                      %td week
-                      %td w - wk
+                      %td=t(".list_22")
+                      %td=t(".list_23")
                     %tr
-                      %td month
-                      %td m
+                      %td=t(".list_24")
+                      %td=t(".list_25")
                     %tr
-                      %td year
-                      %td y
+                      %td=t(".list_26")
+                      %td=t(".list_27")
                     %tr
-                      %td Monday
-                      %td mon
+                      %td=t(".list_28")
+                      %td=t(".list_29")
                     %tr
-                      %td Tuesday
-                      %td tue
-                    %tr
-                      %td ...
-                      %td ...
-                    %tr
-                      %td Sunday
-                      %td sun
-                    %tr
-                      %td January
-                      %td jan
-                    %tr
-                      %td February
-                      %td feb
+                      %td=t(".list_30")
+                      %td=t(".list_31")
                     %tr
                       %td ...
                       %td ...
                     %tr
-                      %td December
-                      %td dec
-              %td &#160;
+                      %td=t(".list_32")
+                      %td=t(".list_33")
+                    %tr
+                      %td=t(".list_34")
+                      %td=t(".list_35")
+                    %tr
+                      %td=t(".list_36")
+                      %td=t(".list_37")
+                    %tr
+                      %td ...
+                      %td ...
+                    %tr
+                      %td=t(".list_38")
+                      %td=t(".list_39")
+              %td  
               %td
                 %table.table.manages
                   %tbody
                     %tr.manages-header
-                      %td{:colspan => "2"} Date Format
+                      %td{:colspan => "2"}=t(".list_40")
                     %tr.manages-header
-                      %td Month First*
-                      %td Day First*
+                      %td=t(".list_41")
+                      %td=t(".list_42")
                     %tr
-                      %td MM-DD-YYYY
-                      %td DD-MM-YYYY
+                      %td=t(".list_43")
+                      %td=t(".list_44")
                     %tr
-                      %td MMDD-YYYY
-                      %td DDMM-YYYY
+                      %td=t(".list_45")
+                      %td=t(".list_46")
                     %tr
-                      %td MM-DDYYYY
-                      %td DD-MMYYYY
+                      %td=t(".list_47")
+                      %td=t(".list_48")
                     %tr
-                      %td MMDDYYYY
-                      %td DDMMYYYY
+                      %td=t(".list_49")
+                      %td=t(".list_50")
                     %tr
-                      %td MM-DD
-                      %td DD-MM
+                      %td=t(".list_51")
+                      %td=t(".list_52")
                     %tr
-                      %td MMDD
-                      %td DDMM
+                      %td=t(".list_53")
+                      %td=t(".list_54")
                 %p
-                  %sup *
-                  Configure on your settings this date format as your convenience.
+                  %sup=t(".list_55")
+                  =t(".list_56")
                   %br/
                   %br/
                 %table.table.manages
                   %tbody
                     %tr.manages-header
-                      %td Shorcut
+                      %td=t(".list_57")
                     %tr
-                      %td tomorrow - tmw
+                      %td=t(".list_58")
                     %tr
-                      %td bod (beginning of the day)
+                      %td=t(".list_59")
                     %tr
-                      %td eod (end of the day)
+                      %td=t(".list_60")
                     %tr
-                      %td hourly, daily, monthly, yearly
-              %td &#160;
+                      %td=t(".list_61")
+              %td  
               %td
                 %table.table.manages
                   %tbody
                     %tr.manages-header
-                      %td Time Format
+                      %td=t(".list_62")
                     %tr
                       %td 2230
                     %tr
@@ -154,21 +154,21 @@
                     %tr
                       %td 10pm
                     %tr
-                      %td Noon
+                      %td=t(".list_63")
                     %tr
-                      %td Midnight
+                      %td=t(".list_64")
                 %br/
                 %table.table.manages.functions
                   %tbody
                     %tr.manages-header
-                      %td{:width => "140px"} Functions
+                      %td{:width => "140px"}=t(".list_65")
                     %tr
-                      %td delete - cancel
+                      %td=t(".list_66")
                     %tr
-                      %td snooze
+                      %td=t(".list_67")
                     %tr
-                      %td pending - history
+                      %td=t(".list_68")
                     %tr
-                      %td contact
+                      %td=t(".list_69")
                     %tr
-                      %td invite
+                      %td=t(".list_70")

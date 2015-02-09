@@ -8,31 +8,31 @@ es:
       title_howtointuitive: Sistema intuitivo
       title_howtomake: Haga una prueba
     how_to_setup:
-      how_desc1_html: "Para configurar un Remailder, añada en los campos Para, Cc o Cco de su e-mails un \“comando de tiempo\” seguido de @remailder.com:"
+      how_desc1_html: "Para configurar un Remailder, añada en los campos Para, Cc o Cco de su e-mails un \"comando de tiempo\" seguido de @remailder.com:"
       how_desc2: Para
       how_desc3_html: "para enviar un Remailder a todos sus contactos y recibirlo también usted mismo:"
       how_desc4: "Ejemplo: recibe un e-mail el cual no necesita respuesta hasta dentro de 1 semana. Escriba en el campo"
       how_desc5: "Para: en1semana@remailder.com."
       how_desc6: "¡Sin necesidad de conservar este e-mail en su bandeja de entrada!"
       how_desc7: "jemplo: necesita recibir la respuesta a su e-mail en un plazo de cuatro horas. Escriba en el campo"
-      how_desc8: Para:
+      how_desc8: "Para:"
       how_desc9: en4h@remailder.com
       how_desc10: ", y usted y su destinatario recibirán el recordatorio a la hora indicada."
       how_desc11: Cc
-      how_desc12: para enviar un Remailder a los destinatarios indicados en el campo Para (y recibirlo también usted mismo):
+      how_desc12: "para enviar un Remailder a los destinatarios indicados en el campo Para (y recibirlo también usted mismo):"
       how_desc13: "Ejemplo: desea enviar un importante e-mail a varias personas, pero solo una de ellas tiene que responderle ese mismo día antes de las 15h. Incluya a esa persona en el campo Para:"
       how_desc14: y escriba en
-      how_desc15: Cc: alas15h@remailder.com
+      how_desc15: "Cc: alas15h@remailder.com"
       how_desc16: ", además de a los otros destinatarios. A las 15h, tanto usted como el destinatario indicado en el campo “Para:” recibirán un Remailder, los otros destinatarios no recibirán ningún recordatorio."
       how_desc17: Cco
-      how_desc18: para enviarse un Remailder únicamente a usted mismo (sin que los otros destinatarios lo sepan):
+      how_desc18: "para enviarse un Remailder únicamente a usted mismo (sin que los otros destinatarios lo sepan):"
       how_desc19: "Ejemplo: desea enviarle una oferta a un cliente y le gustaría volver a ponerse en contacto con él 2 meses después. Escriba en el campo"
-      how_desc20: Cco:
+      how_desc20: "Cco:"
       how_desc21: de su e-mail
       how_desc22: en2meses@remailder.com
       how_desc23: "y solo usted mismo recibirá un recordatorio el primer día del mes en que usted deseaba volver a contactar con su cliente. ¡No tendrá que buscar el e-mail original en su bandeja de entrada!"
       how_desc24: "Ejemplo: su compañero no suele responder a los e-mails y usted desea hacerle saber que necesita una respuesta. Escriba en el campo"
-      how_desc25: Cco:
+      how_desc25: "Cco:"
       how_desc26: de su e-mail \
       how_desc27: en3d@remailder.com
       how_desc28: y solo usted mismo recibirá un recordatorio en 3 días que le permitirá volver a insistir con total discreción.
@@ -40,7 +40,7 @@ es:
       intuitive_desc1: "¡En caso de que envíe un Remailder con un comando erróneo, recibirá un e-mail de ayuda para configurar correctamente su Remailder!"
       intuitive_desc2: ¡Confíe en su intuición!
     time_formats:
-      time_desc1: "Para activar un Remailder, es necesario indicar un comando de tiempo seguido de @remailder.com."    
+      time_desc1: "Para activar un Remailder, es necesario indicar un comando de tiempo seguido de @remailder.com."
       time_desc2: "Ejemplo:"
       time_desc3: "en2dias@remailder.com,"
       time_desc4: "el Remailder se enviará en 2 días."
@@ -59,9 +59,9 @@ es:
       time_desc11: "lunesalas9h@remailder.com"
       time_desc12: ", se enviará un Remailder el lunes siguiente a las 9:00h."
       time_desc13: "¡Remailder también reconoce las zonas horarias!"
-      time_desc14: "Si tiene configurado un Remailder a las 13:00h, su recordatorio tiene en cuenta su zona horaria. Esto significa que no es necesario que indique su zona horaria GMT, ya que Remailder detecta el horario GMT desde el cual ha enviado su e-mail.
+      time_desc14: "Si tiene configurado un Remailder a las 13:00h, su recordatorio tiene en cuenta su zona horaria. Esto significa que no es necesario que indique su zona horaria GMT, ya que Remailder detecta el horario GMT desde el cual ha enviado su e-mail."
     keywords:
-      key_desc1_html: <strong>WHemos configurado algunas palabras clave para ayudarle a realizar sus Remailders.</strong>
+      key_desc1_html: <strong>Hemos configurado algunas palabras clave para ayudarle a realizar sus Remailders.</strong>
       key_desc2: En
       key_desc3: "en2dias@remailder.com enviará un Remailder 2 días después"
       key_desc4: "en3horas@remailder.com enviará un Remailder 3 horas después"
@@ -77,9 +77,10 @@ es:
       key_desc14: Comience su Remailder con la palabra “cada” y sus recordatorios pasarán a ser recordatorios periódicos.
       key_desc15: "Ejemplo: cadamartes@remailder.com enviará un Remailder cada martes."
       key_desc16: Tenga en cuenta que un Remailder se puede eliminar cuando desee, solo tiene que enviar su email original a eliminar@remailder.com
-      key_desc17: Del mismo modo puede utilizar palabras clave como: mañana, mediodía, medianoche…
+      key_desc17: "Del mismo modo puede utilizar palabras clave como: mañana, mediodía, medianoche…"
       key_desc18: Haga clic aquí para ver la 
       key_desc19: lista complete
+    keywords_modal:
       key_desc20: Lista complete
       list_1: Términos específicos
       list_2: Tiempos
@@ -177,10 +178,10 @@ es:
       faq_q20: Remailder conserva exclusivamente los e-mails que usted nos ha solicitado específicamente que le recordemos. Por defecto, estos mensajes se eliminan un año después de ser enviados.
       faq_q21: ¿La seguridad de mi contraseña está garantizada? 
       faq_q22: Todas las contraseñas y los datos que almacenamos están encriptados y asegurados. Hacemos todo lo posible por proteger su información.     
-      faq_q23: "He perdido mi nombre de usuario\/\contraseña de Remailder, ¿qué puedo hacer? "
-      faq_q24: If you cannot find your Remailder login details, you can ask to receive them by clicking here. Make sure you check your spam folder.
+      faq_q23: "He perdido mi nombre de usuario / contraseña de Remailder, ¿qué puedo hacer?"
+      faq_q24: "If you cannot find your Remailder login details, you can ask to receive them by clicking here. Make sure you check your spam folder."
       faq_q25: No he recibido el e-mail de confirmación tras haber finalizado mi registro. 
-      faq_q26: Si ha perdido su nombre de usuario/contraseña para iniciar sesión en Remailder, podrá restablecerlo/a haciendo clic aquí.
+      faq_q26: Si ha perdido su nombre de usuario/contraseña para iniciar sesión en Remailder, podrá restablecerlo\/a haciendo clic aquí.
       faq_q27: No puedo registrarme o iniciar sesión en Remailder 
       faq_q28: Por favor, compruebe que su navegador acepta las cookies y que su cortafuegos no está bloqueando la transmisión de los datos.
       faq_q29: ¿Existe límite en el programa de afiliación de Remailder? 
@@ -188,10 +189,10 @@ es:
       faq_q31: ¿El servicio de notificaciones vía SMS es de pago? 
       faq_q32: Remailder no efectuará ningún cargo adicional en su tarifa por las notificaciones a través de SMS.
       faq_q33: Contacte
-    premium: 
+    premium:
       title_premium: Premium Reseller
       premium1: If you trust in Remailder services, you can join our Reseller Network!
-      premium2: Contribute to develop Remailder community with us and catch a part of our revenue! The world is open we work already in English, French, Spanish, Chinese and German….
+      premium2: "Contribute to develop Remailder community with us and catch a part of our revenue! The world is open we work already in English, French, Spanish, Chinese and German…."
       premium3: Subscribe to our reseller Network and after your 10 first sales, make money!
       premium4: Sale a
       premium5: Pro
