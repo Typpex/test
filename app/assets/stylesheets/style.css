@@ -193,7 +193,7 @@ a:hover {
 ------------------------------------*/
 .parallax-team {
 	background: url(img/team/faces.png) 50% 0 repeat fixed;	
-	padding: 40px 0px 40px 0px;
+	padding: 40px 0px 10px 0px;
 }
 
 .parallax-team,

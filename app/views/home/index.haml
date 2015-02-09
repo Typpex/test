@@ -6,17 +6,18 @@
       / SLIDE
       %li.revolution-mch-1{"data-masterspeed" => "1000", "data-slotamount" => "5", "data-title" => "Slide 2", "data-transition" => "fade"}
         / MAIN IMAGE
-        %img{:alt => "darkblurbg", "data-bgfit" => "cover", "data-bgposition" => "left top", "data-bgrepeat" => "no-repeat", :src => "assets/img/sliders/2.jpg"}/
+        %img{:alt => "darkblurbg", "data-bgfit" => "cover", "data-bgposition" => "left top", "data-bgrepeat" => "no-repeat", :src => "assets/img/sliders/2.1.jpg"}/
         .tp-caption.revolution-ch1.sft.start{"data-easing" => "Back.easeInOut", "data-endeasing" => "Power1.easeIn", "data-endspeed" => "300", "data-hoffset" => "0", "data-speed" => "1500", "data-start" => "500", "data-x" => "center", "data-y" => "100"}
           .slider-header
             =t(:main_slide_fast_mail_reminder)
         / LAYER
         .tp-caption.revolution-ch2.sft{"data-captionhidden" => "off", "data-easing" => "Power4.easeOut", "data-endeasing" => "Power1.easeIn", "data-endspeed" => "300", "data-hoffset" => "0", "data-speed" => "1400", "data-start" => "2000", "data-x" => "center", "data-y" => "190", :style => "z-index: 6"}
           .slider-text
-            %strong 
+            %strong.main-slide-to-task 
               =t(:main_slide_to_task)
             %br/
-            =t(:main_slide_subheader)
+            .main-slide-subheader
+              =t(:main_slide_subheader)
         / LAYER
         .tp-caption.sft{"data-captionhidden" => "off", "data-easing" => "Power4.easeOut", "data-endeasing" => "Power1.easeIn", "data-endspeed" => "300", "data-hoffset" => "0", "data-speed" => "1600", "data-start" => "2800", "data-x" => "center", "data-y" => "310", :style => "z-index: 6"}
           / Button play video
@@ -36,7 +37,7 @@
     .col-md-8.md-margin-bottom-40
       .headline
         %h2=t(:what_is_rem_title)
-      .row
+      .row.text-center
         .col-sm-10
           %br
           %p.p1{style: "font-size: 26px;"}=t(:what_is_rem_p1)
@@ -44,9 +45,9 @@
           
     / /col-md-8
     / Posts
-    .col-md-4.posts.phone-container
+    .col-md-4.posts.phone-container.text-center
       #carousel-container
-        #phone-carousel.carousel.slide
+        #phone-carousel.carousel.slide.text-left
           .carousel-inner
             .item
               =t(:what_is_rem_carousel_1_html)
@@ -60,7 +61,7 @@
               =t(:what_is_rem_carousel_5_html)
             .item
               =t(:what_is_rem_carousel_6_html)
-      %img{:src => "assets/img/iphone-home.png", :style => "max-width: 100%;"}/
+      %img.text-center{:src => "assets/img/iphone-home-main.png", :style => "max-width: 100%;"}/
   / /row
   / End Info Blokcs
 / End of content part 1 !
@@ -68,7 +69,8 @@
 .parallax-team.parallaxBg{:style => "background-position: 50% -47px;"}
   .container.content.small-container
     .title-box-v2
-      
+      %h2.white-color
+        =t(:services_title)
     .row
       / Team v2
       .col-md-3.col-sm-6.our-service
@@ -114,6 +116,8 @@
             %h3 
               .white
                 =t(:service_5)
+    %a.col-md-2.pull-right.text-right.font-size-20.remailder-color{href: features_path}
+      %strong=t(:learn_more)
       / End Team v2
 / End our services
 / How it will help you?

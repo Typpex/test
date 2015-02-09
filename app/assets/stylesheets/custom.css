@@ -27,7 +27,6 @@
   padding-bottom: 0px;
   font-size: 24px;
   color: black;
-  text-align: center;
   margin-bottom: -60px;
 }
 .what-is-it-container .headline{
@@ -90,9 +89,8 @@
 
 @media (max-width: 992px){
   #phone-carousel{
-    position: absolute;
     top: 112px;
-    left: 310px;
+    left: 42%;
     width: 31%;
     font-size: 12px;
   }
@@ -100,63 +98,55 @@
 
 @media (max-width: 706px){
   #phone-carousel{
-    position: absolute;
     top: 112px;
-    left: 280px;
+    left: 42%;
     width: 30%;
     font-size: 12px;
   }
 }
 @media (max-width: 622px) {
   #phone-carousel{
-    position: absolute;
     top: 112px;
-    left: 260px;
+    left: 40%;
     width: 35%;
     font-size: 12px;
   }  
 }
 @media (max-width: 583px){
   #phone-carousel{
-    position: absolute;
     top: 112px;
-    left: 130px;
     width: 40%;
     font-size: 12px;
   }
 }
 @media (max-width: 467px){
   #phone-carousel{
-    position: absolute;
     top: 112px;
-    left: 130px;
+    left: 40%;
     width: 50%;
     font-size: 12px;
   }
 }
 @media (max-width: 372px){
   #phone-carousel{
-    position: absolute;
     top: 112px;
-    left: 130px;
+    left: 34%;
     width: 60%;
     font-size: 12px;
   }
 }
 @media (max-width: 350px){
   #phone-carousel{
-    position: absolute;
     top: 105px;
-    left: 110px;
+    left: 35%;
     width: 60%;
     font-size: 12px;
   }
 }
 @media (max-width: 320px){
   #phone-carousel{
-    position: absolute;
     top: 95px;
-    left: 110px;
+    left: 35%;
     width: 60%;
     font-size: 12px;
   }
@@ -344,9 +334,9 @@
 #time-formats #phone-carousel{
   font-size: 12px;
   position: relative;
-  top: 155px;
-  left: 35%;
-  width: 30%;
+  top: 147px;
+  left: 41%;
+  width: 210px;
 }
 .tab-content h4{
   color: #be1716;
@@ -364,24 +354,21 @@
 @media (max-width: 866px){
   #time-formats #phone-carousel
   {
-    left: 33%;
-    width: 40%;
+    left: 36%;
   }
 }
 @media (max-width: 768px){
   #time-formats #phone-carousel
   {
     position: relative;
-    left: 37%;
-    width: 30%;
+    left: 40%;
   }
 }
 @media (max-width: 520px){
   #time-formats #phone-carousel
   {
     position: relative;
-    left: 31%;
-    width: 45%;
+    left: 35%;
   }
 }
 @media (max-width: 380px){
@@ -389,7 +376,6 @@
   {
     position: relative;
     left: 27%;
-    width: 55%;
   }
 }
 /*Legacy from remailder*/
@@ -429,6 +415,22 @@
 .premium h1{
   color: #be1716;
   font-weight: bold
+}
+.white-color{
+  color: white;
+}
+.remailder-color{
+  color: #be1716;
+}
+.font-size-20{
+  font-size: 20px;
+}
+
+.main-slide-to-task {
+  /*font-size: 25px;*/
+}
+.main-slide-subheader{
+  /*font-size: 22px;*/
 }
 
 

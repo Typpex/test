@@ -52,7 +52,22 @@ $ ->
 
   # Enable subscription modal
   sign_in_click = false
-  $(".btn-subscribe").fancybox
+  $(".btn-subscribe, .btn-trial").fancybox
+    width: 400
+    height: 352
+    beforeShow: ->
+      this.inner.empty()
+      this.inner.prepend($("#subscribe").html())
+    afterShow: ->
+      $(".reg-page .signin-link").on "click", (e)->
+        sign_in_click = true
+        $.fancybox.close()
+    afterClose: ->
+      if sign_in_click
+        $(".login-btn").click()
+        sign_in_click = false
+
+  $(".pricing .btn-group a").fancybox
     width: 400
     height: 352
     beforeShow: ->

@@ -1,5 +1,6 @@
 =content_for :title do
   =t(".title_pricing")
+=render "modal_subscription"
 .container.content
   .heading.heading-v1.margin-bottom-20
     %h2{style: "font-size: 30px;"}=t(".title_pricing")
@@ -98,10 +99,9 @@
             %i.fa.fa-times
             %span.hidden-md.hidden-lg=t(".sms")
         .btn-group.btn-group-justified
-          %button.btn-u.btn-block.dropdown-toggle{"data-toggle" => "dropdown", :type => "button"}
+          %a.btn-u.btn-block{ class: "fancybox.iframe", href: "#subscribe" }
             %i.fa.fa-shopping-cart
             =t(".sign_up")
-            %i.fa.fa-angle-down
     .col-md-2-5.col-sm-6.block
       .pricing
         .pricing-head
@@ -153,10 +153,9 @@
             %i.fa.fa-times
             %span.hidden-md.hidden-lg=t(".sms")
         .btn-group.btn-group-justified
-          %button.btn-u.btn-block.dropdown-toggle{"data-toggle" => "dropdown", :type => "button"}
+          %a.btn-u.btn-block{ class: "fancybox.iframe", href: "#subscribe" }
             %i.fa.fa-shopping-cart
             =t(".sign_up")
-            %i.fa.fa-angle-down
     .col-md-2-5.col-sm-6.block
       .pricing
         .pricing-head
@@ -208,10 +207,9 @@
             %i.fa.fa-check
             %span.hidden-md.hidden-lg=t(".sms")
         .btn-group.btn-group-justified
-          %button.btn-u.btn-block.dropdown-toggle{"data-toggle" => "dropdown", :type => "button"}
+          %a.btn-u.btn-block{ class: "fancybox.iframe" }
             %i.fa.fa-shopping-cart
             =t(".sign_up")
-            %i.fa.fa-angle-down
 
 .one-page
   .one-page-inner.one-grey
@@ -230,5 +228,5 @@
               %li
                 %i.fa.fa-check.color-green
                 =t(".referral_5")
-        .col-md-3
+        .col-md-6.text-center
           =image_tag "img/pricing/img11.jpg"

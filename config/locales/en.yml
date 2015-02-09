@@ -34,11 +34,13 @@ en:
   what_is_rem_carousel_4_html: "To: 08-15-2014@remailder.com<span>Sends a Remailder on 15th August</span>"
   what_is_rem_carousel_5_html: "To: at4pm@remailder.com<span>Sends a Remailder at 4pm</span>"
   what_is_rem_carousel_6_html: "To: tuesday@remailder.com<span>Sends a Remailder next tuesday</span>"
+  services_title: What we provide
   service_1: Email Reminders
   service_2: Todo List
   service_3: Calendar Integration
   service_4: Response Detection
   service_5: Statistics
+  learn_more: Learn More...
   How_Help: How it will help you
   save_time: Save your time!
   save_time_1: Use your emails to Setup Reminders
