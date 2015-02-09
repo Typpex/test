@@ -72,9 +72,11 @@ es:
   footer_premium: Distribuidor
   premium_route: distribuidor
   footer_team: Nuestro Equipo
-  faq_routes: Preguntas frecuentes
+  faq_routes: preguntas-frecuentes
+  footer_faq: Preguntas frecuentes
   footer_contact: Contacte con nosotros
   footer_email: "E-mail:"
   footer_privacy: Privacidad
+  privacy_route: privacidad
   footer_terms: Condiciones de uso
   footer_rights: All Rights Reserved.

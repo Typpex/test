@@ -10,7 +10,7 @@ Rails.application.routes.draw do
 
   get "#{I18n.t('.header_pricing')}", to: 'home#pricing', as: :pricing
   get "#{I18n.t('.how_to_route')}", to: 'home#howto', as: :how_to
-  get 'privacy-policy', to: 'home#privacy'
+  get "#{I18n.t('.privacy_route')}", to: 'home#privacy', as: :privacy_policy
   get "#{I18n.t('.terms_service_route')}", to: 'home#tos', as: :terms_of_service
   get "#{I18n.t('.faq_route')}", to: 'home#faq', as: :faq
   get "#{I18n.t('.premium_route')}", to: 'home#premium', as: :premium_reseller

@@ -1,0 +1,38 @@
+es:
+  home:
+    faq:
+      title: Preguntas frecuentes
+      title_question:  Es posible que la respuesta a su pregunta figure a continuación
+      faq_q1: ¿Qué es Remailder? 
+      faq_q2: Remailder es un servicio de seguimiento y recordatorios por correo electrónico. Este sistema le permite recibir recordatorios de asuntos importantes o enviárselos a sus contactos, reduciendo el número de e-mails de su bandeja de entrada. Por favor, haga clic en el siguiente enlace para saber más acerca de nuestras características.
+      faq_q3: ¿Es gratis registrarse en Remailder? 
+      faq_q4: "Registrarse en Remailder es totalmente gratuito. Para inscribirse, haga clic aquí. Si desea hacer uso de Remailder de manera ilimitada y con opciones avanzadas, tiene la opción de suscribirse a nuestros paquetes “Plus” y “Pro”."
+      faq_q5: ¿Cómo puedo contactar con el personal de Remailder? 
+      faq_q6: Para contactar con nuestro equipo, envíe un e-mail a contacto@remailder.com. Recuerde que la respuesta a su pregunta puede estar en la sección “Preguntas frecuentes (FAQ)” o en la sección modo de empleo.
+      faq_q7: ¿Tengo que instalar algún programa o aplicación para poder hacer uso de Remailder? 
+      faq_q8: Remailder no requiere ninguna instalación para funcionar. 
+      faq_q9: ¡La información que comunico a Remailder está protegida? 
+      faq_q10: Remailder es una plataforma confidencial y segura. La información de nuestros clientes no será comunicada o difundida a terceras partes bajo ningún concepto.
+      faq_q11: ¿Cómo puedo darme de baja en Remailder? 
+      faq_q12: Para suspender o eliminar su cuenta Remailder, dispone de un enlace en el menú de ajustes de su cuenta.
+      faq_q13: ¿Al hacer uso de este servicio, se da por supuesto que he aceptado las condiciones de uso de Remailder? 
+      faq_q14: Al hacer uso de Remailder, nos confirma que ha aceptado las condiciones de uso de nuestro servicio. Si no está de acuerdo con estas condiciones de uso, por favor, no haga uso de Remailder.
+      faq_q15: Remailder dispone de política de privacidad? 
+      faq_q16: Sí, puede ver nuestra política de privacidad en privacidad.
+      faq_q17: ¿Remailder afectará a mis cuentas de correo (Outlook, Gmail, Lotus…)? ¿Modificará algo en ellas? 
+      faq_q18: Remailder no tiene ninguna influencia sobre sus cuentas ni sus bandejas de entrada, ni modificará nada de ellas.
+      faq_q19: ¿Remailder almacena mis datos? 
+      faq_q20: Remailder conserva exclusivamente los e-mails que usted nos ha solicitado específicamente que le recordemos. Por defecto, estos mensajes se eliminan un año después de ser enviados.
+      faq_q21: ¿La seguridad de mi contraseña está garantizada? 
+      faq_q22: Todas las contraseñas y los datos que almacenamos están encriptados y asegurados. Hacemos todo lo posible por proteger su información.     
+      faq_q23: "He perdido mi nombre de usuario / contraseña de Remailder, ¿qué puedo hacer?"
+      faq_q24: "If you cannot find your Remailder login details, you can ask to receive them by clicking here. Make sure you check your spam folder."
+      faq_q25: No he recibido el e-mail de confirmación tras haber finalizado mi registro. 
+      faq_q26: Si ha perdido su nombre de usuario/contraseña para iniciar sesión en Remailder, podrá restablecerlo\/a haciendo clic aquí.
+      faq_q27: No puedo registrarme o iniciar sesión en Remailder 
+      faq_q28: Por favor, compruebe que su navegador acepta las cookies y que su cortafuegos no está bloqueando la transmisión de los datos.
+      faq_q29: ¿Existe límite en el programa de afiliación de Remailder? 
+      faq_q30: "No existe ningún límite de uso en nuestro programa de afiliación. Por cada nuevo afiliado, usted obtendrá Remailders gratuitos y por cada 10 nuevos afiliados, se lo agradeceremos con un mes gratis de suscripción a nuestro paquete \"Pro\"."
+      faq_q31: ¿El servicio de notificaciones vía SMS es de pago? 
+      faq_q32: Remailder no efectuará ningún cargo adicional en su tarifa por las notificaciones a través de SMS.
+      faq_q33: Contacte
