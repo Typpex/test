@@ -1,174 +1,172 @@
-#functionsModal.modal.fade{"aria-hidden" => "true", "aria-labelledby" => "myModalLabel", :role => "dialog", :tabindex => "-1"}
-  .modal-dialog
-    .modal-content
-      .modal-header
-        %button.close{"data-dismiss" => "modal", :type => "button"} x
-        %h3
-          Complete Listing
-      .modal-body
-        %table.table.manages
-          %tbody
-            %tr.manages-header
-              %td Specific Terms
-              %td Time interval
-              %td Period
-              %td @remailder.com
-            %tr
-              %td in
-              %td 2
-              %td week
-              %td @remailder.com
-            %tr
-              %td week
-              %td
-              %td w - wk
-              %td @remailder.com
-            %tr
-              %td at
-              %td 9
-              %td pm
-              %td @remailder.com
-            %tr
-              %td every
-              %td 3
-              %td hour
-              %td @remailder.com
-        %p
-          %b
-            Remember you can use two shortcuts in the same query!
+#functionsModal.modal.hide{"aria-hidden" => "true", :role => "dialog", :style => "display: none;", :tabindex => "-1"}
+  .modal-header
+    %button.close{"data-dismiss" => "modal", :type => "button"} x
+    %h3
+      =t(".key_desc20")
+  .modal-body
+    %table.table.manages
+      %tbody
+        %tr.manages-header
+          %td=t(".list_1")
+          %td=t(".list_2")
+          %td=t(".list_3")
+          %td @remailder.com
+        %tr
+          %td=t(".list_4")
+          %td 2
+          %td=t(".list_5")
+          %td @remailder.com
+        %tr
+          %td=t(".list_6")
+          %td
+          %td=t(".list_7")
+          %td @remailder.com
+        %tr
+          %td=t(".list_8")
+          %td 9
+          %td=t(".list_9")
+          %td @remailder.com
+        %tr
+          %td=t(".list_10")
+          %td 3
+          %td=t(".list_11")
+          %td @remailder.com
+    %p
+      %b
+        =t(".list_12")
+        %br/
+        =t(".list_13_1")
+    %table.table.shortcuts
+      %tbody
+        %tr
+          %td
+            %table.table.manages
+              %tbody
+                %tr.manages-header
+                  %td{:colspan => "2", :width => "140px"} =t(".list_13")
+                %tr.manages-header
+                  %td=t(".list_14")
+                  %td=t(".list_15")
+                %tr
+                  %td=t(".list_16")
+                  %td=t(".list_17")
+                %tr
+                  %td=t(".list_18")
+                  %td=t(".list_19")
+                %tr
+                  %td=t(".list_20")
+                  %td=t(".list_21")
+                %tr
+                  %td=t(".list_22")
+                  %td=t(".list_23")
+                %tr
+                  %td=t(".list_24")
+                  %td=t(".list_25")
+                %tr
+                  %td=t(".list_26")
+                  %td=t(".list_27")
+                %tr
+                  %td=t(".list_28")
+                  %td=t(".list_29")
+                %tr
+                  %td=t(".list_30")
+                  %td=t(".list_31")
+                %tr
+                  %td ...
+                  %td ...
+                %tr
+                  %td=t(".list_32")
+                  %td=t(".list_33")
+                %tr
+                  %td=t(".list_34")
+                  %td=t(".list_35")
+                %tr
+                  %td=t(".list_36")
+                  %td=t(".list_37")
+                %tr
+                  %td ...
+                  %td ...
+                %tr
+                  %td=t(".list_38")
+                  %td=t(".list_39")
+          %td  
+          %td
+            %table.table.manages
+              %tbody
+                %tr.manages-header
+                  %td{:colspan => "2"}=t(".list_40")
+                %tr.manages-header
+                  %td=t(".list_41")
+                  %td=t(".list_42")
+                %tr
+                  %td=t(".list_43")
+                  %td=t(".list_44")
+                %tr
+                  %td=t(".list_45")
+                  %td=t(".list_46")
+                %tr
+                  %td=t(".list_47")
+                  %td=t(".list_48")
+                %tr
+                  %td=t(".list_49")
+                  %td=t(".list_50")
+                %tr
+                  %td=t(".list_51")
+                  %td=t(".list_52")
+                %tr
+                  %td=t(".list_53")
+                  %td=t(".list_54")
+            %p
+              %sup=t(".list_55")
+              =t(".list_56")
+              %br/
+              %br/
+            %table.table.manages
+              %tbody
+                %tr.manages-header
+                  %td=t(".list_57")
+                %tr
+                  %td=t(".list_58")
+                %tr
+                  %td=t(".list_59")
+                %tr
+                  %td=t(".list_60")
+                %tr
+                  %td=t(".list_61")
+          %td  
+          %td
+            %table.table.manages
+              %tbody
+                %tr.manages-header
+                  %td=t(".list_62")
+                %tr
+                  %td 2230
+                %tr
+                  %td 22.30
+                %tr
+                  %td 22
+                %tr
+                  %td 1030pm
+                %tr
+                  %td 10.30pm
+                %tr
+                  %td 10pm
+                %tr
+                  %td=t(".list_63")
+                %tr
+                  %td=t(".list_64")
             %br/
-            Ex: in2daysat2pm@remailder.com
-        %table.table.shortcuts
-          %tbody
-            %tr
-              %td
-                %table.table.manages
-                  %tbody
-                    %tr.manages-header
-                      %td{:colspan => "2", :width => "140px"} Periods
-                    %tr.manages-header
-                      %td Classic
-                      %td Shortcut
-                    %tr
-                      %td minute
-                      %td min
-                    %tr
-                      %td hour
-                      %td h
-                    %tr
-                      %td day
-                      %td d
-                    %tr
-                      %td week
-                      %td w - wk
-                    %tr
-                      %td month
-                      %td m
-                    %tr
-                      %td year
-                      %td y
-                    %tr
-                      %td Monday
-                      %td mon
-                    %tr
-                      %td Tuesday
-                      %td tue
-                    %tr
-                      %td ...
-                      %td ...
-                    %tr
-                      %td Sunday
-                      %td sun
-                    %tr
-                      %td January
-                      %td jan
-                    %tr
-                      %td February
-                      %td feb
-                    %tr
-                      %td ...
-                      %td ...
-                    %tr
-                      %td December
-                      %td dec
-              %td &#160;
-              %td
-                %table.table.manages
-                  %tbody
-                    %tr.manages-header
-                      %td{:colspan => "2"} Date Format
-                    %tr.manages-header
-                      %td Month First*
-                      %td Day First*
-                    %tr
-                      %td MM-DD-YYYY
-                      %td DD-MM-YYYY
-                    %tr
-                      %td MMDD-YYYY
-                      %td DDMM-YYYY
-                    %tr
-                      %td MM-DDYYYY
-                      %td DD-MMYYYY
-                    %tr
-                      %td MMDDYYYY
-                      %td DDMMYYYY
-                    %tr
-                      %td MM-DD
-                      %td DD-MM
-                    %tr
-                      %td MMDD
-                      %td DDMM
-                %p
-                  %sup *
-                  Configure on your settings this date format as your convenience.
-                  %br/
-                  %br/
-                %table.table.manages
-                  %tbody
-                    %tr.manages-header
-                      %td Shorcut
-                    %tr
-                      %td tomorrow - tmw
-                    %tr
-                      %td bod (beginning of the day)
-                    %tr
-                      %td eod (end of the day)
-                    %tr
-                      %td hourly, daily, monthly, yearly
-              %td &#160;
-              %td
-                %table.table.manages
-                  %tbody
-                    %tr.manages-header
-                      %td Time Format
-                    %tr
-                      %td 2230
-                    %tr
-                      %td 22.30
-                    %tr
-                      %td 22
-                    %tr
-                      %td 1030pm
-                    %tr
-                      %td 10.30pm
-                    %tr
-                      %td 10pm
-                    %tr
-                      %td Noon
-                    %tr
-                      %td Midnight
-                %br/
-                %table.table.manages.functions
-                  %tbody
-                    %tr.manages-header
-                      %td{:width => "140px"} Functions
-                    %tr
-                      %td delete - cancel
-                    %tr
-                      %td snooze
-                    %tr
-                      %td pending - history
-                    %tr
-                      %td contact
-                    %tr
-                      %td invite
+            %table.table.manages.functions
+              %tbody
+                %tr.manages-header
+                  %td{:width => "140px"}=t(".list_65")
+                %tr
+                  %td=t(".list_66")
+                %tr
+                  %td=t(".list_67")
+                %tr
+                  %td=t(".list_68")
+                %tr
+                  %td=t(".list_69")
+                %tr
+                  %td=t(".list_70")

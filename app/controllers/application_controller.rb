@@ -7,7 +7,8 @@ class ApplicationController < ActionController::Base
 
   def set_locale
     I18n.locale = extract_locale_from_tld || I18n.default_locale
-    if session[:locale] != I18n.locale
+    # debugger
+    if session[:locale].to_sym != I18n.locale.to_sym
       RemailderCommercial::Application.reload_routes!
       session[:locale] = I18n.locale
     end

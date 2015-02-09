@@ -70,10 +70,12 @@ fr:
   desc_footer_2: Fonctionne sur tous vos appareils et avec tous les systèmes!
   footer_useful: Liens Utiles
   footer_premium: Distributeur Remailder
+  premium_route: distributeur_remailder
   footer_team: Notre équipe
-  footer_faq: FAQ
+  faq_route: FAQ
   footer_contact: Contactez-nous
   footer_email: "Email:"
   footer_privacy: Confidentialité
   footer_terms: Conditions d'utilisation
+  terms_service_route: conditions-utilisations
   footer_rights: Tous Droits Réservés.
