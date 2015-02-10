@@ -15,5 +15,5 @@ Rails.application.routes.draw do
   get "#{I18n.t('.faq_route')}", to: 'home#faq', as: :faq
   get "#{I18n.t('.premium_route')}", to: 'home#premium', as: :premium_reseller
 
-  get '*a' => 'home#routing_error' unless Rails.env.development?
+  get '*a' => 'home#routing_error'
 end

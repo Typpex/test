@@ -1,0 +1,88 @@
+# Files in the config/locales directory are used for internationalization
+# and are automatically loaded by Rails. If you want to use locales other
+# than English, add the necessary files in this directory.
+#
+# To use the locales, use `I18n.t`:
+#
+#     I18n.t 'hello'
+#
+# In views, this is aliased to just `t`:
+#
+#     <%= t('hello') %>
+#
+# To use a different locale, set it with `I18n.locale`:
+#
+#     I18n.locale = :es
+#
+# This would use the information in config/locales/es.yml.
+#
+# To learn more, please read the Rails Internationalization guide
+# available at http://guides.rubyonrails.org/i18n.html.
+
+cn:
+  main_slide_fast_mail_reminder: Fast Email Reminders
+  main_slide_to_task: "Schedule for yourself & your contact"
+  main_slide_subheader: "Reminders / Tasks / Projects"
+  main_slide_watch_video: 观看我们的视频
+  main_slide_trial: Try it - It's free!
+  what_is_rem_title: Remailder 是什么？
+  what_is_rem_p1: Remailder 能够轻松地将您的电子邮件转变为提醒。
+  what_is_rem_p2: 通过直观地将电子邮件提醒添加到您的电子邮件中，您与您的收件人可以在您决定的精确时刻获得提醒。
+  what_is_rem_carousel_1_html: "To: in2days@remailder.com<span>2 天后发送一条电子邮件提醒</span>"
+  what_is_rem_carousel_2_html: "To: everymonday@remailder.com<span>每周一发送一条电子邮件提醒</span>"
+  what_is_rem_carousel_3_html: "To: tommorrow@remailder.com<span>第二天发送一条电子邮件提醒</span>"
+  what_is_rem_carousel_4_html: "To: 08-15-2015@remailder.com<span>8 月 15 日发送一条电子邮件提醒</span>"
+  what_is_rem_carousel_5_html: "To: at16h@remailder.com<span>16 时发送一条电子邮件提醒</span>"
+  what_is_rem_carousel_6_html: "To: tuesday@remailder.com<span>下周二发送一条电子邮件提醒</span>"
+  services_title: What we provide
+  service_1: Email Reminders
+  service_2: Todo List
+  service_3: 日历同步更新
+  service_4: 检测回复
+  service_5: 统计数据
+  learn_more: Learn More...
+  How_Help: Remailder 将如何帮助您？
+  save_time: 节省时间！
+  save_time_1: 直接通过您的电子邮件创建有效的提醒（任务、会议、报告……）
+  save_time_2: 仅当您真的需要时，才回复您的电子邮件
+  just_time: 精准守时！
+  just_time_1: 为您自己，同时也为您的对话者创建提醒，以便始终保持更新状态
+  just_time_2: 便利团队工作，以满足您项目的最后期限
+  opti_time: 优化您的时间！ 
+  opti_time_1: 通过接收自动提醒，提高您的工作效率
+  opti_time_2: 提高您的追踪能力，无需再担心使用备忘记号或通过多个系统获取提醒
+  all_devices: 适用于您所有的设备和所有的系统！
+  all_devices_1: 由于 Remailder 以您的电子邮件为基础，因此您可以通过您所有的设备以及与您的电子邮件相关的所有系统或应用程序来查看您的提醒。
+  all_devices_2: 现在，您可以轻松且毫无限制地追踪并创建提醒了！
+  start_button: Try it - It's free!
+  no_credit: "\"无需信用卡\""
+  header_how_to: 使用说明
+  how_to_route: "使用说明"
+  header_features: 产品功能
+  features_routes: 产品功能
+  header_pricing: 价格
+  header_blog: Blog
+  header_languages: Languages
+  header_en: English
+  header_fr: French
+  header_de: German
+  header_es: Spanish
+  header_cn: 登录
+  header_login: 登录
+  desc_footer_1: 您将不会再忘记回复您的电子邮件，并更容易获得电子邮件的回复。Remailder 将提高您的工作效率！
+  desc_footer_2: 适用于您所有的设备和所有的系统！
+  footer_useful: Useful Links
+  footer_premium: 分销商
+  premium_route: 分销商
+  footer_team: Our Team
+  footer_faq: 常见问题
+  faq_route: 常见问题
+  footer_contact: 联系我们
+  footer_email: "Email:"
+  footer_privacy: 隐私
+  privacy_route: 隐私
+  footer_terms: 使用条款
+  terms_service_route: 使用条款
+  footer_rights: All Rights Reserved.
+  modal_login:
+    login_title: Authentification

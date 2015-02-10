@@ -20,7 +20,7 @@
 # available at http://guides.rubyonrails.org/i18n.html.
 
 fr:
-  main_slide_fast_mail_reminder: Cessez enfin d'oublier
+  main_slide_fast_mail_reminder: Cessez enfin d'oublier vos Emails
   main_slide_to_task: "Planifie pour vous & vos contacts"
   main_slide_subheader: "Rappels / Tâches / Projets"
   main_slide_watch_video: Voir notre vidéo
@@ -28,12 +28,13 @@ fr:
   what_is_rem_title: Qu'est-ce que Remailder?
   what_is_rem_p1: Remailder change facilement vos emails en rappels.
   what_is_rem_p2: En ajoutant intuitivement un Remailder à vos emails, vous et les destinataires de vos messages serez rappelés au moment précis que vous avez décidé.
-  what_is_rem_carousel_1_html: "To: dans2jours@remailder.com<span>Envoie un Remailder dans 2 jours</span>"
-  what_is_rem_carousel_2_html: "To: chaquelundi@remailder.com<span>Envoie un Remailder chaque lundi</span>"
-  what_is_rem_carousel_3_html: "To: demain@remailder.com<span>Envoie un Remailder demain</span>"
-  what_is_rem_carousel_4_html: "To: 08-15-2015@remailder.com<span>Envoie un Remailder le 15 Aout</span>"
-  what_is_rem_carousel_5_html: "To: a16h@remailder.com<span>Envoie un Remailder à 16h</span>"
-  what_is_rem_carousel_6_html: "To: mardi@remailder.com<span>Envoie un Remailder mardi prochain</span>"
+  what_is_rem_carousel_1_html: "A: dans2jours@remailder.com<span>Envoie un Remailder dans 2 jours</span>"
+  what_is_rem_carousel_2_html: "A: chaquelundi@remailder.com<span>Envoie un Remailder chaque lundi</span>"
+  what_is_rem_carousel_3_html: "A: demain@remailder.com<span>Envoie un Remailder demain</span>"
+  what_is_rem_carousel_4_html: "A: 08-15-2015@remailder.com<span>Envoie un Remailder le 15 Aout</span>"
+  what_is_rem_carousel_5_html: "A: a16h@remailder.com<span>Envoie un Remailder à 16h</span>"
+  what_is_rem_carousel_6_html: "A: mardi@remailder.com<span>Envoie un Remailder mardi prochain</span>"
+  services_title: Nos Services
   service_1: Rappel par Email
   service_2: Gestionnaire de Tâches
   service_3: Intégration au Calendrier
@@ -66,6 +67,7 @@ fr:
   header_fr: Français
   header_de: Allemand
   header_es: Espagnol
+  header_cn: 登录
   header_login: Connexion
   desc_footer_1: Vous n'oublierez plus de répondre à vos emails et obtiendrez plus facilement des réponses à vos emails.
   desc_footer_2: Fonctionne sur tous vos appareils et avec tous les systèmes!
@@ -82,3 +84,5 @@ fr:
   footer_terms: Conditions d'utilisation
   terms_service_route: conditions-utilisations
   footer_rights: Tous Droits Réservés.
+  modal_login:
+    login_title: Authentification
