@@ -20,7 +20,7 @@ module RemailderCommercial
     # config.i18n.load_path += Dir[Rails.root.join('my', 'locales', '*.{rb,yml}').to_s]
     config.i18n.default_locale = :en
     config.i18n.load_path += Dir[Rails.root.join('config', 'locales', '**', '*.{rb,yml}')]
-     config.i18n.fallbacks = [:en]
+    config.i18n.fallbacks = [:en]
 
     config.autoload_paths << Rails.root.join('lib')
   end

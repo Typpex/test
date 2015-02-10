@@ -1,7 +1,7 @@
 #login{style: "display: none;"}
   =form_tag "http://my.remailderdev.com:3000/users/sign_in", method: :post, class: "reg-page" do
     .reg-header
-      %h2 Login to your account
+      %h2=t(".login_title")
     .input-group.margin-bottom-20
       %span.input-group-addon
         %i.fa.fa-user

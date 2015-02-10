@@ -1,83 +1,58 @@
-!!!
-/[if IE 8] <html lang="en" class="ie8">
-/[if IE 9] <html lang="en" class="ie9">
-/ [if !IE]><!
-%html{:lang => "en"}
-  / <![endif]
-  %head
-    -if content_for? :title
-      %title
-        =yield :title
-    -else
-      %title Remailder
-    / Meta
-    %meta{:charset => "utf-8"}/
-    %meta{:content => "width=device-width, initial-scale=1.0", :name => "viewport"}/
-    %meta{:content => "", :name => "description"}/
-    %meta{:content => "", :name => "author"}/
-    = favicon_link_tag 'favicon.ico'
-    / CSS Global Compulsory
-    = stylesheet_link_tag    "application", media: 'all'
-    = csrf_meta_tag
-    /[if lt IE 9] <link rel="stylesheet" href="assets/plugins/revolution-slider/rs-plugin/css/settings-ie8.css" type="text/css" media="screen">
-  %body.header-fixed
-    .wrapper
-      / === Header ===
-      .header-v3.header-sticky
-        / Navbar
-        .navbar.navbar-default.mega-menu{:role => "navigation"}
-          .container
-            / Brand and toggle get grouped for better mobile display
-            .navbar-header
-              %button.navbar-toggle{"data-target" => ".navbar-responsive-collapse", "data-toggle" => "collapse", :type => "button"}
-                %span.sr-only Toggle navigation
-                %span.fa.fa-bars
-              %a.navbar-brand{:href => "/"}
-                =image_tag "img/logo1-default.png", id: "logo-header"
-            / Collect the nav links, forms, and other content for toggling
-            .collapse.navbar-collapse.navbar-responsive-collapse
-              %ul.nav.navbar-nav
-                / How to use
-                %li.dropdown.mega-menu-fullwidth
-                  %a.dropdown-toggle{:href => how_to_path}
-                    =t(:header_how_to)
-                %ul.dropdown-menu
-                / End How to use
-                / Features
-                %li.dropdown.mega-menu-fullwidth
-                  %a.dropdown-toggle{:href => features_path}
-                    =t(:header_features)
-                / End Features
-                / Pricing
-                %li.dropdown
-                  %a.dropdown-toggle{:href => pricing_path}
-                    =t(:header_pricing)
-                / End Pricing
-                / Blog
-                %li.dropdown
-                  %a.dropdown-toggle{"data-toggle" => "dropdown", :href => "javascript:void(0);"}
-                    =t(:header_blog)
-                / End Blog
-                %li.dropdown
-                  %a.dropdown-toggle{:href => "#login", class: "login-btn fancybox.iframe"}
-                    =t(:header_login)
-                / Languages !
-                %li.dropdown.languagesSelector
-                  %a.dropdown-toggle{"data-toggle" => "dropdown", :href => "javascript:void(0);"}
-                    %i.fa.fa-globe
-                    =t(:header_languages)
-                  %ul.dropdown-menu.languages
-                    -APP_LOCALE_WEBSITE_STAGING.each do |language, website|
-                      -if session[:locale].to_sym == language
-                        %li.active
-                          %a{:href => "#{website}#{request.env['REQUEST_PATH']}"}
-                            =t("header_#{language}".to_sym)
-                            %i.fa.fa-check
-                      -else
-                        %li
-                          =link_to t("header_#{language}".to_sym), "#{website}#{request.env['REQUEST_PATH']}"
-                / End Languages !
-            / /navbar-collapse
-        / End Navbar
-      / === End Header ===
-    =render "modal_login"
+/ === Header ===
+.header-v3.header-sticky
+  / Navbar
+  .navbar.navbar-default.mega-menu{:role => "navigation"}
+    .container
+      / Brand and toggle get grouped for better mobile display
+      .navbar-header
+        %button.navbar-toggle{"data-target" => ".navbar-responsive-collapse", "data-toggle" => "collapse", :type => "button"}
+          %span.sr-only Toggle navigation
+          %span.fa.fa-bars
+        %a.navbar-brand{:href => "/"}
+          =image_tag "img/logo1-default.png", id: "logo-header"
+      / Collect the nav links, forms, and other content for toggling
+      .collapse.navbar-collapse.navbar-responsive-collapse
+        %ul.nav.navbar-nav
+          / How to use
+          %li.dropdown.mega-menu-fullwidth
+            %a.dropdown-toggle{:href => how_to_path}
+              =t(:header_how_to)
+          %ul.dropdown-menu
+          / End How to use
+          / Features
+          %li.dropdown.mega-menu-fullwidth
+            %a.dropdown-toggle{:href => features_path}
+              =t(:header_features)
+          / End Features
+          / Pricing
+          %li.dropdown
+            %a.dropdown-toggle{:href => pricing_path}
+              =t(:header_pricing)
+          / End Pricing
+          / Blog
+          %li.dropdown
+            %a.dropdown-toggle{"data-toggle" => "dropdown", :href => "javascript:void(0);"}
+              =t(:header_blog)
+          / End Blog
+          %li.dropdown
+            %a.dropdown-toggle{:href => "#login", class: "login-btn fancybox.iframe"}
+              =t(:header_login)
+          / Languages !
+          %li.dropdown.languagesSelector
+            %a.dropdown-toggle{"data-toggle" => "dropdown", :href => "javascript:void(0);"}
+              %i.fa.fa-globe
+              =t(:header_languages)
+            %ul.dropdown-menu.languages
+              -APP_LOCALE_WEBSITE.each do |language, website|
+                -if session[:locale].to_sym == language
+                  %li.active
+                    %a{:href => "#{website}#{request.env['REQUEST_PATH']}"}
+                      =t("header_#{language}".to_sym)
+                      %i.fa.fa-check
+                -else
+                  %li
+                    =link_to t("header_#{language}".to_sym), "#{website}#{request.env['REQUEST_PATH']}"
+          / End Languages !
+      / /navbar-collapse
+  / End Navbar
+/ === End Header ===

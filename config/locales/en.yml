@@ -83,3 +83,6 @@ en:
   footer_terms: Terms of Service
   terms_service_route: terms-of-service
   footer_rights: All Rights Reserved.
+  home:
+    modal_login:
+      login_title: Login to your account

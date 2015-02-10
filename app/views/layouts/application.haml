@@ -1,3 +1,44 @@
-= render "layouts/header"
-= yield
-= render "layouts/footer"
+!!!
+/[if IE 8] <html lang="en" class="ie8">
+/[if IE 9] <html lang="en" class="ie9">
+/ [if !IE]><!
+%html{:lang => "en"}
+  / <![endif]
+  %head
+    -if content_for? :title
+      %title
+        =yield :title
+    -else
+      %title Remailder
+    / Meta
+    %meta{:charset => "utf-8"}/
+    %meta{:content => "width=device-width, initial-scale=1.0", :name => "viewport"}/
+    %meta{:content => "", :name => "description"}/
+    %meta{:content => "", :name => "author"}/
+    = favicon_link_tag 'favicon.ico'
+    / CSS Global Compulsory
+    = stylesheet_link_tag    "application", media: 'all'
+    = csrf_meta_tag
+    /[if lt IE 9] <link rel="stylesheet" href="assets/plugins/revolution-slider/rs-plugin/css/settings-ie8.css" type="text/css" media="screen">
+  %body.header-fixed
+    .wrapper
+      = render "layouts/header"
+      =render "modal_login"
+    = yield
+    = render "layouts/footer"
+/ JS Global Compulsory
+%script{:src => "http://www.youtube.com/player_api"}
+= javascript_include_tag "application"
+- if content_for? :specific_javascript
+  =yield :specific_javascript
+:javascript
+  jQuery(document).ready(function() {
+  App.init();
+  OwlCarousel.initOwlCarousel();
+  RevolutionSlider.initRSfullWidth();
+  });
+/[if lt IE 9]
+  <script src="assets/plugins/respond.js"></script>
+  <script src="assets/plugins/html5shiv.js"></script>
+  <script src="assets/js/plugins/placeholder-IE-fixes.js"></script>
+

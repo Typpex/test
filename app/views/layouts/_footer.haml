@@ -98,19 +98,3 @@
         / End Social Links
   / /copyright
 / === End Footer Version 1 ===
-/ /wrapper
-/ JS Global Compulsory
-%script{:src => "http://www.youtube.com/player_api"}
-= javascript_include_tag "application"
-- if content_for? :specific_javascript
-  =yield :specific_javascript
-:javascript
-  jQuery(document).ready(function() {
-  App.init();
-  OwlCarousel.initOwlCarousel();
-  RevolutionSlider.initRSfullWidth();
-  });
-/[if lt IE 9]
-  <script src="assets/plugins/respond.js"></script>
-  <script src="assets/plugins/html5shiv.js"></script>
-  <script src="assets/js/plugins/placeholder-IE-fixes.js"></script>
