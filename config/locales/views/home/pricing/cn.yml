@@ -1,0 +1,30 @@
+cn: 
+  home:
+    pricing: 
+      title_pricing: "价格"
+      pricing_comment: Remailder 适合您的需求！
+      price_month: 每月价格
+      send_remailders: 电子邮件提醒数量
+      multiple: 别名数量
+      snooze: 再响电子邮件提醒
+      recurring: 重复性电子邮件提醒
+      formated: 电子邮件提醒联系人列表
+      calendar: 日历同步更新
+      reports: "每日/周报告"
+      settings: 高级配置
+      statistics: 统计数据
+      detection: 检测回复
+      attachments: 附件
+      sms: 短信电子邮件提醒
+      for_free: 限制性使用
+      per_month: 每月
+      20_month: "20 条/月"
+      unlimited: 无限
+      sign_up: 试用我们的产品30 天免费！
+      for_everyday: 日常使用
+      for_business: 专业人士使用
+      referral_1: 加盟计划——如果您的联系人注册，您可以领取奖励！
+      referral_2: 每当您向一个非 Remailder 用户发送一条电子邮件提醒，便可以获得 5 条免费的电子邮件提醒
+      referral_3: "向您的联系人发送一条消息，并抄送至 invite@remailder.com，可以获得："
+      referral_4: 每当有 5 个联系人注册 Remailder，即可获赠 1 个月的“专业版”套餐
+      referral_5: 每当有您的一个联系人注册 Remailder，便可以获得 5 条免费的电子邮件提醒

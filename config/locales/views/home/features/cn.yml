@@ -1,0 +1,73 @@
+cn: 
+  home:
+    features: 
+      title: 产品功能
+      to: To
+      cc: Cc
+      bcc: Bcc
+      f1_header: 直接通过您的电子邮件创建您的 Remailders™ 电子邮件提醒！
+      f1_description_html: "撰写或回复一封电子邮件，将 <strong>@remailder.com</strong> 添加至收件人、抄送或密件抄送栏"
+      f1_description_to: 向您所有的对话者和您自己发送一条电子邮件提醒
+      f1_description_cc: 向收件人栏中的收件人和您自己发送一条电子邮件提醒
+      f1_description_bcc: 仅向创建人发送一条电子邮件提醒（收件人无法看见）
+      f1_video: How to setup your first Remailder?
+      f1_video_yt_id: IweCkxyHEUw
+      f2_header: 多种语言网站——按照时区发送
+      f2_description_html: "<strong>Remailder 提供 5 种语言：英语、法语、德语、西班牙语和中文。</strong> 您可以轻松地以您的语言追踪您的电子邮件提醒，并毫无限制地适应您的时区。"
+      f2_description_example: "在英语中，in2weeks@remailder.com 的对应表达："
+      f2_description_french: "法语应为 dans2semaines@remailder.com,"
+      f2_description_spanish: "西班牙语应为 en2semanas@remailder.com，"
+      f2_description_german: "德语应为 in2woche@remaidler.com"
+      f3_header: 同步更新您所有的电子邮件账户
+      f3_description_1: "您拥有数个电子邮件地址吗？您只需将它们与您的 Remailder 账户相连，就能在您所有的电子邮件账户中享受我们的全套服务。"
+      f3_description_2: "登录您的 Remailder 账户（配置），并为您的每个地址添加“别名”（多至 10 个）。"
+      f4_header: 再响电子邮件提醒
+      f4_description_1: "使用您的电子邮件提醒中再响功能，以便按照您所希望的时间来延迟您的电子邮件提醒。"
+      f4_description_2: "例如：您刚刚收到了一条电子邮件提醒，是关于一项您希望延迟至一天后执行的行动，回复您的电子邮件提醒时添加 snooze1j@remailder.com！"
+      f4_video: How to snooze a Remailder?
+      f4_video_yt_id: L1jjeY_tbg8
+      f5_header: 重复性电子邮件提醒
+      f5_description_html: "在您的电子邮件提醒中添加“每”字，以将其转换为一条重复性的电子邮件提醒。"
+      f5_description_1_html: "例如：<strong>everytuesday@remailder.com</strong> 能使您在每周二收到一条电子邮件提醒。"
+      f5_description_2: "您可以轻松地通过转发一条重复性电子邮件提醒至 cancel@remailder.com 来将其取消。"
+      f6_header: "撰写您的电子邮件提醒指南"
+      f6_description_1: "正因为我们希望尽最大可能简化您撰写电子邮件提醒的过程，我们向您提供一个最常使用的电子邮件提醒列表，以使其在您撰写的时候在您的应用程序（gmail、outlook……）中出现！您撰写电子邮件提醒的速度将更快！"
+      f6_video: 点击这里以下载您的列表！
+      f6_download_link: ""
+      f7_header: "您日历上的电子邮件提醒（附加版）"
+      f7_description_1: "您可以查看并管理您所有的电子邮件提醒，无论是在我们的网站上，还是通过我们的系统同步更新您偏好的日历：Google calendar、Microsoft Outlook、Lotus、iCalendar 等"
+      f8_header: "每日/周总结（附加版）"
+      f8_description_1: "每日、每周或每月接收一份总结，以便简单地追踪您的活动："
+      f8_description_2: "向 suivi@remailder.com 或 encours@remailder.com 发送一封电子邮件"
+      f8_description_3: "配置您的账户，以接收自动总结"
+      f8_description_4: "点击每条提醒中的“追踪”按钮，以便在数分钟内收到您的追踪"
+      f8_description_5: "按照您的愿望来追踪您的电子邮件提醒！"
+      f8_video: "How to receive your reporting?"
+      f8_video_yt_id: L1jjeY_tbg8
+      f9_header: "高级配置（附加版）"
+      f9_description_1: "进入一些高级配置选项，以便使 Remailder 适合您的需要："
+      f9_description_2: "添加您公司的徽标，"
+      f9_description_3: "禁用 Remailder 的徽标"
+      f9_description_4: "您也可以配置其他选项："
+      f9_description_5: "通过您自己的电子邮箱发送您的电子邮件提醒，您的对话者只知道这可以通过 Remailder，"
+      f9_description_6: "创建您自己的快捷方式，"
+      f9_description_7: "收取每条电子邮件提醒的创建凭单。"
+      f10_header: "统计数据（专业版）"
+      f10_description_1: "通过电子邮件或我们的网站，您可以查看不同类型的统计数据。"
+      f10_description_html: "通过电子邮件："
+      f10_description_2: "向 stats@remailder.com 发送一封电子邮件，以便接收您的统计摘要："
+      f10_description_3: "已发送的电子邮件提醒中，您未收到回复的百分比"
+      f10_description_4: "最近 30 天发送的电子邮件提醒"
+      f10_description_5: "最近 30 天接收的电子邮件提醒"
+      f10_description_6: "通过我们的网站："
+      f10_description_7: "登录我们的网站，以查看您的全部使用统计数据，并通过它们了解如何提高您的工作效率！"
+      f11_header: "自动检测回复（专业版）"
+      f11_description_1: "我们的系统能够检测到是否有您已经编撰了电子邮件提醒的电子邮件在接收到电子邮件提醒之前就得到了回复。在这种情况下，电子邮件提醒将被自动取消，以避免您收到无用的提醒。"
+      f11_description_2: "如果您对所得到的回复不满意，您可以轻松地重新激活一条电子邮件提醒。"
+      f12_header: "附件（专业版）"
+      f12_description_1: "在提醒发送的时候，您希望接收到您原始文件中的附件吗？借助专业版套餐，您再也不用到您的存档中去寻找附件了，它们将与您的电子邮件提醒一同发送。"
+      f13_header: "短信电子邮件提醒（专业版）"
+      f13_description_1: "当您无法打开电子邮箱时，使用我们的短信服务，以通过您的手机接收电子邮件提醒。"
+      f14_header: "专业账户/企业账户"
+      f14_description_1: "我们为专业账户和企业账户提供一些选项和特殊条件（超过 20 个账户。"
+      f14_video: "联系我们以获取更多详情。"

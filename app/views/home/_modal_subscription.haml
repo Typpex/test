@@ -4,21 +4,21 @@
       .row
         .col-md-9
           .reg-header
-            %h2 Register a new account
+            %h2=t(".subs_register")
         .col-md-3
           .badge.badge-info.pull-right
-            No credit card
+            =t(".subs_credit")
       %p
-        Already Signed Up? Click
-        %a.signin-link.color-green{href: "#"} Sign In
-        to login your account.
+        =t(".subs_member")
+        %a.signin-link.color-green{href: "#"}=t(".subs_log")
+        =t(".subs_log_account")
       %label
-        Email Address
+        =t(".subs_email")
         %span.color-red *
       =email_field "user", "email", class: "form-control margin-bottom-20", required: :required
       = hidden_field_tag 'user[subscription][plan][name]', 'trial'
       %label
-        Time Zone
+        =t(".subs_zone")
         %span.color-red *
       =time_zone_select( "user[localization]", "time_zone", nil, { class: "form-control margin-bottom-20", id: "user_localization_timezone" } )
       
@@ -27,7 +27,7 @@
         .col-lg-8.checkbox
           %label
             %input{:type => "checkbox", name: "user[tos]", value: Time.now}(required)
-            I read
-            %a.color-green{:href => terms_of_service_path} Terms and Conditions
+            =t(".subs_read")
+            %a.color-green{:href => terms_of_service_path}=t(".subs_terms")
         .col-lg-4.text-right
-          %button.btn-u{:type => "submit"} Register
+          %button.btn-u{:type => "submit"}=t(".subs_register")

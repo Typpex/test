@@ -34,11 +34,13 @@ de:
   what_is_rem_carousel_4_html: "An: 08-15-2015@remailder.com<span>Sendet einen Remailder am 15. August</span>"
   what_is_rem_carousel_5_html: "An: um16uhr@remailder.com<span>Sendet einen Remailder um 16 Uhr</span>"
   what_is_rem_carousel_6_html: "An: dienstag@remailder.com<span>Sendet Remailder nächsten Dienstag</span>"
+  services_title: Was wir bieten
   service_1: Email Reminders
   service_2: Todo List
   service_3: Kalender Synchronisation
   service_4: Antworterkennung
   service_5: Statistiken
+  learn_more: Mehr erfahren...
   How_Help: Wie wird Remailder Ihnen helfen?
   save_time: Zeit sparen!
   save_time_1: Erstellen Sie effektive Erinnerungsmeldungen direkt mit Ihren E-Mails (Aufgaben, Sitzungen, Berichte ...)
@@ -65,6 +67,7 @@ de:
   header_f: Französisch
   header_de: Deutsch
   header_es: Spanisch
+  header_cn: Chinese
   header_login: Einloggen
   desc_footer_1: Sie können ab jetzt Erinnerungsmeldungen leicht und ohne Einschränkung erstellen und verfolgen!
   desc_footer_2: Funktioniert auf allen Geräten und mit allen Systemen!
@@ -79,3 +82,5 @@ de:
   privacy_route: datenschutzerklärung
   footer_terms: Nutzungsbedingungen
   footer_rights: Alle Rechte vorbehalten.
+  modal_login:
+    login_title: Authentification

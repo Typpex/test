@@ -1,0 +1,24 @@
+es: 
+  home:
+    modal_login: 
+      login_title: Identifíquese
+      login_stayin: No cerrar sesión
+      login_log: Inicio de sesión
+      login_forget: ¿Ha olvidado su contraseña?
+      login_worries: "No te preocupes,"
+      login_click: haga clic aquí
+      login_reset: cambiar su contraseña.
+      login_email: "E-mail"
+      login_password: Contraseña
+    modal_subscription: 
+      subs_register : "Periodo de prueba gratuita de 30 días!"
+      subs_credit: Sin tarjeta de crédito!
+      subs_member: Ya es Miembro? haga clic
+      subs_log: aquí
+      subs_log_account: "para acceder a Remailder."
+      subs_email: Mi E-mail
+      subs_zone: Mi Zona Horaria
+      subs_read: "Acepto las "
+      subs_terms: Condiciones de uso
+      subs_register: Regístrese
+      

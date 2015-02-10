@@ -15,12 +15,12 @@
       .col-md-6.checkbox
         %label
           %input{:type => "checkbox"}/
-          Stay signed in
+          =t(".login_stayin")
       .col-md-6
-        %button.btn-u.pull-right{:type => "submit"} Login
+        %button.btn-u.pull-right{:type => "submit"}=t(".login_log")
     %hr/
-    %h4 Forget your Password ?
+    %h4=t(".login_forget")
     %p
-      no worries,
-      %a.color-green{:href => "http://my.remailder.com/users/password/new"} click here
-      to reset your password.
+      =t(".login_worries")
+      %a.color-green{:href => "http://my.remailder.com/users/password/new"}=t(".login_click") 
+      =t(".login_reset")

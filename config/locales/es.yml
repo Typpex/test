@@ -34,11 +34,13 @@ es:
   what_is_rem_carousel_4_html: "Para: 08-15-2015@remailder.com<span>Enviar un Remailder el 15 de agosto</span>"
   what_is_rem_carousel_5_html: "Para:  alas16h@remailder.com<span>Enviar un Remailder alas 16:00h</span>"
   what_is_rem_carousel_6_html: "Para:  martes@remailder.com<span>Enviar Remailder el próximo martes</span>"
+  services_title: Lo que ofrecemos
   service_1: Email Reminders
   service_2: Todo List
   service_3: Sincronización con Calendario
   service_4: Detector de Respuestas
   service_5: Estadísticas
+  learn_more: Aprender más...
   How_Help: ¿Cómo le puede ayudar Remailder?
   save_time: ¡Ahorra tiempo!
   save_time_1: Creará recordatorios eficaces directamente desde su e-mail (tareas, reuniones, informes...)
@@ -65,6 +67,7 @@ es:
   header_fr: Francés
   header_de: Alemán
   header_es: Español
+  header_cn: Chino
   header_login: Inicio de sesión
   desc_footer_1: Rápidamente configurar y revisar todos sus recordatorios y tareas sin estrés.
   desc_footer_2: Funciona en todos los dispositivos y sistemas operativos!
@@ -80,3 +83,5 @@ es:
   privacy_route: privacidad
   footer_terms: Condiciones de uso
   footer_rights: Todos los derechos reservados.
+  modal_login:
+    login_title: Authentification

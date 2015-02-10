@@ -1,0 +1,155 @@
+cn: 
+  home:
+    howto: 
+      title_howto: "使用说明"
+      title_howtosetup: 如何创建一条电子邮件提醒
+      title_howtotime: 时间指令
+      title_howtokey: 特定条款
+      title_howtointuitive: 直观的系统
+      title_howtomake: 进行一项测试
+    how_to_setup:
+      how_desc1_html: "为了配置一条电子邮件提醒，在电子邮件的收件人、抄送或密件抄送栏中添加一条“时间指令”，其后接上 @remailder.com"
+      how_desc2: To
+      how_desc3_html: 向您所有的联系人和您自己发送一条电子邮件提醒
+      how_desc4: "例如：您收到了一封不需要在一个星期以内回复的电子邮件。将其转发并在收件人栏中添加："
+      how_desc5: "in1week@remailder.com"
+      how_desc6: "。不必再将这封电子邮件保存在您的收件箱中了！"
+      how_desc7: "例如：您必须在 4 小时以内收到一封电子邮件的回复。："
+      how_desc8: "在您的电子邮件收件人栏中添加"
+      how_desc9: "in4h@remailder.com"
+      how_desc10: "，您和您的收件人届时将收到提醒。"
+      how_desc11: CC
+      how_desc12: "向出现在收件人栏中的收件人以及您自己发送一条电子邮件提醒"
+      how_desc13: "例如：您希望同时向几个人发送一封重要的电子邮件，但其中只有 1 个人需要在同一天的 15 点之前回复您。将此人置于收件人栏中，并在您的电子邮件抄送栏中添加 "
+      how_desc14: at15h@remailder.com
+      how_desc15: "，以及其他收件人。"
+      how_desc16: 到了 15 点，您和您的对话者将收到一条电子邮件提醒，而其他收件人将不会收到任何提醒。
+      how_desc17: Bcc
+      how_desc18: "仅向您自己发送电子邮件提醒（没有其他收件人知道）"
+      how_desc19: 例如：您希望向一位客户发送一个报价，并希望在 2 个月以后重新发送提醒。在您的电子邮件密件抄送栏中添加 
+      how_desc20: in2month@remailder.com
+      how_desc21: "，您将在您希望重新提醒客户的精确时刻收到一条提醒。" 
+      how_desc22: "只需轻轻点击鼠标，您就可以重新提醒您的客户。"
+      how_desc23: "无需再到您的存档中寻找原始电子邮件！"
+      how_desc24: "例如：您的同事很少回复您的电子邮件，而您不想让他知道您可以很容易地重新发送提醒。"
+      how_desc25: "在您的电子邮件密件抄送栏中添加 " 
+      how_desc26: in3days@remailder.com
+      how_desc27: "，您将在三天之内收到一条提醒"
+      how_desc28: "，使您能够秘密地重新提醒您的同事。"
+    intuitive_system:
+      intuitive_desc1: "如果一条电子邮件提醒被按照错误的指令发送，您将收到一封帮助电子邮件，以协助您撰写您的电子邮件提醒！"
+      intuitive_desc2: 相信您自己的直觉！
+    time_formats:
+      time_desc1: "为了激活一条电子邮件提醒，您只需在 @remailder.com 之前指定一条时间指令。"    
+      time_desc2: "例如："
+      time_desc3: "in2days@remailder.com"
+      time_desc4: "，该电子邮件提醒就会在 2 天以内送到。"
+      time_desc5: "您所写的时间指令是直观的，Remailder 能够识别数量特别巨大的可能组合（分钟、小时、天、周、月、日期、缩写）。敬请放心！"
+      what_is_rem_carousel_1_html: "To: in2days@remailder.com<span>2 天后发送一条电子邮件提醒</span>"
+      what_is_rem_carousel_2_html: "To: everymonday@remailder.com<span>每周一发送一条电子邮件提醒</span>"
+      what_is_rem_carousel_3_html: "To: tommorrow@remailder.com<span>第二天发送一条电子邮件提醒</span>"
+      what_is_rem_carousel_4_html: "To: 08-15-2015@remailder.com<span>8 月 15 日发送一条电子邮件提醒</span>"
+      what_is_rem_carousel_5_html: "To: at16h@remailder.com<span>16 时发送一条电子邮件提醒</span>"
+      what_is_rem_carousel_6_html: "To: tuesday@remailder.com<span>下周二发送一条电子邮件提醒</span>"
+      time_desc6: "您可以轻松地把几条时间指令组合起来："
+      time_desc7: "例如："
+      time_desc8: 2juneat13h@remailder.com
+      time_desc9: "，一条电子邮件提醒将于 6 月 2 日 13 时发送。"
+      time_desc10: "例如："
+      time_desc11: "mondayat9h@remailder.com"
+      time_desc12: "，一条电子邮件提醒将于下周一 9 时发送。"
+      time_desc13: "Remailder 还能够识别时区！"
+      time_desc14: "如果您预计在 13 时有一条电子邮件提醒，您的提醒将会根据您的时区来发送。这意味着您将不再需要指定您的 GMT 时间，因为 Remailder 会检测您发送电子邮件时的 GMT 时间。"
+    keywords:
+      key_desc1_html: <strong>我们创建了一些关键词，以帮助您轻松地组合您的电子邮件提醒。</strong>
+      key_desc2: 在……以内
+      key_desc3: "in2days@remailder.com 在 2 天后发送一条电子邮件提醒"
+      key_desc4: "in3h@remailder.com 在 3 小时后发送一条电子邮件提醒"
+      key_desc5: "下"
+      key_desc6: "nexttuesday@remailder.com 在下周二发送一条电子邮件提醒"
+      key_desc7: "nextmonth@remailder.com 在下个月的第一天发送一条电子邮件提醒"
+      key_desc8: "Tip: Your instruction will be understood even if you forget to add this term!"
+      key_desc9: 于
+      key_desc10: "at13h45@remailder.com 于 13 时45 分发送一条电子邮件提醒"
+      key_desc11: "at10h@remailder.com 于上午 10 时发送一条电子邮件提醒"
+      key_desc12: "Tip: Your instruction will be understood even if you forget to add this term!"
+      key_desc13: "每"
+      key_desc14: 在您的指令前添加“每”，您的提醒就会具有重复性。
+      key_desc15: "例如：everytuesday@remailder.com 每周二发送一条电子邮件提醒"
+      key_desc16: 请注意，通过将您的原始电子邮件转发至 annule@remailder.com，您可以随时取消一条电子邮件提醒
+      key_desc17: 您也可以使用关键词，如明天、中午、半夜……
+      key_desc18: 点击这里查看
+      key_desc19: 完整列表
+    keywords_modal:
+      key_desc20: Complete Listing
+      list_1: Specific Terms
+      list_2: Time interval
+      list_3: Period
+      list_4: in
+      list_5: week
+      list_6: week
+      list_7: "w - wk"
+      list_8: at
+      list_9: pm
+      list_10: every
+      list_11: hour
+      list_12: Remember you can use two shortcuts in the same query!
+      list_13_1: "Ex: in2daysat2pm@remailder.com"
+      list_13: Periods
+      list_14: Classic
+      list_15: Shortcut
+      list_16: minute
+      list_17: min
+      list_18: hour
+      list_19: h
+      list_20: day
+      list_21: d
+      list_22: week
+      list_23: "w - wk"
+      list_24: month
+      list_25: m
+      list_26: year
+      list_27: y
+      list_28: Monday
+      list_29: mon
+      list_30: Tuesday
+      list_31: tue
+      list_32: Sunday
+      list_33: sun
+      list_34: January
+      list_35: jan
+      list_36: February
+      list_37: feb
+      list_38: December
+      list_39: dec
+      list_40: Date Format
+      list_41: "Month First*"
+      list_42: "Day First*"
+      list_43: MM-DD-YYYY
+      list_44: DD-MM-YYYY
+      list_45: MMDD-YYYY
+      list_46: DDMM-YYYY
+      list_47: MM-DDYYYY
+      list_48: DD-MMYYYY
+      list_49: MMDDYYYY
+      list_50: DDMMYYYY
+      list_51: MM-DD
+      list_52: DD-MM
+      list_53: MMDD
+      list_54: DDMM
+      list_55: "*"
+      list_56: Configure on your settings this date format as your convenience.
+      list_57: Shorcut
+      list_58: "tomorrow - tmw"
+      list_59: "bod (beginning of the day)"
+      list_60: "eod (end of the day)"
+      list_61: "hourly, daily, monthly, yearly"
+      list_62: Time Format
+      list_63: Noon
+      list_64: Midnight
+      list_65: Functions
+      list_66: "delete - cancel"      
+      list_67: snooze
+      list_68: "pending - history"
+      list_69: contact
+      list_70: invite

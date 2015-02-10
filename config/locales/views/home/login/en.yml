@@ -1,0 +1,23 @@
+en: 
+  home:
+    modal_login: 
+      login_title: Login to your account
+      login_stayin: Stay signed in
+      login_log: Login
+      login_forget: Forget your Password ?
+      login_worries: "no worries,"
+      login_click: click here
+      login_reset: to reset your password.
+      login_email: Email
+      login_password: Password
+    modal_subscription: 
+      subs_register : Register a new account
+      subs_credit: No credit card
+      subs_member: Already Signed Up? Click
+      subs_log: Sign In
+      subs_log_account: "to login your account."
+      subs_email: Your Email Address
+      subs_zone: Your Time Zone
+      subs_read: I agree to the
+      subs_terms: Terms and Conditions
+      subs_register: Register

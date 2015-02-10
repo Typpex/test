@@ -1,0 +1,24 @@
+fr: 
+  home:
+    modal_login: 
+      login_title: Connexion à votre compte
+      login_stayin: Rester connecté
+      login_log: Connexion
+      login_forget: Vous avez oublié votre mot de passe ?
+      login_worries: "pas d'inquiétude,"
+      login_click: cliquer ici
+      login_reset: pour changer votre mot de passe.
+      login_email: Email
+      login_password: Mot de passe
+    modal_subscription: 
+      subs_register : "Essayez, c'est gratuit!"
+      subs_credit: Pas de carte de crédit!
+      subs_member: Déjà Membre? Connectez-vous
+      subs_log: ici
+      subs_log_account: "pour accéder à Remailder."
+      subs_email: Votre Email
+      subs_zone: Votre Fuseau Horaire
+      subs_read: "J'approuve les"
+      subs_terms: Conditions d'utilisation
+      subs_register: Enregistrer
+      
